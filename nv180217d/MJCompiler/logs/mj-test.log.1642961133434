@@ -1,0 +1,159 @@
+INFO  19:05:04,439 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:05:04,471 - #2 program
+INFO  19:05:04,471 - #15 test3
+INFO  19:05:04,471 - #24 const
+INFO  19:05:04,471 - #15 int
+INFO  19:05:04,471 - #15 pi
+INFO  19:05:04,472 - #8 =
+INFO  19:05:04,472 - #17 true
+INFO  19:05:04,472 - #5 ;
+INFO  19:05:04,472 - #29 record
+INFO  19:05:04,472 - #15 Rekord
+INFO  19:05:04,473 - #3 {
+INFO  19:05:04,473 - #15 int
+INFO  19:05:04,473 - #15 prvopolje
+INFO  19:05:04,473 - #5 ;
+INFO  19:05:04,474 - #15 bool
+INFO  19:05:04,474 - #15 drugopolje
+INFO  19:05:04,475 - #5 ;
+INFO  19:05:04,475 - #4 }
+INFO  19:05:04,475 - #27 class
+INFO  19:05:04,475 - #15 Klasa
+INFO  19:05:04,475 - #28 extends
+INFO  19:05:04,476 - #15 int
+INFO  19:05:04,476 - #3 {
+INFO  19:05:04,476 - #4 }
+INFO  19:05:04,476 - #27 class
+INFO  19:05:04,477 - #15 Klasadruga
+INFO  19:05:04,477 - #28 extends
+INFO  19:05:04,477 - #15 Rekord
+INFO  19:05:04,477 - #3 {
+INFO  19:05:04,477 - #4 }
+INFO  19:05:04,477 - #3 {
+INFO  19:05:04,477 - #13 void
+INFO  19:05:04,477 - #15 main
+INFO  19:05:04,478 - #6 (
+INFO  19:05:04,478 - #7 )
+INFO  19:05:04,478 - #3 {
+INFO  19:05:04,478 - #4 }
+INFO  19:05:04,479 - #4 }
+INFO  19:05:04,485 - Program(
+  ProgName(
+   test3
+  ) [ProgName]
+  ProgramClassDecl(
+    ProgramClassDecl(
+      ProgramRecordDecl(
+        ProgramConstDecl(
+          NoProgPar(
+          ) [NoProgPar]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstDeclaration(
+              ConstParam(
+                ConstAsign(
+                 pi
+                  BoolConst(
+                   true
+                  ) [BoolConst]
+                ) [ConstAsign]
+              ) [ConstParam]
+            ) [ConstDeclaration]
+          ) [ConstDeclList]
+        ) [ProgramConstDecl]
+        RecordDecl(
+          RecordName(
+           Rekord
+          ) [RecordName]
+          VarDeclClassMor(
+            VarDeclClassMor(
+              NoVarDeclClassMore(
+              ) [NoVarDeclClassMore]
+              VarDeclClass(
+                Type(
+                 int
+                ) [Type]
+                VarDeclClassName(
+                 prvopolje
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclClassName]
+                NoVarDecClasslList(
+                ) [NoVarDecClasslList]
+              ) [VarDeclClass]
+            ) [VarDeclClassMor]
+            VarDeclClass(
+              Type(
+               bool
+              ) [Type]
+              VarDeclClassName(
+               drugopolje
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclClassName]
+              NoVarDecClasslList(
+              ) [NoVarDecClasslList]
+            ) [VarDeclClass]
+          ) [VarDeclClassMor]
+        ) [RecordDecl]
+      ) [ProgramRecordDecl]
+      ClassDecl(
+        ClassName(
+         Klasa
+        ) [ClassName]
+        ClassExtends(
+          ClassExtendCheckNoError(
+            Type(
+             int
+            ) [Type]
+          ) [ClassExtendCheckNoError]
+        ) [ClassExtends]
+        NoClassDeclVarDeclMore(
+        ) [NoClassDeclVarDeclMore]
+        NoClassDeclBody(
+        ) [NoClassDeclBody]
+      ) [ClassDecl]
+    ) [ProgramClassDecl]
+    ClassDecl(
+      ClassName(
+       Klasadruga
+      ) [ClassName]
+      ClassExtends(
+        ClassExtendCheckNoError(
+          Type(
+           Rekord
+          ) [Type]
+        ) [ClassExtendCheckNoError]
+      ) [ClassExtends]
+      NoClassDeclVarDeclMore(
+      ) [NoClassDeclVarDeclMore]
+      NoClassDeclBody(
+      ) [NoClassDeclBody]
+    ) [ClassDecl]
+  ) [ProgramClassDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:05:04,485 - ===================================
+ERROR 19:05:04,488 - GRESKA: Konstanta pi ima nekompatiblini tip i vrednost na liniji 3
+ERROR 19:05:04,488 - GRESKA: Klasa se ne moze naslediti iz int na liniji 11
+ERROR 19:05:04,488 - GRESKA: Klasa se ne moze naslediti iz Rekord na liniji 14
+INFO  19:05:04,488 - ===================================
+ERROR 19:05:04,488 - Parsiranje NIJE uspesno zavrseno!

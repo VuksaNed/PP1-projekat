@@ -1,0 +1,119 @@
+INFO  19:41:55,714 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:41:55,744 - #2 program
+INFO  19:41:55,744 - #15 test5
+INFO  19:41:55,744 - #15 int
+INFO  19:41:55,745 - #15 x
+INFO  19:41:55,745 - #11 ,
+INFO  19:41:55,746 - #15 y
+INFO  19:41:55,746 - #11 ,
+INFO  19:41:55,746 - #15 z
+INFO  19:41:55,746 - #5 ;
+INFO  19:41:55,746 - #3 {
+INFO  19:41:55,746 - #13 void
+INFO  19:41:55,747 - #15 main
+INFO  19:41:55,747 - #6 (
+INFO  19:41:55,747 - #7 )
+INFO  19:41:55,747 - #3 {
+INFO  19:41:55,748 - #15 x
+INFO  19:41:55,748 - #8 =
+INFO  19:41:55,749 - #38 -
+INFO  19:41:55,749 - #16 'a'
+INFO  19:41:55,749 - #5 ;
+INFO  19:41:55,749 - #4 }
+INFO  19:41:55,750 - #4 }
+INFO  19:41:55,756 - Program(
+  ProgName(
+   test5
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               z
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    MinusExpr(
+                      NoMulopTerm(
+                        FactorConst(
+                          CharConst(
+                           'a'
+                          ) [CharConst]
+                        ) [FactorConst]
+                      ) [NoMulopTerm]
+                    ) [MinusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:41:55,756 - ===================================
+INFO  19:41:55,759 - Pristupa se globalnoj promenljivi x na liniji 13
+ERROR 19:41:55,759 - GRESKA: Minus je moguce raditi samo na podacima tipa int  na liniji 13
+ERROR 19:41:55,759 - GRESKA: Designator i expr nisu istog tipa na liniji 13
+INFO  19:41:55,759 - ===================================
+ERROR 19:41:55,760 - Parsiranje NIJE uspesno zavrseno!

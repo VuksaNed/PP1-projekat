@@ -1,0 +1,671 @@
+INFO  15:43:34,493 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  15:43:34,525 - #2 program
+INFO  15:43:34,525 - #15 test302
+INFO  15:43:34,525 - #29 record
+INFO  15:43:34,525 - #15 Test
+INFO  15:43:34,525 - #3 {
+INFO  15:43:34,526 - #15 int
+INFO  15:43:34,526 - #15 niz
+INFO  15:43:34,526 - #25 [
+INFO  15:43:34,526 - #26 ]
+INFO  15:43:34,526 - #5 ;
+INFO  15:43:34,527 - #15 int
+INFO  15:43:34,528 - #15 a
+INFO  15:43:34,528 - #5 ;
+INFO  15:43:34,528 - #4 }
+INFO  15:43:34,528 - #15 Test
+INFO  15:43:34,528 - #15 t1
+INFO  15:43:34,528 - #11 ,
+INFO  15:43:34,529 - #15 t2
+INFO  15:43:34,529 - #5 ;
+INFO  15:43:34,529 - #3 {
+INFO  15:43:34,529 - #13 void
+INFO  15:43:34,530 - #15 main
+INFO  15:43:34,530 - #6 (
+INFO  15:43:34,531 - #7 )
+INFO  15:43:34,531 - #3 {
+INFO  15:43:34,531 - #15 t1
+INFO  15:43:34,531 - #8 =
+INFO  15:43:34,532 - #50 new
+INFO  15:43:34,532 - #15 Test
+INFO  15:43:34,532 - #5 ;
+INFO  15:43:34,532 - #15 t1
+INFO  15:43:34,533 - #51 .
+INFO  15:43:34,533 - #15 niz
+INFO  15:43:34,533 - #8 =
+INFO  15:43:34,533 - #50 new
+INFO  15:43:34,533 - #15 int
+INFO  15:43:34,533 - #25 [
+INFO  15:43:34,533 - #14 3
+INFO  15:43:34,533 - #26 ]
+INFO  15:43:34,533 - #5 ;
+INFO  15:43:34,534 - #15 t1
+INFO  15:43:34,534 - #51 .
+INFO  15:43:34,534 - #15 niz
+INFO  15:43:34,534 - #25 [
+INFO  15:43:34,534 - #14 0
+INFO  15:43:34,534 - #26 ]
+INFO  15:43:34,534 - #8 =
+INFO  15:43:34,534 - #14 5
+INFO  15:43:34,534 - #5 ;
+INFO  15:43:34,534 - #15 t1
+INFO  15:43:34,534 - #51 .
+INFO  15:43:34,534 - #15 niz
+INFO  15:43:34,534 - #25 [
+INFO  15:43:34,534 - #14 1
+INFO  15:43:34,534 - #26 ]
+INFO  15:43:34,535 - #8 =
+INFO  15:43:34,535 - #14 10
+INFO  15:43:34,535 - #5 ;
+INFO  15:43:34,535 - #15 t1
+INFO  15:43:34,535 - #51 .
+INFO  15:43:34,535 - #15 niz
+INFO  15:43:34,535 - #25 [
+INFO  15:43:34,535 - #14 2
+INFO  15:43:34,535 - #26 ]
+INFO  15:43:34,535 - #8 =
+INFO  15:43:34,535 - #14 15
+INFO  15:43:34,535 - #5 ;
+INFO  15:43:34,535 - #15 t2
+INFO  15:43:34,536 - #8 =
+INFO  15:43:34,536 - #50 new
+INFO  15:43:34,536 - #15 Test
+INFO  15:43:34,536 - #5 ;
+INFO  15:43:34,536 - #15 t2
+INFO  15:43:34,536 - #51 .
+INFO  15:43:34,536 - #15 a
+INFO  15:43:34,536 - #8 =
+INFO  15:43:34,536 - #14 3
+INFO  15:43:34,536 - #5 ;
+INFO  15:43:34,536 - #15 t2
+INFO  15:43:34,536 - #51 .
+INFO  15:43:34,536 - #15 niz
+INFO  15:43:34,536 - #8 =
+INFO  15:43:34,536 - #50 new
+INFO  15:43:34,536 - #15 int
+INFO  15:43:34,536 - #25 [
+INFO  15:43:34,536 - #14 3
+INFO  15:43:34,536 - #26 ]
+INFO  15:43:34,536 - #5 ;
+INFO  15:43:34,537 - #15 t2
+INFO  15:43:34,537 - #51 .
+INFO  15:43:34,537 - #15 niz
+INFO  15:43:34,537 - #25 [
+INFO  15:43:34,537 - #15 i
+INFO  15:43:34,537 - #26 ]
+INFO  15:43:34,537 - #8 =
+INFO  15:43:34,537 - #15 t1
+INFO  15:43:34,537 - #51 .
+INFO  15:43:34,537 - #15 niz
+INFO  15:43:34,537 - #25 [
+INFO  15:43:34,537 - #14 0
+INFO  15:43:34,537 - #26 ]
+INFO  15:43:34,537 - #47 *
+INFO  15:43:34,537 - #14 2
+INFO  15:43:34,538 - #47 *
+INFO  15:43:34,538 - #15 t2
+INFO  15:43:34,538 - #51 .
+INFO  15:43:34,538 - #15 a
+INFO  15:43:34,538 - #5 ;
+INFO  15:43:34,538 - #4 }
+INFO  15:43:34,538 - #4 }
+INFO  15:43:34,545 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramRecordDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      RecordDecl(
+        RecordName(
+         Test
+        ) [RecordName]
+        VarDeclClassMor(
+          VarDeclClassMor(
+            NoVarDeclClassMore(
+            ) [NoVarDeclClassMore]
+            VarDeclClass(
+              Type(
+               int
+              ) [Type]
+              VarDeclClassName(
+               niz
+                VarDeclBraces(
+                ) [VarDeclBraces]
+              ) [VarDeclClassName]
+              NoVarDecClasslList(
+              ) [NoVarDecClasslList]
+            ) [VarDeclClass]
+          ) [VarDeclClassMor]
+          VarDeclClass(
+            Type(
+             int
+            ) [Type]
+            VarDeclClassName(
+             a
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclClassName]
+            NoVarDecClasslList(
+            ) [NoVarDecClasslList]
+          ) [VarDeclClass]
+        ) [VarDeclClassMor]
+      ) [RecordDecl]
+    ) [ProgramRecordDecl]
+    GlobVarDecl(
+      Type(
+       Test
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           t1
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             t2
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            MoreStatements(
+              MoreStatements(
+                MoreStatements(
+                  MoreStatements(
+                    MoreStatements(
+                      MoreStatements(
+                        NoMoreStatement(
+                        ) [NoMoreStatement]
+                        StatementSingle(
+                          MatchedStmt(
+                            StatementDesignator(
+                              DesignatorStatement(
+                                Designator(
+                                  DesignatorMoreSingle(
+                                    DesignatorName(
+                                     t1
+                                    ) [DesignatorName]
+                                  ) [DesignatorMoreSingle]
+                                ) [Designator]
+                                DesignatorAdditionAE(
+                                  Assignop(
+                                  ) [Assignop]
+                                  DesignatorAdditionExprSem(
+                                    PlusExpr(
+                                      NoMulopTerm(
+                                        FactorNewNoArray(
+                                          Type(
+                                           Test
+                                          ) [Type]
+                                        ) [FactorNewNoArray]
+                                      ) [NoMulopTerm]
+                                    ) [PlusExpr]
+                                  ) [DesignatorAdditionExprSem]
+                                ) [DesignatorAdditionAE]
+                              ) [DesignatorStatement]
+                            ) [StatementDesignator]
+                          ) [MatchedStmt]
+                        ) [StatementSingle]
+                      ) [MoreStatements]
+                      StatementSingle(
+                        MatchedStmt(
+                          StatementDesignator(
+                            DesignatorStatement(
+                              Designator(
+                                DesignatorMoreIdent(
+                                  DesignatorMoreSingle(
+                                    DesignatorName(
+                                     t1
+                                    ) [DesignatorName]
+                                  ) [DesignatorMoreSingle]
+                                  DesignatorName(
+                                   niz
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreIdent]
+                              ) [Designator]
+                              DesignatorAdditionAE(
+                                Assignop(
+                                ) [Assignop]
+                                DesignatorAdditionExprSem(
+                                  PlusExpr(
+                                    NoMulopTerm(
+                                      FactorNewArray(
+                                        Type(
+                                         int
+                                        ) [Type]
+                                        FactorNewBrack(
+                                          PlusExpr(
+                                            NoMulopTerm(
+                                              FactorConst(
+                                                NumConst(
+                                                 3
+                                                ) [NumConst]
+                                              ) [FactorConst]
+                                            ) [NoMulopTerm]
+                                          ) [PlusExpr]
+                                        ) [FactorNewBrack]
+                                      ) [FactorNewArray]
+                                    ) [NoMulopTerm]
+                                  ) [PlusExpr]
+                                ) [DesignatorAdditionExprSem]
+                              ) [DesignatorAdditionAE]
+                            ) [DesignatorStatement]
+                          ) [StatementDesignator]
+                        ) [MatchedStmt]
+                      ) [StatementSingle]
+                    ) [MoreStatements]
+                    StatementSingle(
+                      MatchedStmt(
+                        StatementDesignator(
+                          DesignatorStatement(
+                            Designator(
+                              DesignatorMoreExpr(
+                                DesignatorMoreIdent(
+                                  DesignatorMoreSingle(
+                                    DesignatorName(
+                                     t1
+                                    ) [DesignatorName]
+                                  ) [DesignatorMoreSingle]
+                                  DesignatorName(
+                                   niz
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreIdent]
+                                PlusExpr(
+                                  NoMulopTerm(
+                                    FactorConst(
+                                      NumConst(
+                                       0
+                                      ) [NumConst]
+                                    ) [FactorConst]
+                                  ) [NoMulopTerm]
+                                ) [PlusExpr]
+                              ) [DesignatorMoreExpr]
+                            ) [Designator]
+                            DesignatorAdditionAE(
+                              Assignop(
+                              ) [Assignop]
+                              DesignatorAdditionExprSem(
+                                PlusExpr(
+                                  NoMulopTerm(
+                                    FactorConst(
+                                      NumConst(
+                                       5
+                                      ) [NumConst]
+                                    ) [FactorConst]
+                                  ) [NoMulopTerm]
+                                ) [PlusExpr]
+                              ) [DesignatorAdditionExprSem]
+                            ) [DesignatorAdditionAE]
+                          ) [DesignatorStatement]
+                        ) [StatementDesignator]
+                      ) [MatchedStmt]
+                    ) [StatementSingle]
+                  ) [MoreStatements]
+                  StatementSingle(
+                    MatchedStmt(
+                      StatementDesignator(
+                        DesignatorStatement(
+                          Designator(
+                            DesignatorMoreExpr(
+                              DesignatorMoreIdent(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   t1
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                                DesignatorName(
+                                 niz
+                                ) [DesignatorName]
+                              ) [DesignatorMoreIdent]
+                              PlusExpr(
+                                NoMulopTerm(
+                                  FactorConst(
+                                    NumConst(
+                                     1
+                                    ) [NumConst]
+                                  ) [FactorConst]
+                                ) [NoMulopTerm]
+                              ) [PlusExpr]
+                            ) [DesignatorMoreExpr]
+                          ) [Designator]
+                          DesignatorAdditionAE(
+                            Assignop(
+                            ) [Assignop]
+                            DesignatorAdditionExprSem(
+                              PlusExpr(
+                                NoMulopTerm(
+                                  FactorConst(
+                                    NumConst(
+                                     10
+                                    ) [NumConst]
+                                  ) [FactorConst]
+                                ) [NoMulopTerm]
+                              ) [PlusExpr]
+                            ) [DesignatorAdditionExprSem]
+                          ) [DesignatorAdditionAE]
+                        ) [DesignatorStatement]
+                      ) [StatementDesignator]
+                    ) [MatchedStmt]
+                  ) [StatementSingle]
+                ) [MoreStatements]
+                StatementSingle(
+                  MatchedStmt(
+                    StatementDesignator(
+                      DesignatorStatement(
+                        Designator(
+                          DesignatorMoreExpr(
+                            DesignatorMoreIdent(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 t1
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                              DesignatorName(
+                               niz
+                              ) [DesignatorName]
+                            ) [DesignatorMoreIdent]
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorConst(
+                                  NumConst(
+                                   2
+                                  ) [NumConst]
+                                ) [FactorConst]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [DesignatorMoreExpr]
+                        ) [Designator]
+                        DesignatorAdditionAE(
+                          Assignop(
+                          ) [Assignop]
+                          DesignatorAdditionExprSem(
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorConst(
+                                  NumConst(
+                                   15
+                                  ) [NumConst]
+                                ) [FactorConst]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [DesignatorAdditionExprSem]
+                        ) [DesignatorAdditionAE]
+                      ) [DesignatorStatement]
+                    ) [StatementDesignator]
+                  ) [MatchedStmt]
+                ) [StatementSingle]
+              ) [MoreStatements]
+              StatementSingle(
+                MatchedStmt(
+                  StatementDesignator(
+                    DesignatorStatement(
+                      Designator(
+                        DesignatorMoreSingle(
+                          DesignatorName(
+                           t2
+                          ) [DesignatorName]
+                        ) [DesignatorMoreSingle]
+                      ) [Designator]
+                      DesignatorAdditionAE(
+                        Assignop(
+                        ) [Assignop]
+                        DesignatorAdditionExprSem(
+                          PlusExpr(
+                            NoMulopTerm(
+                              FactorNewNoArray(
+                                Type(
+                                 Test
+                                ) [Type]
+                              ) [FactorNewNoArray]
+                            ) [NoMulopTerm]
+                          ) [PlusExpr]
+                        ) [DesignatorAdditionExprSem]
+                      ) [DesignatorAdditionAE]
+                    ) [DesignatorStatement]
+                  ) [StatementDesignator]
+                ) [MatchedStmt]
+              ) [StatementSingle]
+            ) [MoreStatements]
+            StatementSingle(
+              MatchedStmt(
+                StatementDesignator(
+                  DesignatorStatement(
+                    Designator(
+                      DesignatorMoreIdent(
+                        DesignatorMoreSingle(
+                          DesignatorName(
+                           t2
+                          ) [DesignatorName]
+                        ) [DesignatorMoreSingle]
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                      ) [DesignatorMoreIdent]
+                    ) [Designator]
+                    DesignatorAdditionAE(
+                      Assignop(
+                      ) [Assignop]
+                      DesignatorAdditionExprSem(
+                        PlusExpr(
+                          NoMulopTerm(
+                            FactorConst(
+                              NumConst(
+                               3
+                              ) [NumConst]
+                            ) [FactorConst]
+                          ) [NoMulopTerm]
+                        ) [PlusExpr]
+                      ) [DesignatorAdditionExprSem]
+                    ) [DesignatorAdditionAE]
+                  ) [DesignatorStatement]
+                ) [StatementDesignator]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreIdent(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         t2
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                      DesignatorName(
+                       niz
+                      ) [DesignatorName]
+                    ) [DesignatorMoreIdent]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorNewArray(
+                            Type(
+                             int
+                            ) [Type]
+                            FactorNewBrack(
+                              PlusExpr(
+                                NoMulopTerm(
+                                  FactorConst(
+                                    NumConst(
+                                     3
+                                    ) [NumConst]
+                                  ) [FactorConst]
+                                ) [NoMulopTerm]
+                              ) [PlusExpr]
+                            ) [FactorNewBrack]
+                          ) [FactorNewArray]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreExpr(
+                    DesignatorMoreIdent(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         t2
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                      DesignatorName(
+                       niz
+                      ) [DesignatorName]
+                    ) [DesignatorMoreIdent]
+                    PlusExpr(
+                      NoMulopTerm(
+                        FactorVar(
+                          Designator(
+                            DesignatorMoreSingle(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                            ) [DesignatorMoreSingle]
+                          ) [Designator]
+                        ) [FactorVar]
+                      ) [NoMulopTerm]
+                    ) [PlusExpr]
+                  ) [DesignatorMoreExpr]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    PlusExpr(
+                      TermMulop(
+                        TermMulop(
+                          NoMulopTerm(
+                            FactorVar(
+                              Designator(
+                                DesignatorMoreExpr(
+                                  DesignatorMoreIdent(
+                                    DesignatorMoreSingle(
+                                      DesignatorName(
+                                       t1
+                                      ) [DesignatorName]
+                                    ) [DesignatorMoreSingle]
+                                    DesignatorName(
+                                     niz
+                                    ) [DesignatorName]
+                                  ) [DesignatorMoreIdent]
+                                  PlusExpr(
+                                    NoMulopTerm(
+                                      FactorConst(
+                                        NumConst(
+                                         0
+                                        ) [NumConst]
+                                      ) [FactorConst]
+                                    ) [NoMulopTerm]
+                                  ) [PlusExpr]
+                                ) [DesignatorMoreExpr]
+                              ) [Designator]
+                            ) [FactorVar]
+                          ) [NoMulopTerm]
+                          MulopMul(
+                          ) [MulopMul]
+                          FactorConst(
+                            NumConst(
+                             2
+                            ) [NumConst]
+                          ) [FactorConst]
+                        ) [TermMulop]
+                        MulopMul(
+                        ) [MulopMul]
+                        FactorVar(
+                          Designator(
+                            DesignatorMoreIdent(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 t2
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [DesignatorMoreIdent]
+                          ) [Designator]
+                        ) [FactorVar]
+                      ) [TermMulop]
+                    ) [PlusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  15:43:34,545 - ===================================
+INFO  15:43:34,549 - Koristi se promenljiva tipa record ili klase t1 na liniji 18
+INFO  15:43:34,549 - Pristupa se globalnoj promenljivi t1 na liniji 18
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t1 na liniji 19
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t1 na liniji 19
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t1 na liniji 20
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t1 na liniji 20
+INFO  15:43:34,550 - Pristupa se nizu niz na liniji 20
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t1 na liniji 21
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t1 na liniji 21
+INFO  15:43:34,550 - Pristupa se nizu niz na liniji 21
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t1 na liniji 22
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t1 na liniji 22
+INFO  15:43:34,550 - Pristupa se nizu niz na liniji 22
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t2 na liniji 24
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t2 na liniji 24
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t2 na liniji 25
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t2 na liniji 25
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t2 na liniji 26
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t2 na liniji 26
+INFO  15:43:34,550 - Koristi se promenljiva tipa record ili klase t2 na liniji 29
+INFO  15:43:34,550 - Pristupa se globalnoj promenljivi t2 na liniji 29
+INFO  15:43:34,551 - Pristupa se globalnoj promenljivi i na liniji 29
+ERROR 15:43:34,551 - GRESKA: Ime nije deklarisano i na liniji 29
+INFO  15:43:34,551 - Pristupa se nizu niz na liniji 29
+ERROR 15:43:34,551 - GRESKA: Pristupanje elementu niza mora biti preko inta na liniji 29
+INFO  15:43:34,551 - Koristi se promenljiva tipa record ili klase t1 na liniji 29
+INFO  15:43:34,551 - Pristupa se globalnoj promenljivi t1 na liniji 29
+INFO  15:43:34,551 - Pristupa se nizu niz na liniji 29
+INFO  15:43:34,551 - Koristi se promenljiva tipa record ili klase t2 na liniji 29
+INFO  15:43:34,551 - Pristupa se globalnoj promenljivi t2 na liniji 29
+ERROR 15:43:34,551 - GRESKA: Designator i expr nisu istog tipa na liniji 29
+INFO  15:43:34,551 - ===================================
+ERROR 15:43:34,551 - Parsiranje NIJE uspesno zavrseno!

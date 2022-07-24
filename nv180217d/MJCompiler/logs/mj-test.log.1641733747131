@@ -1,0 +1,197 @@
+INFO  14:06:24,027 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  14:06:24,056 - #2 program
+INFO  14:06:24,056 - #15 MJProgram
+INFO  14:06:24,056 - #24 const
+INFO  14:06:24,057 - #15 int
+INFO  14:06:24,057 - #15 cx
+INFO  14:06:24,057 - #8 =
+INFO  14:06:24,057 - #14 5
+INFO  14:06:24,057 - #5 ;
+INFO  14:06:24,057 - #24 const
+INFO  14:06:24,058 - #15 char
+INFO  14:06:24,058 - #15 cc
+INFO  14:06:24,058 - #8 =
+INFO  14:06:24,058 - #16 'a'
+INFO  14:06:24,058 - #5 ;
+INFO  14:06:24,058 - #15 int
+INFO  14:06:24,058 - #15 x
+INFO  14:06:24,058 - #11 ,
+INFO  14:06:24,059 - #15 xx
+INFO  14:06:24,059 - #25 [
+INFO  14:06:24,059 - #26 ]
+INFO  14:06:24,059 - #5 ;
+INFO  14:06:24,060 - #15 int
+INFO  14:06:24,060 - #15 y
+INFO  14:06:24,060 - #5 ;
+INFO  14:06:24,061 - #29 record
+INFO  14:06:24,061 - #15 skup
+INFO  14:06:24,061 - #3 {
+INFO  14:06:24,061 - #15 int
+INFO  14:06:24,061 - #15 prvo
+INFO  14:06:24,062 - #5 ;
+INFO  14:06:24,062 - #15 int
+INFO  14:06:24,062 - #15 drugo
+INFO  14:06:24,062 - #5 ;
+INFO  14:06:24,062 - #4 }
+INFO  14:06:24,062 - #3 {
+INFO  14:06:24,063 - #13 void
+INFO  14:06:24,063 - #15 k
+INFO  14:06:24,063 - #6 (
+INFO  14:06:24,063 - #7 )
+INFO  14:06:24,063 - #3 {
+INFO  14:06:24,064 - #4 }
+INFO  14:06:24,064 - #13 void
+INFO  14:06:24,064 - #15 main
+INFO  14:06:24,064 - #6 (
+INFO  14:06:24,064 - #7 )
+INFO  14:06:24,065 - #3 {
+INFO  14:06:24,065 - #4 }
+INFO  14:06:24,065 - #4 }
+INFO  14:06:24,069 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramRecordDecl(
+    ProgramVarDecl(
+      ProgramVarDecl(
+        ProgramConstDecl(
+          ProgramConstDecl(
+            NoProgPar(
+            ) [NoProgPar]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclaration(
+                ConstParam(
+                  ConstAsign(
+                   cx
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [ConstAsign]
+                ) [ConstParam]
+              ) [ConstDeclaration]
+            ) [ConstDeclList]
+          ) [ProgramConstDecl]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDeclaration(
+              ConstParam(
+                ConstAsign(
+                 cc
+                  CharConst(
+                   'a'
+                  ) [CharConst]
+                ) [ConstAsign]
+              ) [ConstParam]
+            ) [ConstDeclaration]
+          ) [ConstDeclList]
+        ) [ProgramConstDecl]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+              VarDeclGlobalName(
+               x
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclComma]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+                VarDeclGlobalName(
+                 xx
+                  VarDeclBraces(
+                  ) [VarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobalDeclarations]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    RecordDecl(
+      RecordName(
+       skup
+      ) [RecordName]
+      VarDeclMor(
+        VarDeclMor(
+          NoVarDeclMore(
+          ) [NoVarDeclMore]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           prvo
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDecl]
+        ) [VarDeclMor]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         drugo
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+        ) [VarDecl]
+      ) [VarDeclMor]
+    ) [RecordDecl]
+  ) [ProgramRecordDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  14:06:24,070 - ===================================

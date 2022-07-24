@@ -1,0 +1,137 @@
+INFO  17:01:47,845 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  17:01:47,860 - #2 program
+INFO  17:01:47,861 - #15 MJProgram
+INFO  17:01:47,861 - #20 const
+INFO  17:01:47,861 - #15 bool
+INFO  17:01:47,861 - #15 ja
+INFO  17:01:47,861 - #8 =
+INFO  17:01:47,861 - #17 true
+INFO  17:01:47,861 - #5 ;
+INFO  17:01:47,862 - #15 tip
+INFO  17:01:47,862 - #15 z
+INFO  17:01:47,862 - #21 [
+INFO  17:01:47,862 - #22 ]
+INFO  17:01:47,862 - #11 ,
+INFO  17:01:47,863 - #15 druga
+INFO  17:01:47,863 - #11 ,
+INFO  17:01:47,863 - #15 treca
+INFO  17:01:47,863 - #21 [
+INFO  17:01:47,863 - #22 ]
+INFO  17:01:47,863 - #11 ,
+INFO  17:01:47,863 - #15 ceta
+INFO  17:01:47,863 - #5 ;
+INFO  17:01:47,864 - #20 const
+INFO  17:01:47,865 - #15 int
+INFO  17:01:47,865 - #15 x
+INFO  17:01:47,865 - #8 =
+INFO  17:01:47,865 - #14 30
+INFO  17:01:47,865 - #11 ,
+INFO  17:01:47,865 - #15 y
+INFO  17:01:47,865 - #8 =
+INFO  17:01:47,865 - #14 20
+INFO  17:01:47,865 - #5 ;
+INFO  17:01:47,865 - #15 bool
+INFO  17:01:47,865 - #15 zz
+INFO  17:01:47,865 - #5 ;
+INFO  17:01:47,865 - #23 class
+INFO  17:01:47,865 - #15 Table
+INFO  17:01:47,865 - #3 {
+INFO  17:01:47,866 - #4 }
+INFO  17:01:47,866 - #3 {
+INFO  17:01:47,866 - #4 }
+INFO  17:01:47,867 - Program(
+ MJProgram
+  ProgramClassDecl(
+    ProgramVarDecl(
+      ProgramConstDecl(
+        ProgramVarDecl(
+          ProgramConstDecl(
+            NoProgPar(
+            ) [NoProgPar]
+            ConstDeclList(
+              Type(
+               bool
+              ) [Type]
+              ConstPar(
+               ja
+                BoolConst(
+                 true
+                ) [BoolConst]
+              ) [ConstPar]
+              NoConstDecl(
+              ) [NoConstDecl]
+            ) [ConstDeclList]
+          ) [ProgramConstDecl]
+          VarDecl(
+            Type(
+             tip
+            ) [Type]
+           z
+            VarDeclBraces(
+            ) [VarDeclBraces]
+            VarDeclLists(
+             druga
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+              VarDeclLists(
+               treca
+                VarDeclBraces(
+                ) [VarDeclBraces]
+                VarDeclLists(
+                 ceta
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                  NoVarDeclLists(
+                  ) [NoVarDeclLists]
+                ) [VarDeclLists]
+              ) [VarDeclLists]
+            ) [VarDeclLists]
+          ) [VarDecl]
+        ) [ProgramVarDecl]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstPar(
+           x
+            NumConst(
+             30
+            ) [NumConst]
+          ) [ConstPar]
+          ConstDeclarations(
+            ConstPar(
+             y
+              NumConst(
+               20
+              ) [NumConst]
+            ) [ConstPar]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [ConstDeclList]
+      ) [ProgramConstDecl]
+      VarDecl(
+        Type(
+         bool
+        ) [Type]
+       zz
+        NoVarDeclBraces(
+        ) [NoVarDeclBraces]
+        NoVarDeclLists(
+        ) [NoVarDeclLists]
+      ) [VarDecl]
+    ) [ProgramVarDecl]
+    ClassDecl(
+     Table
+      NoClassExtends(
+      ) [NoClassExtends]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+    ) [ClassDecl]
+  ) [ProgramClassDecl]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:01:47,867 - ===================================
+INFO  17:01:47,868 -  Print count calls = 0
+INFO  17:01:47,868 -  Deklarisanih promenljivih ima = 2

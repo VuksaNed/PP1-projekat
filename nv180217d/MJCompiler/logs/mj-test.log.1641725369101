@@ -1,0 +1,86 @@
+INFO  11:38:49,231 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  11:38:49,265 - #2 program
+INFO  11:38:49,265 - #15 MJProgram
+INFO  11:38:49,265 - #24 const
+INFO  11:38:49,266 - #15 int
+INFO  11:38:49,266 - #15 x
+INFO  11:38:49,266 - #8 =
+INFO  11:38:49,266 - #14 5
+INFO  11:38:49,266 - #5 ;
+INFO  11:38:49,267 - #3 {
+INFO  11:38:49,267 - #13 void
+INFO  11:38:49,268 - #15 k
+INFO  11:38:49,268 - #6 (
+INFO  11:38:49,268 - #7 )
+INFO  11:38:49,268 - #3 {
+INFO  11:38:49,269 - #4 }
+INFO  11:38:49,269 - #13 void
+INFO  11:38:49,270 - #15 main
+INFO  11:38:49,270 - #6 (
+INFO  11:38:49,270 - #7 )
+INFO  11:38:49,270 - #3 {
+INFO  11:38:49,270 - #4 }
+INFO  11:38:49,270 - #4 }
+INFO  11:38:49,276 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           x
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  11:38:49,276 - ===================================
+INFO  11:38:49,278 - Obradjuje se funkcija k na liniji 4
+INFO  11:38:49,278 - Obradjuje se funkcija main na liniji 8
+INFO  11:38:49,278 -  Print count calls = 0
+INFO  11:38:49,278 -  Deklarisanih promenljivih ima = 0
+INFO  11:38:49,278 - ===================================
+INFO  11:38:49,279 - Parsiranje uspesno zavrseno!

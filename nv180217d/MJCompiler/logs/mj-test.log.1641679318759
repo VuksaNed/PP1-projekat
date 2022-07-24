@@ -1,0 +1,96 @@
+INFO  22:56:23,974 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  22:56:24,022 - #2 program
+INFO  22:56:24,022 - #15 MJProgram
+INFO  22:56:24,022 - #3 {
+INFO  22:56:24,023 - #15 int
+INFO  22:56:24,023 - #15 k
+INFO  22:56:24,024 - #6 (
+INFO  22:56:24,024 - #7 )
+INFO  22:56:24,024 - #15 int
+INFO  22:56:24,025 - #15 c
+INFO  22:56:24,025 - #5 ;
+INFO  22:56:24,027 - #3 {
+INFO  22:56:24,027 - #15 c
+INFO  22:56:24,028 - #8 =
+INFO  22:56:24,029 - #14 2
+INFO  22:56:24,030 - #5 ;
+INFO  22:56:24,032 - #4 }
+INFO  22:56:24,033 - #4 }
+INFO  22:56:24,041 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoProgPar(
+  ) [NoProgPar]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        Type(
+         int
+        ) [Type]
+       k
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      VarDeclMor(
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         c
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+        ) [VarDecl]
+      ) [VarDeclMor]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                 c
+                  NoDesignatorMore(
+                  ) [NoDesignatorMore]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    PlusExpr(
+                      Term(
+                        FactorConst(
+                          NumConst(
+                           2
+                          ) [NumConst]
+                        ) [FactorConst]
+                        NoMoreTerm(
+                        ) [NoMoreTerm]
+                      ) [Term]
+                      NoMoreExpr(
+                      ) [NoMoreExpr]
+                    ) [PlusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  22:56:24,042 - ===================================
+INFO  22:56:24,044 - Obradjuje se funkcija k na liniji 4
+INFO  22:56:24,044 - Deklarisana promenljiva c na liniji 4
+INFO  22:56:24,044 -  Print count calls = 0
+INFO  22:56:24,044 -  Deklarisanih promenljivih ima = 1
+INFO  22:56:24,044 - ===================================
+INFO  22:56:24,045 - Parsiranje uspesno zavrseno!

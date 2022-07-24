@@ -1,0 +1,108 @@
+INFO  21:31:26,681 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  21:31:26,702 - #2 program
+INFO  21:31:26,703 - #15 MJProgram
+INFO  21:31:26,703 - #15 const
+INFO  21:31:26,703 - #3 {
+INFO  21:31:26,703 - #15 int
+INFO  21:31:26,704 - #15 main
+INFO  21:31:26,704 - #6 (
+INFO  21:31:26,704 - #7 )
+INFO  21:31:26,705 - #3 {
+INFO  21:31:26,705 - #12 print
+INFO  21:31:26,706 - #6 (
+INFO  21:31:26,706 - #14 1
+INFO  21:31:26,706 - #7 )
+INFO  21:31:26,706 - #5 ;
+INFO  21:31:26,706 - #15 x
+INFO  21:31:26,707 - #8 =
+INFO  21:31:26,707 - #15 y
+INFO  21:31:26,707 - #10 +
+INFO  21:31:26,708 - #14 5
+INFO  21:31:26,708 - #5 ;
+INFO  21:31:26,708 - #12 print
+INFO  21:31:26,709 - #6 (
+INFO  21:31:26,709 - #14 2
+INFO  21:31:26,709 - #7 )
+INFO  21:31:26,709 - #5 ;
+INFO  21:31:26,709 - #4 }
+INFO  21:31:26,709 - #4 }
+INFO  21:31:26,711 - Program(
+ MJProgram
+  ProgramConstDecl(
+    ConstDecl(
+     const
+    ) [ConstDecl]
+  ) [ProgramConstDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  Term(
+                    Const(
+                     1
+                    ) [Const]
+                  ) [Term]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               x
+              ) [Designator]
+              AddExpr(
+                TermExpr(
+                  Term(
+                    Var(
+                      Designator(
+                       y
+                      ) [Designator]
+                    ) [Var]
+                  ) [Term]
+                ) [TermExpr]
+                Addop(
+                ) [Addop]
+                Term(
+                  Const(
+                   5
+                  ) [Const]
+                ) [Term]
+              ) [AddExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Const(
+                 2
+                ) [Const]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:31:26,711 - ===================================
+INFO  21:31:26,713 -  Print count calls = 2
+INFO  21:31:26,713 -  Deklarisanih promenljivih ima = 0

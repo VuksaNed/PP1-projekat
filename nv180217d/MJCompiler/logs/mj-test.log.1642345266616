@@ -1,0 +1,100 @@
+INFO  16:00:12,885 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:00:12,926 - #2 program
+INFO  16:00:12,926 - #15 MJProgram
+INFO  16:00:12,926 - #15 int
+INFO  16:00:12,927 - #15 x
+INFO  16:00:12,927 - #25 [
+INFO  16:00:12,927 - #26 ]
+INFO  16:00:12,927 - #5 ;
+INFO  16:00:12,928 - #15 int
+INFO  16:00:12,928 - #15 y
+INFO  16:00:12,929 - #5 ;
+INFO  16:00:12,929 - #3 {
+INFO  16:00:12,929 - #13 void
+INFO  16:00:12,929 - #15 main
+INFO  16:00:12,930 - #6 (
+INFO  16:00:12,931 - #7 )
+INFO  16:00:12,931 - #3 {
+INFO  16:00:12,931 - #12 print
+INFO  16:00:12,932 - #6 (
+INFO  16:00:12,932 - #14 1
+INFO  16:00:12,932 - #7 )
+INFO  16:00:12,932 - #5 ;
+INFO  16:00:12,932 - #4 }
+INFO  16:00:12,933 - #4 }
+INFO  16:00:12,941 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramVarDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             x
+              VarDeclBraces(
+              ) [VarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           y
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementPrintNoNum(
+              PlusExpr(
+                NoMulopTerm(
+                  FactorConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [NoMulopTerm]
+              ) [PlusExpr]
+            ) [StatementPrintNoNum]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  16:00:12,941 - ===================================
+INFO  16:00:12,945 - ===================================
+INFO  16:00:12,950 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,69 @@
+INFO  23:55:54,963 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  23:55:54,996 - #2 program
+INFO  23:55:54,997 - #15 MJProgram
+INFO  23:55:54,997 - #24 const
+INFO  23:55:54,997 - #15 bool
+INFO  23:55:54,997 - #15 ja
+INFO  23:55:54,997 - #15 ha
+ERROR 23:55:54,997 - 
+Sintaksna greska na liniji 2
+INFO  23:55:54,997 - #8 =
+INFO  23:55:54,998 - #16 'i'
+INFO  23:55:54,998 - #5 ;
+INFO  23:55:54,998 - #15 tip
+INFO  23:55:54,998 - #15 z
+INFO  23:55:54,998 - #25 [
+ERROR 23:55:54,998 - Greska kod kljucne reci const promenljive izvrsen oporavak do ; u liniji 2
+INFO  23:55:54,999 - #26 ]
+INFO  23:55:54,999 - #11 ,
+INFO  23:55:55,000 - #15 druga
+INFO  23:55:55,000 - #11 ,
+ERROR 23:55:55,001 - 
+Sintaksna greska na liniji 3
+INFO  23:55:55,001 - #15 treca
+INFO  23:55:55,001 - #25 [
+INFO  23:55:55,001 - #26 ]
+INFO  23:55:55,001 - #15 greska
+INFO  23:55:55,001 - #11 ,
+INFO  23:55:55,001 - #15 ceta
+INFO  23:55:55,001 - #5 ;
+INFO  23:55:55,001 - #3 {
+INFO  23:55:55,001 - #4 }
+ERROR 23:55:55,001 - Greska kod kljucne definicije globalne promenljive izvrsen oporavak do ; u liniji 3
+INFO  23:55:55,002 - Program(
+ MJProgram
+  ProgramVarDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDeclaration(
+          ConstParError(
+          ) [ConstParError]
+        ) [ConstDeclaration]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    GlobVarDecl(
+      Type(
+       tip
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+         z
+          VarDeclBraces(
+          ) [VarDeclBraces]
+        ) [GlobalVarDeclComma]
+        GlobalVarDeclSemiError(
+        ) [GlobalVarDeclSemiError]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  NoMethodDeclList(
+  ) [NoMethodDeclList]
+) [Program]
+INFO  23:55:55,002 - ===================================
+INFO  23:55:55,004 -  Print count calls = 0
+INFO  23:55:55,004 -  Deklarisanih promenljivih ima = 0

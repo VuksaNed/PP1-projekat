@@ -1,0 +1,41 @@
+program test32
+
+int x,y,z;
+
+record Record{
+	int prvi;
+}
+
+Record a;
+
+
+{
+
+	int funkcija(int prvi, bool drugi){
+	return 'a';
+	}
+
+	void main(){
+	
+	y = x();
+	
+	break;
+	continue;
+	
+	if (1)
+		print(a);
+		
+	
+		
+	do{
+	}
+	while(x);
+	
+		read(a);
+	
+	funkcija(1, 2);
+	
+	funkcija(x);
+	
+	}
+}

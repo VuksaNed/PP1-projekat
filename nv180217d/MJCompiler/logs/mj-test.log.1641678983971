@@ -1,0 +1,96 @@
+INFO  19:59:16,385 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:59:16,426 - #2 program
+INFO  19:59:16,426 - #15 MJProgram
+INFO  19:59:16,426 - #3 {
+INFO  19:59:16,427 - #15 zika
+INFO  19:59:16,428 - #15 k
+INFO  19:59:16,428 - #6 (
+INFO  19:59:16,428 - #7 )
+INFO  19:59:16,428 - #15 int
+INFO  19:59:16,429 - #15 c
+INFO  19:59:16,429 - #5 ;
+INFO  19:59:16,430 - #3 {
+INFO  19:59:16,430 - #15 c
+INFO  19:59:16,431 - #8 =
+INFO  19:59:16,432 - #14 2
+INFO  19:59:16,432 - #5 ;
+INFO  19:59:16,434 - #4 }
+INFO  19:59:16,434 - #4 }
+INFO  19:59:16,441 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoProgPar(
+  ) [NoProgPar]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        Type(
+         zika
+        ) [Type]
+       k
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      VarDeclMor(
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         c
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+        ) [VarDecl]
+      ) [VarDeclMor]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                 c
+                  NoDesignatorMore(
+                  ) [NoDesignatorMore]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    PlusExpr(
+                      Term(
+                        FactorConst(
+                          NumConst(
+                           2
+                          ) [NumConst]
+                        ) [FactorConst]
+                        NoMoreTerm(
+                        ) [NoMoreTerm]
+                      ) [Term]
+                      NoMoreExpr(
+                      ) [NoMoreExpr]
+                    ) [PlusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:59:16,442 - ===================================
+ERROR 19:59:16,444 - Nije pronadjen tipzikau tabeli simbola
+INFO  19:59:16,444 - Obradjuje se funkcija k na liniji 4
+INFO  19:59:16,444 - Deklarisana promenljiva c na liniji 4
+INFO  19:59:16,444 -  Print count calls = 0
+INFO  19:59:16,444 -  Deklarisanih promenljivih ima = 1
+INFO  19:59:16,444 - ===================================

@@ -1,0 +1,82 @@
+INFO  16:30:30,578 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:30:30,602 - #2 program
+INFO  16:30:30,602 - #15 MJProgram
+INFO  16:30:30,602 - #20 const
+INFO  16:30:30,603 - #15 bool
+INFO  16:30:30,603 - #15 ja
+INFO  16:30:30,604 - #8 =
+INFO  16:30:30,604 - #17 true
+INFO  16:30:30,604 - #5 ;
+INFO  16:30:30,605 - #15 tip
+INFO  16:30:30,605 - #15 z
+INFO  16:30:30,605 - #5 ;
+INFO  16:30:30,606 - #20 const
+INFO  16:30:30,607 - #15 int
+INFO  16:30:30,607 - #15 x
+INFO  16:30:30,607 - #8 =
+INFO  16:30:30,607 - #14 30
+INFO  16:30:30,607 - #11 ,
+INFO  16:30:30,607 - #15 y
+INFO  16:30:30,607 - #8 =
+INFO  16:30:30,607 - #14 20
+INFO  16:30:30,607 - #5 ;
+INFO  16:30:30,608 - #3 {
+INFO  16:30:30,608 - #4 }
+INFO  16:30:30,609 - Program(
+ MJProgram
+  ProgramConstDecl(
+    ProgramVarDecl(
+      ProgramConstDecl(
+        NoProgPar(
+        ) [NoProgPar]
+        ConstDeclList(
+          Type(
+           bool
+          ) [Type]
+          ConstPar(
+           ja
+            BoolConst(
+             true
+            ) [BoolConst]
+          ) [ConstPar]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclList]
+      ) [ProgramConstDecl]
+      VarDecl(
+        Type(
+         tip
+        ) [Type]
+       z
+        NoVarDeclBraces(
+        ) [NoVarDeclBraces]
+      ) [VarDecl]
+    ) [ProgramVarDecl]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstPar(
+       x
+        NumConst(
+         30
+        ) [NumConst]
+      ) [ConstPar]
+      ConstDeclarations(
+        ConstPar(
+         y
+          NumConst(
+           20
+          ) [NumConst]
+        ) [ConstPar]
+        NoConstDecl(
+        ) [NoConstDecl]
+      ) [ConstDeclarations]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  16:30:30,609 - ===================================
+INFO  16:30:30,610 -  Print count calls = 0
+INFO  16:30:30,610 -  Deklarisanih promenljivih ima = 1

@@ -1,0 +1,287 @@
+INFO  19:45:25,360 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:45:25,394 - #2 program
+INFO  19:45:25,394 - #15 test5
+INFO  19:45:25,394 - #15 int
+INFO  19:45:25,395 - #15 x
+INFO  19:45:25,395 - #11 ,
+INFO  19:45:25,395 - #15 y
+INFO  19:45:25,396 - #11 ,
+INFO  19:45:25,396 - #15 z
+INFO  19:45:25,396 - #5 ;
+INFO  19:45:25,396 - #15 int
+INFO  19:45:25,396 - #15 niz
+INFO  19:45:25,396 - #25 [
+INFO  19:45:25,396 - #26 ]
+INFO  19:45:25,396 - #5 ;
+INFO  19:45:25,397 - #3 {
+INFO  19:45:25,397 - #13 void
+INFO  19:45:25,397 - #15 main
+INFO  19:45:25,397 - #6 (
+INFO  19:45:25,397 - #7 )
+INFO  19:45:25,398 - #3 {
+INFO  19:45:25,398 - #15 x
+INFO  19:45:25,398 - #8 =
+INFO  19:45:25,399 - #38 -
+INFO  19:45:25,399 - #16 'a'
+INFO  19:45:25,399 - #5 ;
+INFO  19:45:25,400 - #15 x
+INFO  19:45:25,400 - #8 =
+INFO  19:45:25,400 - #15 x
+INFO  19:45:25,400 - #10 +
+INFO  19:45:25,401 - #17 true
+INFO  19:45:25,401 - #5 ;
+INFO  19:45:25,401 - #15 x
+INFO  19:45:25,401 - #8 =
+INFO  19:45:25,401 - #15 x
+INFO  19:45:25,401 - #47 *
+INFO  19:45:25,401 - #17 true
+INFO  19:45:25,402 - #5 ;
+INFO  19:45:25,402 - #15 niz
+INFO  19:45:25,402 - #8 =
+INFO  19:45:25,402 - #50 new
+INFO  19:45:25,402 - #25 [
+ERROR 19:45:25,402 - 
+Sintaksna greska na liniji 18
+INFO  19:45:25,402 - #14 5
+INFO  19:45:25,402 - #26 ]
+INFO  19:45:25,402 - #5 ;
+INFO  19:45:25,402 - #4 }
+INFO  19:45:25,403 - #4 }
+ERROR 19:45:25,403 - Greska kod dodele vrednosti izvrsen oporavak do ; u liniji 18
+INFO  19:45:25,410 - Program(
+  ProgName(
+   test5
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramVarDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             x
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+              VarDeclGlobalName(
+               y
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclComma]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+                VarDeclGlobalName(
+                 z
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobalDeclarations]
+        ) [GlobalDeclarations]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           niz
+            VarDeclBraces(
+            ) [VarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            MoreStatements(
+              NoMoreStatement(
+              ) [NoMoreStatement]
+              StatementSingle(
+                MatchedStmt(
+                  StatementDesignator(
+                    DesignatorStatement(
+                      Designator(
+                        DesignatorMoreSingle(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                        ) [DesignatorMoreSingle]
+                      ) [Designator]
+                      DesignatorAdditionAE(
+                        Assignop(
+                        ) [Assignop]
+                        DesignatorAdditionExprSem(
+                          MinusExpr(
+                            NoMulopTerm(
+                              FactorConst(
+                                CharConst(
+                                 'a'
+                                ) [CharConst]
+                              ) [FactorConst]
+                            ) [NoMulopTerm]
+                          ) [MinusExpr]
+                        ) [DesignatorAdditionExprSem]
+                      ) [DesignatorAdditionAE]
+                    ) [DesignatorStatement]
+                  ) [StatementDesignator]
+                ) [MatchedStmt]
+              ) [StatementSingle]
+            ) [MoreStatements]
+            StatementSingle(
+              MatchedStmt(
+                StatementDesignator(
+                  DesignatorStatement(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         x
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                    DesignatorAdditionAE(
+                      Assignop(
+                      ) [Assignop]
+                      DesignatorAdditionExprSem(
+                        MoreExp(
+                          PlusExpr(
+                            NoMulopTerm(
+                              FactorVar(
+                                Designator(
+                                  DesignatorMoreSingle(
+                                    DesignatorName(
+                                     x
+                                    ) [DesignatorName]
+                                  ) [DesignatorMoreSingle]
+                                ) [Designator]
+                              ) [FactorVar]
+                            ) [NoMulopTerm]
+                          ) [PlusExpr]
+                          AddopPlus(
+                          ) [AddopPlus]
+                          NoMulopTerm(
+                            FactorConst(
+                              BoolConst(
+                               true
+                              ) [BoolConst]
+                            ) [FactorConst]
+                          ) [NoMulopTerm]
+                        ) [MoreExp]
+                      ) [DesignatorAdditionExprSem]
+                    ) [DesignatorAdditionAE]
+                  ) [DesignatorStatement]
+                ) [StatementDesignator]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        TermMulop(
+                          NoMulopTerm(
+                            FactorVar(
+                              Designator(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   x
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                              ) [Designator]
+                            ) [FactorVar]
+                          ) [NoMulopTerm]
+                          MulopMul(
+                          ) [MulopMul]
+                          FactorConst(
+                            BoolConst(
+                             true
+                            ) [BoolConst]
+                          ) [FactorConst]
+                        ) [TermMulop]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSemiError(
+                  ) [DesignatorAdditionExprSemiError]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:45:25,411 - ===================================
+INFO  19:45:25,413 - Pristupa se globalnoj promenljivi x na liniji 14
+ERROR 19:45:25,414 - GRESKA: Minus je moguce raditi samo na podacima tipa int  na liniji 14
+ERROR 19:45:25,414 - GRESKA: Designator i expr nisu istog tipa na liniji 14
+INFO  19:45:25,414 - Pristupa se globalnoj promenljivi x na liniji 15
+INFO  19:45:25,414 - Pristupa se globalnoj promenljivi x na liniji 15
+ERROR 19:45:25,414 - GRESKA: Operacije + i - moguce je samo izmedju tipa int  na liniji 15
+ERROR 19:45:25,414 - GRESKA: Designator i expr nisu istog tipa na liniji 15
+INFO  19:45:25,414 - Pristupa se globalnoj promenljivi x na liniji 16
+INFO  19:45:25,414 - Pristupa se globalnoj promenljivi x na liniji 16
+ERROR 19:45:25,414 - GRESKA: Operacije *, / i % moguce je samo izmedju tipa int  na liniji 16
+ERROR 19:45:25,414 - GRESKA: Designator i expr nisu istog tipa na liniji 16
+INFO  19:45:25,414 - Pristupa se globalnoj promenljivi niz na liniji 18
+ERROR 19:45:25,414 - GRESKA: Designator i expr nisu istog tipa na liniji 18
+INFO  19:45:25,414 - ===================================
+ERROR 19:45:25,415 - Parsiranje NIJE uspesno zavrseno!

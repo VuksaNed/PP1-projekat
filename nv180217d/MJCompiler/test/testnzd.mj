@@ -1,0 +1,47 @@
+program nzd
+
+int nzd;
+
+{
+	
+	int NZD(int a, int b)int pomocna;{
+		if (b>a){
+			pomocna = a;
+			a = b;
+			b = pomocna;
+		}
+		
+		if (b==0)
+				return a;
+		do {
+			pomocna = a;
+			a = b;
+			b = pomocna%b;
+		}
+		while (b!=0);
+		
+		return a;
+		
+	}
+	
+	void ispisi(int x){
+		print(x);
+		print(eol);
+	}
+	
+	void main(){
+	
+		nzd = NZD(9, 2);
+		ispisi(nzd);
+		
+		nzd = NZD(2, 9);
+		ispisi(nzd);
+		
+		nzd = NZD(9, 6);
+		ispisi(nzd);
+		
+		nzd = NZD(64, 1024);
+		ispisi(nzd);
+	}
+
+}

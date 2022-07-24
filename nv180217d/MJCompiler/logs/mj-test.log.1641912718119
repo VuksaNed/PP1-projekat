@@ -1,0 +1,430 @@
+INFO  15:51:44,902 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  15:51:44,938 - #2 program
+INFO  15:51:44,938 - #15 MJProgram
+INFO  15:51:44,939 - #15 int
+INFO  15:51:44,939 - #15 x
+INFO  15:51:44,940 - #5 ;
+INFO  15:51:44,941 - #15 int
+INFO  15:51:44,941 - #15 y
+INFO  15:51:44,941 - #5 ;
+INFO  15:51:44,941 - #29 record
+INFO  15:51:44,941 - #15 skup
+INFO  15:51:44,941 - #3 {
+INFO  15:51:44,942 - #15 int
+INFO  15:51:44,942 - #15 sa
+INFO  15:51:44,942 - #5 ;
+INFO  15:51:44,942 - #15 int
+INFO  15:51:44,943 - #15 sb
+INFO  15:51:44,943 - #5 ;
+INFO  15:51:44,943 - #4 }
+INFO  15:51:44,943 - #27 class
+INFO  15:51:44,943 - #15 Klasa
+INFO  15:51:44,944 - #3 {
+INFO  15:51:44,944 - #15 int
+INFO  15:51:44,945 - #15 prvo
+INFO  15:51:44,945 - #5 ;
+INFO  15:51:44,945 - #15 int
+INFO  15:51:44,946 - #15 drugo
+INFO  15:51:44,946 - #5 ;
+INFO  15:51:44,946 - #15 char
+INFO  15:51:44,946 - #15 trece
+INFO  15:51:44,946 - #5 ;
+INFO  15:51:44,946 - #3 {
+INFO  15:51:44,946 - #13 void
+INFO  15:51:44,946 - #15 metoda
+INFO  15:51:44,946 - #6 (
+INFO  15:51:44,947 - #15 int
+INFO  15:51:44,947 - #15 a
+INFO  15:51:44,947 - #11 ,
+INFO  15:51:44,947 - #15 int
+INFO  15:51:44,947 - #15 b
+INFO  15:51:44,947 - #7 )
+INFO  15:51:44,947 - #3 {
+INFO  15:51:44,947 - #4 }
+INFO  15:51:44,948 - #13 void
+INFO  15:51:44,948 - #15 metodadruga
+INFO  15:51:44,948 - #6 (
+INFO  15:51:44,948 - #15 int
+INFO  15:51:44,948 - #15 a
+INFO  15:51:44,948 - #11 ,
+INFO  15:51:44,949 - #15 int
+INFO  15:51:44,949 - #15 b
+INFO  15:51:44,949 - #11 ,
+INFO  15:51:44,949 - #15 char
+INFO  15:51:44,949 - #15 c
+INFO  15:51:44,949 - #7 )
+INFO  15:51:44,949 - #15 bool
+INFO  15:51:44,949 - #15 x
+INFO  15:51:44,949 - #5 ;
+INFO  15:51:44,949 - #3 {
+INFO  15:51:44,949 - #4 }
+INFO  15:51:44,949 - #4 }
+INFO  15:51:44,949 - #4 }
+INFO  15:51:44,949 - #3 {
+INFO  15:51:44,950 - #13 void
+INFO  15:51:44,950 - #15 k
+INFO  15:51:44,950 - #6 (
+INFO  15:51:44,950 - #15 int
+INFO  15:51:44,950 - #15 fa
+INFO  15:51:44,950 - #11 ,
+INFO  15:51:44,950 - #15 int
+INFO  15:51:44,951 - #15 fb
+INFO  15:51:44,951 - #25 [
+INFO  15:51:44,951 - #26 ]
+INFO  15:51:44,951 - #11 ,
+INFO  15:51:44,951 - #15 int
+INFO  15:51:44,951 - #15 fc
+INFO  15:51:44,951 - #7 )
+INFO  15:51:44,951 - #15 int
+INFO  15:51:44,951 - #15 ka
+INFO  15:51:44,951 - #5 ;
+INFO  15:51:44,951 - #15 int
+INFO  15:51:44,951 - #15 kpp
+INFO  15:51:44,951 - #25 [
+INFO  15:51:44,951 - #26 ]
+INFO  15:51:44,951 - #5 ;
+INFO  15:51:44,952 - #3 {
+INFO  15:51:44,952 - #4 }
+INFO  15:51:44,952 - #13 void
+INFO  15:51:44,952 - #15 main
+INFO  15:51:44,952 - #6 (
+INFO  15:51:44,952 - #7 )
+INFO  15:51:44,952 - #3 {
+INFO  15:51:44,952 - #4 }
+INFO  15:51:44,953 - #4 }
+INFO  15:51:44,960 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramClassDecl(
+    ProgramRecordDecl(
+      ProgramVarDecl(
+        ProgramVarDecl(
+          NoProgPar(
+          ) [NoProgPar]
+          GlobVarDecl(
+            Type(
+             int
+            ) [Type]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+                VarDeclGlobalName(
+                 x
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobVarDecl]
+        ) [ProgramVarDecl]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               y
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      RecordDecl(
+        RecordName(
+         skup
+        ) [RecordName]
+        VarDeclMor(
+          VarDeclMor(
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclGlobalName(
+               sa
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+            ) [VarDecl]
+          ) [VarDeclMor]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclGlobalName(
+             sb
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDecl]
+        ) [VarDeclMor]
+      ) [RecordDecl]
+    ) [ProgramRecordDecl]
+    ClassDecl(
+      ClassName(
+       Klasa
+      ) [ClassName]
+      NoClassExtends(
+      ) [NoClassExtends]
+      ClassDeclVarDecla(
+        ClassDeclVarDecla(
+          ClassDeclVarDecla(
+            NoClassDeclVarDeclMore(
+            ) [NoClassDeclVarDeclMore]
+            ClassDeclVarDeclMor(
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+              ClassVarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclGlobalName(
+                 prvo
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [ClassVarDecl]
+            ) [ClassDeclVarDeclMor]
+          ) [ClassDeclVarDecla]
+          ClassDeclVarDeclMor(
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+            ClassVarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclGlobalName(
+               drugo
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+            ) [ClassVarDecl]
+          ) [ClassDeclVarDeclMor]
+        ) [ClassDeclVarDecla]
+        ClassDeclVarDeclMor(
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+          ClassVarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclGlobalName(
+             trece
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [ClassVarDecl]
+        ) [ClassDeclVarDeclMor]
+      ) [ClassDeclVarDecla]
+      ClassDeclBodNoConMeth(
+        MethodDecl(
+          MethodTypeName(
+            TypeV(
+            ) [TypeV]
+           metoda
+          ) [MethodTypeName]
+          MethodDeclFormPar(
+            FormParams(
+              FormalParamListComma(
+                NoBraceFormParsSingle(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [NoBraceFormParsSingle]
+              ) [FormalParamListComma]
+              FormParam(
+                FormParsSinglPom(
+                  NoBraceFormParsSingle(
+                    Type(
+                     int
+                    ) [Type]
+                   b
+                  ) [NoBraceFormParsSingle]
+                ) [FormParsSinglPom]
+              ) [FormParam]
+            ) [FormParams]
+          ) [MethodDeclFormPar]
+          NoVarDeclMore(
+          ) [NoVarDeclMore]
+          NoMoreStatement(
+          ) [NoMoreStatement]
+        ) [MethodDecl]
+        ClassMethodDecla(
+          NoClassMethodDecl(
+          ) [NoClassMethodDecl]
+          MethodDecl(
+            MethodTypeName(
+              TypeV(
+              ) [TypeV]
+             metodadruga
+            ) [MethodTypeName]
+            MethodDeclFormPar(
+              FormParams(
+                FormalParamListComma(
+                  NoBraceFormParsSingle(
+                    Type(
+                     int
+                    ) [Type]
+                   a
+                  ) [NoBraceFormParsSingle]
+                ) [FormalParamListComma]
+                FormParams(
+                  FormalParamListComma(
+                    NoBraceFormParsSingle(
+                      Type(
+                       int
+                      ) [Type]
+                     b
+                    ) [NoBraceFormParsSingle]
+                  ) [FormalParamListComma]
+                  FormParam(
+                    FormParsSinglPom(
+                      NoBraceFormParsSingle(
+                        Type(
+                         char
+                        ) [Type]
+                       c
+                      ) [NoBraceFormParsSingle]
+                    ) [FormParsSinglPom]
+                  ) [FormParam]
+                ) [FormParams]
+              ) [FormParams]
+            ) [MethodDeclFormPar]
+            VarDeclMor(
+              NoVarDeclMore(
+              ) [NoVarDeclMore]
+              VarDecl(
+                Type(
+                 bool
+                ) [Type]
+                VarDeclGlobalName(
+                 x
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [VarDecl]
+            ) [VarDeclMor]
+            NoMoreStatement(
+            ) [NoMoreStatement]
+          ) [MethodDecl]
+        ) [ClassMethodDecla]
+      ) [ClassDeclBodNoConMeth]
+    ) [ClassDecl]
+  ) [ProgramClassDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        MethodDeclFormPar(
+          FormParams(
+            FormalParamListComma(
+              NoBraceFormParsSingle(
+                Type(
+                 int
+                ) [Type]
+               fa
+              ) [NoBraceFormParsSingle]
+            ) [FormalParamListComma]
+            FormParams(
+              FormalParamListComma(
+                FormParsSingl(
+                  Type(
+                   int
+                  ) [Type]
+                 fb
+                ) [FormParsSingl]
+              ) [FormalParamListComma]
+              FormParam(
+                FormParsSinglPom(
+                  NoBraceFormParsSingle(
+                    Type(
+                     int
+                    ) [Type]
+                   fc
+                  ) [NoBraceFormParsSingle]
+                ) [FormParsSinglPom]
+              ) [FormParam]
+            ) [FormParams]
+          ) [FormParams]
+        ) [MethodDeclFormPar]
+        VarDeclMor(
+          VarDeclMor(
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclGlobalName(
+               ka
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+            ) [VarDecl]
+          ) [VarDeclMor]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclGlobalName(
+             kpp
+              VarDeclBraces(
+              ) [VarDeclBraces]
+            ) [VarDeclGlobalName]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDecl]
+        ) [VarDeclMor]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  15:51:44,960 - ===================================
+INFO  15:51:44,962 - Obradjuje se funkcija metoda na liniji 18
+INFO  15:51:44,963 - Obradjuje se funkcija metodadruga na liniji 21
+INFO  15:51:44,963 - Obradjuje se funkcija k na liniji 27
+INFO  15:51:44,963 - Obradjuje se funkcija main na liniji 31
+INFO  15:51:44,963 -  Print count calls = 0
+INFO  15:51:44,963 -  Deklarisanih promenljivih ima = 0
+INFO  15:51:44,963 - ===================================
+INFO  15:51:44,963 - Parsiranje uspesno zavrseno!

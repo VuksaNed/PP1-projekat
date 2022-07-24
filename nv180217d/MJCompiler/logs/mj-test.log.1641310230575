@@ -1,0 +1,69 @@
+INFO  16:29:58,454 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:29:58,473 - #2 program
+INFO  16:29:58,474 - #15 MJProgram
+INFO  16:29:58,474 - #20 const
+INFO  16:29:58,474 - #15 bool
+INFO  16:29:58,474 - #15 ja
+INFO  16:29:58,475 - #8 =
+INFO  16:29:58,475 - #17 true
+INFO  16:29:58,475 - #5 ;
+INFO  16:29:58,475 - #20 const
+INFO  16:29:58,476 - #15 int
+INFO  16:29:58,476 - #15 x
+INFO  16:29:58,476 - #8 =
+INFO  16:29:58,476 - #14 30
+INFO  16:29:58,476 - #11 ,
+INFO  16:29:58,476 - #15 y
+INFO  16:29:58,476 - #8 =
+INFO  16:29:58,476 - #14 20
+INFO  16:29:58,476 - #5 ;
+INFO  16:29:58,477 - #3 {
+INFO  16:29:58,477 - #4 }
+INFO  16:29:58,478 - Program(
+ MJProgram
+  ProgramConstDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstPar(
+         ja
+          BoolConst(
+           true
+          ) [BoolConst]
+        ) [ConstPar]
+        NoConstDecl(
+        ) [NoConstDecl]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstPar(
+       x
+        NumConst(
+         30
+        ) [NumConst]
+      ) [ConstPar]
+      ConstDeclarations(
+        ConstPar(
+         y
+          NumConst(
+           20
+          ) [NumConst]
+        ) [ConstPar]
+        NoConstDecl(
+        ) [NoConstDecl]
+      ) [ConstDeclarations]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  16:29:58,478 - ===================================
+INFO  16:29:58,479 -  Print count calls = 0
+INFO  16:29:58,479 -  Deklarisanih promenljivih ima = 0

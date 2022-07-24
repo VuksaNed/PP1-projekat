@@ -1,0 +1,80 @@
+INFO  11:36:18,434 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  11:36:18,466 - #2 program
+INFO  11:36:18,466 - #15 MJProgram
+INFO  11:36:18,466 - #24 const
+INFO  11:36:18,467 - #15 int
+INFO  11:36:18,467 - #15 x
+INFO  11:36:18,467 - #8 =
+INFO  11:36:18,467 - #14 5
+INFO  11:36:18,467 - #5 ;
+INFO  11:36:18,468 - #3 {
+INFO  11:36:18,468 - #13 void
+INFO  11:36:18,469 - #15 k
+INFO  11:36:18,469 - #6 (
+INFO  11:36:18,469 - #7 )
+INFO  11:36:18,469 - #3 {
+INFO  11:36:18,470 - #4 }
+INFO  11:36:18,470 - #13 void
+INFO  11:36:18,472 - #15 main
+INFO  11:36:18,472 - #6 (
+INFO  11:36:18,472 - #7 )
+INFO  11:36:18,472 - #3 {
+INFO  11:36:18,472 - #4 }
+INFO  11:36:18,472 - #4 }
+INFO  11:36:18,477 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           x
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  11:36:18,477 - ===================================

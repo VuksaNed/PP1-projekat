@@ -1,0 +1,28 @@
+program test34
+
+int niz[];
+
+record Skup{
+int a;
+}
+
+Skup s;
+
+
+{
+
+void funkcija(int a){
+	print(a);
+}
+
+void main() int x;{
+
+	niz = new int[8];
+	niz[7] = 8;
+	x = niz[0];
+	funkcija(7);
+	s = new Skup;
+	s.a = -5;
+}
+
+}

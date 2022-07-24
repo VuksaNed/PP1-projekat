@@ -1,0 +1,247 @@
+INFO  18:15:01,997 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  18:15:02,013 - #2 program
+INFO  18:15:02,014 - #15 MJProgram
+INFO  18:15:02,014 - #20 const
+INFO  18:15:02,014 - #15 bool
+INFO  18:15:02,014 - #15 ja
+INFO  18:15:02,014 - #8 =
+INFO  18:15:02,014 - #17 true
+INFO  18:15:02,014 - #5 ;
+INFO  18:15:02,015 - #15 tip
+INFO  18:15:02,016 - #15 z
+INFO  18:15:02,016 - #21 [
+INFO  18:15:02,016 - #22 ]
+INFO  18:15:02,016 - #11 ,
+INFO  18:15:02,016 - #15 druga
+INFO  18:15:02,016 - #11 ,
+INFO  18:15:02,016 - #15 treca
+INFO  18:15:02,017 - #21 [
+INFO  18:15:02,017 - #22 ]
+INFO  18:15:02,017 - #11 ,
+INFO  18:15:02,017 - #15 ceta
+INFO  18:15:02,017 - #5 ;
+INFO  18:15:02,018 - #20 const
+INFO  18:15:02,018 - #15 int
+INFO  18:15:02,018 - #15 x
+INFO  18:15:02,018 - #8 =
+INFO  18:15:02,018 - #14 30
+INFO  18:15:02,018 - #11 ,
+INFO  18:15:02,019 - #15 y
+INFO  18:15:02,019 - #8 =
+INFO  18:15:02,019 - #14 20
+INFO  18:15:02,019 - #5 ;
+INFO  18:15:02,019 - #15 bool
+INFO  18:15:02,019 - #15 zz
+INFO  18:15:02,019 - #5 ;
+INFO  18:15:02,019 - #23 class
+INFO  18:15:02,019 - #15 Table
+INFO  18:15:02,019 - #24 extends
+INFO  18:15:02,019 - #15 Polje
+INFO  18:15:02,019 - #3 {
+INFO  18:15:02,019 - #15 int
+INFO  18:15:02,019 - #15 uros
+INFO  18:15:02,019 - #11 ,
+INFO  18:15:02,019 - #15 vukasin
+INFO  18:15:02,019 - #5 ;
+INFO  18:15:02,019 - #15 bool
+INFO  18:15:02,020 - #15 andrea
+INFO  18:15:02,020 - #5 ;
+INFO  18:15:02,020 - #3 {
+INFO  18:15:02,020 - #15 Table
+INFO  18:15:02,020 - #6 (
+INFO  18:15:02,020 - #7 )
+INFO  18:15:02,020 - #15 int
+INFO  18:15:02,020 - #15 o
+INFO  18:15:02,020 - #5 ;
+INFO  18:15:02,020 - #3 {
+INFO  18:15:02,020 - #4 }
+INFO  18:15:02,020 - #4 }
+INFO  18:15:02,021 - #4 }
+INFO  18:15:02,021 - #25 record
+INFO  18:15:02,022 - #15 Board
+INFO  18:15:02,022 - #3 {
+INFO  18:15:02,022 - #15 int
+INFO  18:15:02,022 - #15 rows
+INFO  18:15:02,022 - #11 ,
+INFO  18:15:02,022 - #15 columns
+INFO  18:15:02,022 - #5 ;
+INFO  18:15:02,022 - #4 }
+INFO  18:15:02,022 - #3 {
+INFO  18:15:02,023 - #4 }
+INFO  18:15:02,024 - Program(
+ MJProgram
+  ProgramRecordDecl(
+    ProgramClassDecl(
+      ProgramVarDecl(
+        ProgramConstDecl(
+          ProgramVarDecl(
+            ProgramConstDecl(
+              NoProgPar(
+              ) [NoProgPar]
+              ConstDeclList(
+                Type(
+                 bool
+                ) [Type]
+                ConstPar(
+                 ja
+                  BoolConst(
+                   true
+                  ) [BoolConst]
+                ) [ConstPar]
+                NoConstDecl(
+                ) [NoConstDecl]
+              ) [ConstDeclList]
+            ) [ProgramConstDecl]
+            VarDecl(
+              Type(
+               tip
+              ) [Type]
+             z
+              VarDeclBraces(
+              ) [VarDeclBraces]
+              VarDeclLists(
+               druga
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+                VarDeclLists(
+                 treca
+                  VarDeclBraces(
+                  ) [VarDeclBraces]
+                  VarDeclLists(
+                   ceta
+                    NoVarDeclBraces(
+                    ) [NoVarDeclBraces]
+                    NoVarDeclLists(
+                    ) [NoVarDeclLists]
+                  ) [VarDeclLists]
+                ) [VarDeclLists]
+              ) [VarDeclLists]
+            ) [VarDecl]
+          ) [ProgramVarDecl]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            ConstPar(
+             x
+              NumConst(
+               30
+              ) [NumConst]
+            ) [ConstPar]
+            ConstDeclarations(
+              ConstPar(
+               y
+                NumConst(
+                 20
+                ) [NumConst]
+              ) [ConstPar]
+              NoConstDecl(
+              ) [NoConstDecl]
+            ) [ConstDeclarations]
+          ) [ConstDeclList]
+        ) [ProgramConstDecl]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+         zz
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+        ) [VarDecl]
+      ) [ProgramVarDecl]
+      ClassDecl(
+       Table
+        ClassExtends(
+          Type(
+           Polje
+          ) [Type]
+        ) [ClassExtends]
+        VarDeclMor(
+          VarDeclMor(
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+             uros
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+              VarDeclLists(
+               vukasin
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [VarDeclLists]
+            ) [VarDecl]
+          ) [VarDeclMor]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+           andrea
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDecl]
+        ) [VarDeclMor]
+        ClassDeclBod(
+          ClassConstructorDecla(
+            ConstructorDecl(
+             Table
+              VarDeclMor(
+                NoVarDeclMore(
+                ) [NoVarDeclMore]
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 o
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                  NoVarDeclLists(
+                  ) [NoVarDeclLists]
+                ) [VarDecl]
+              ) [VarDeclMor]
+              NoMoreStatement(
+              ) [NoMoreStatement]
+            ) [ConstructorDecl]
+          ) [ClassConstructorDecla]
+          NoClassMethodDecl(
+          ) [NoClassMethodDecl]
+        ) [ClassDeclBod]
+      ) [ClassDecl]
+    ) [ProgramClassDecl]
+    RecordDecl(
+     Board
+      VarDeclMor(
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         rows
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+          VarDeclLists(
+           columns
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDeclLists]
+        ) [VarDecl]
+      ) [VarDeclMor]
+    ) [RecordDecl]
+  ) [ProgramRecordDecl]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  18:15:02,025 - ===================================
+INFO  18:15:02,026 -  Print count calls = 0
+INFO  18:15:02,026 -  Deklarisanih promenljivih ima = 6

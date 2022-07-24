@@ -1,0 +1,231 @@
+INFO  13:26:19,395 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  13:26:19,446 - #2 program
+INFO  13:26:19,446 - #15 test
+INFO  13:26:19,446 - #15 int
+INFO  13:26:19,448 - #15 x
+INFO  13:26:19,449 - #11 ,
+INFO  13:26:19,451 - #15 y
+INFO  13:26:19,451 - #5 ;
+INFO  13:26:19,451 - #15 int
+INFO  13:26:19,452 - #15 niz
+INFO  13:26:19,452 - #25 [
+INFO  13:26:19,452 - #26 ]
+INFO  13:26:19,452 - #5 ;
+INFO  13:26:19,452 - #3 {
+INFO  13:26:19,452 - #13 void
+INFO  13:26:19,453 - #15 main
+INFO  13:26:19,453 - #6 (
+INFO  13:26:19,454 - #7 )
+INFO  13:26:19,454 - #3 {
+INFO  13:26:19,455 - #15 niz
+INFO  13:26:19,455 - #8 =
+INFO  13:26:19,456 - #50 new
+INFO  13:26:19,456 - #15 int
+INFO  13:26:19,457 - #25 [
+INFO  13:26:19,457 - #14 8
+INFO  13:26:19,457 - #26 ]
+INFO  13:26:19,457 - #5 ;
+INFO  13:26:19,458 - #15 niz
+INFO  13:26:19,459 - #25 [
+INFO  13:26:19,459 - #14 0
+INFO  13:26:19,459 - #26 ]
+INFO  13:26:19,459 - #8 =
+INFO  13:26:19,459 - #14 9
+INFO  13:26:19,459 - #5 ;
+INFO  13:26:19,460 - #15 niz
+INFO  13:26:19,460 - #25 [
+INFO  13:26:19,460 - #14 0
+INFO  13:26:19,460 - #26 ]
+INFO  13:26:19,460 - #36 ++
+INFO  13:26:19,460 - #5 ;
+INFO  13:26:19,460 - #4 }
+INFO  13:26:19,460 - #4 }
+INFO  13:26:19,468 - Program(
+  ProgName(
+   test
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramVarDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             x
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               y
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           niz
+            VarDeclBraces(
+            ) [VarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            NoMoreStatement(
+            ) [NoMoreStatement]
+            StatementSingle(
+              MatchedStmt(
+                StatementDesignator(
+                  DesignatorStatement(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         niz
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                    DesignatorAdditionAE(
+                      Assignop(
+                      ) [Assignop]
+                      DesignatorAdditionExprSem(
+                        PlusExpr(
+                          NoMulopTerm(
+                            FactorNewArray(
+                              Type(
+                               int
+                              ) [Type]
+                              FactorNewBrack(
+                                PlusExpr(
+                                  NoMulopTerm(
+                                    FactorConst(
+                                      NumConst(
+                                       8
+                                      ) [NumConst]
+                                    ) [FactorConst]
+                                  ) [NoMulopTerm]
+                                ) [PlusExpr]
+                              ) [FactorNewBrack]
+                            ) [FactorNewArray]
+                          ) [NoMulopTerm]
+                        ) [PlusExpr]
+                      ) [DesignatorAdditionExprSem]
+                    ) [DesignatorAdditionAE]
+                  ) [DesignatorStatement]
+                ) [StatementDesignator]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreExpr(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         niz
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorConst(
+                            NumConst(
+                             0
+                            ) [NumConst]
+                          ) [FactorConst]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorMoreExpr]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorConst(
+                            NumConst(
+                             9
+                            ) [NumConst]
+                          ) [FactorConst]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreExpr(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       niz
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                    PlusExpr(
+                      NoMulopTerm(
+                        FactorConst(
+                          NumConst(
+                           0
+                          ) [NumConst]
+                        ) [FactorConst]
+                      ) [NoMulopTerm]
+                    ) [PlusExpr]
+                  ) [DesignatorMoreExpr]
+                ) [Designator]
+                DesignatorAdditionPlusPlus(
+                ) [DesignatorAdditionPlusPlus]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  13:26:19,469 - ===================================
+INFO  13:26:19,472 - Pristupa se globalnoj promenljivi niz na liniji 11
+INFO  13:26:19,472 - Pristupa se globalnoj promenljivi niz na liniji 12
+INFO  13:26:19,472 - Pristupa se nizu niz na liniji 12
+INFO  13:26:19,472 - Pristupa se globalnoj promenljivi niz na liniji 13
+INFO  13:26:19,472 - Pristupa se nizu niz na liniji 13
+INFO  13:26:19,472 - ===================================
+INFO  13:26:19,478 - Parsiranje uspesno zavrseno!

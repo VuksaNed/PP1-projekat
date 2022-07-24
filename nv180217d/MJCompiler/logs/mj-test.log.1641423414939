@@ -1,0 +1,84 @@
+INFO  23:56:31,801 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  23:56:31,833 - #2 program
+INFO  23:56:31,833 - #15 MJProgram
+INFO  23:56:31,833 - #24 const
+INFO  23:56:31,833 - #15 bool
+INFO  23:56:31,833 - #15 ja
+INFO  23:56:31,833 - #8 =
+INFO  23:56:31,834 - #16 'i'
+INFO  23:56:31,834 - #5 ;
+INFO  23:56:31,834 - #15 tip
+INFO  23:56:31,834 - #15 z
+INFO  23:56:31,834 - #25 [
+INFO  23:56:31,834 - #26 ]
+INFO  23:56:31,835 - #11 ,
+INFO  23:56:31,835 - #15 druga
+INFO  23:56:31,835 - #11 ,
+INFO  23:56:31,836 - #15 treca
+INFO  23:56:31,836 - #25 [
+INFO  23:56:31,836 - #26 ]
+INFO  23:56:31,836 - #11 ,
+INFO  23:56:31,836 - #15 ceta
+INFO  23:56:31,836 - #5 ;
+INFO  23:56:31,837 - #3 {
+INFO  23:56:31,837 - #4 }
+INFO  23:56:31,838 - Program(
+ MJProgram
+  ProgramVarDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDeclaration(
+          ConstParam(
+           ja
+            CharConst(
+             'i'
+            ) [CharConst]
+          ) [ConstParam]
+        ) [ConstDeclaration]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    GlobVarDecl(
+      Type(
+       tip
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+         z
+          VarDeclBraces(
+          ) [VarDeclBraces]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+           druga
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [GlobalVarDeclComma]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+             treca
+              VarDeclBraces(
+              ) [VarDeclBraces]
+            ) [GlobalVarDeclComma]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+               ceta
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobalDeclarations]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  NoMethodDeclList(
+  ) [NoMethodDeclList]
+) [Program]
+INFO  23:56:31,838 - ===================================
+INFO  23:56:31,839 -  Print count calls = 0
+INFO  23:56:31,839 -  Deklarisanih promenljivih ima = 0

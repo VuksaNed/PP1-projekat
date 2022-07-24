@@ -1,0 +1,103 @@
+INFO  19:30:14,012 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:30:14,052 - #2 program
+INFO  19:30:14,052 - #15 test4
+INFO  19:30:14,052 - #15 int
+INFO  19:30:14,052 - #15 x
+INFO  19:30:14,053 - #11 ,
+INFO  19:30:14,053 - #15 y
+INFO  19:30:14,053 - #11 ,
+INFO  19:30:14,053 - #15 z
+INFO  19:30:14,054 - #5 ;
+INFO  19:30:14,054 - #3 {
+INFO  19:30:14,054 - #13 void
+INFO  19:30:14,055 - #15 main
+INFO  19:30:14,055 - #6 (
+INFO  19:30:14,055 - #7 )
+INFO  19:30:14,055 - #3 {
+INFO  19:30:14,056 - #15 x
+INFO  19:30:14,056 - #6 (
+INFO  19:30:14,057 - #7 )
+INFO  19:30:14,057 - #5 ;
+INFO  19:30:14,057 - #4 }
+INFO  19:30:14,058 - #4 }
+INFO  19:30:14,065 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               z
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionNoActPars(
+                ) [DesignatorAdditionNoActPars]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:30:14,066 - ===================================
+INFO  19:30:14,070 - Pristupa se globalnoj promenljivi x na liniji 11
+INFO  19:30:14,070 - ===================================
+INFO  19:30:14,076 - Parsiranje uspesno zavrseno!

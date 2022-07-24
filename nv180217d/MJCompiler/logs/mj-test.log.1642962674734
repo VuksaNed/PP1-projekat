@@ -1,0 +1,135 @@
+INFO  19:31:05,100 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:31:05,131 - #2 program
+INFO  19:31:05,132 - #15 test4
+INFO  19:31:05,132 - #15 int
+INFO  19:31:05,132 - #15 x
+INFO  19:31:05,132 - #11 ,
+INFO  19:31:05,133 - #15 y
+INFO  19:31:05,133 - #11 ,
+INFO  19:31:05,133 - #15 z
+INFO  19:31:05,133 - #5 ;
+INFO  19:31:05,133 - #3 {
+INFO  19:31:05,134 - #13 void
+INFO  19:31:05,134 - #15 main
+INFO  19:31:05,134 - #6 (
+INFO  19:31:05,135 - #7 )
+INFO  19:31:05,135 - #3 {
+INFO  19:31:05,135 - #15 y
+INFO  19:31:05,135 - #8 =
+INFO  19:31:05,136 - #15 x
+INFO  19:31:05,136 - #6 (
+INFO  19:31:05,136 - #7 )
+INFO  19:31:05,136 - #5 ;
+INFO  19:31:05,137 - #31 break
+INFO  19:31:05,138 - #5 ;
+INFO  19:31:05,138 - #4 }
+INFO  19:31:05,138 - #4 }
+INFO  19:31:05,145 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               z
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          NoMoreStatement(
+          ) [NoMoreStatement]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       y
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorVarFunNoAct(
+                            Designator(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                            ) [Designator]
+                          ) [FactorVarFunNoAct]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementBreak(
+            ) [StatementBreak]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:31:05,145 - ===================================
+INFO  19:31:05,148 - Pristupa se globalnoj promenljivi y na liniji 11
+INFO  19:31:05,148 - Pristupa se globalnoj promenljivi x na liniji 11
+ERROR 19:31:05,148 - GRESKA: Pozvana funkcija nije metoda ili funkcija na liniji 11
+ERROR 19:31:05,148 - GRESKA: Break naredba se moze koristiti samo unutar do while petlje
+INFO  19:31:05,148 - ===================================
+ERROR 19:31:05,149 - Parsiranje NIJE uspesno zavrseno!

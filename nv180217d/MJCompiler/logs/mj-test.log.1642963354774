@@ -1,0 +1,174 @@
+INFO  19:42:20,636 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:42:20,668 - #2 program
+INFO  19:42:20,668 - #15 test5
+INFO  19:42:20,668 - #15 int
+INFO  19:42:20,668 - #15 x
+INFO  19:42:20,669 - #11 ,
+INFO  19:42:20,669 - #15 y
+INFO  19:42:20,670 - #11 ,
+INFO  19:42:20,670 - #15 z
+INFO  19:42:20,670 - #5 ;
+INFO  19:42:20,670 - #3 {
+INFO  19:42:20,670 - #13 void
+INFO  19:42:20,670 - #15 main
+INFO  19:42:20,671 - #6 (
+INFO  19:42:20,671 - #7 )
+INFO  19:42:20,671 - #3 {
+INFO  19:42:20,672 - #15 x
+INFO  19:42:20,672 - #8 =
+INFO  19:42:20,672 - #38 -
+INFO  19:42:20,673 - #16 'a'
+INFO  19:42:20,673 - #5 ;
+INFO  19:42:20,673 - #15 x
+INFO  19:42:20,674 - #8 =
+INFO  19:42:20,675 - #15 x
+INFO  19:42:20,675 - #47 *
+INFO  19:42:20,675 - #17 true
+INFO  19:42:20,676 - #5 ;
+INFO  19:42:20,676 - #4 }
+INFO  19:42:20,676 - #4 }
+INFO  19:42:20,682 - Program(
+  ProgName(
+   test5
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               z
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          NoMoreStatement(
+          ) [NoMoreStatement]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      MinusExpr(
+                        NoMulopTerm(
+                          FactorConst(
+                            CharConst(
+                             'a'
+                            ) [CharConst]
+                          ) [FactorConst]
+                        ) [NoMulopTerm]
+                      ) [MinusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    PlusExpr(
+                      TermMulop(
+                        NoMulopTerm(
+                          FactorVar(
+                            Designator(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 x
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                            ) [Designator]
+                          ) [FactorVar]
+                        ) [NoMulopTerm]
+                        MulopMul(
+                        ) [MulopMul]
+                        FactorConst(
+                          BoolConst(
+                           true
+                          ) [BoolConst]
+                        ) [FactorConst]
+                      ) [TermMulop]
+                    ) [PlusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:42:20,683 - ===================================
+INFO  19:42:20,685 - Pristupa se globalnoj promenljivi x na liniji 13
+ERROR 19:42:20,685 - GRESKA: Minus je moguce raditi samo na podacima tipa int  na liniji 13
+ERROR 19:42:20,685 - GRESKA: Designator i expr nisu istog tipa na liniji 13
+INFO  19:42:20,685 - Pristupa se globalnoj promenljivi x na liniji 14
+INFO  19:42:20,686 - Pristupa se globalnoj promenljivi x na liniji 14
+ERROR 19:42:20,686 - GRESKA: Operacije *, / i % moguce je samo izmedju tipa int  na liniji 14
+ERROR 19:42:20,686 - GRESKA: Designator i expr nisu istog tipa na liniji 14
+INFO  19:42:20,686 - ===================================
+ERROR 19:42:20,686 - Parsiranje NIJE uspesno zavrseno!

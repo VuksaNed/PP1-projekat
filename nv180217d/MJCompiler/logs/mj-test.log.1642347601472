@@ -1,0 +1,127 @@
+INFO  16:23:37,964 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:23:38,008 - #2 program
+INFO  16:23:38,008 - #15 MJProgram
+INFO  16:23:38,008 - #15 int
+INFO  16:23:38,009 - #15 x
+INFO  16:23:38,009 - #25 [
+INFO  16:23:38,009 - #26 ]
+INFO  16:23:38,009 - #5 ;
+INFO  16:23:38,010 - #15 int
+INFO  16:23:38,011 - #15 y
+INFO  16:23:38,011 - #5 ;
+INFO  16:23:38,011 - #24 const
+INFO  16:23:38,011 - #15 int
+INFO  16:23:38,011 - #15 konstanta
+INFO  16:23:38,011 - #8 =
+INFO  16:23:38,012 - #14 89898
+INFO  16:23:38,012 - #5 ;
+INFO  16:23:38,012 - #3 {
+INFO  16:23:38,013 - #13 void
+INFO  16:23:38,013 - #15 main
+INFO  16:23:38,014 - #6 (
+INFO  16:23:38,014 - #7 )
+INFO  16:23:38,015 - #3 {
+INFO  16:23:38,016 - #12 print
+INFO  16:23:38,016 - #6 (
+INFO  16:23:38,016 - #15 konstanta
+INFO  16:23:38,016 - #7 )
+INFO  16:23:38,017 - #5 ;
+INFO  16:23:38,017 - #4 }
+INFO  16:23:38,018 - #4 }
+INFO  16:23:38,027 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    ProgramVarDecl(
+      ProgramVarDecl(
+        NoProgPar(
+        ) [NoProgPar]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               x
+                VarDeclBraces(
+                ) [VarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           konstanta
+            NumConst(
+             89898
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementPrintNoNum(
+              PlusExpr(
+                NoMulopTerm(
+                  FactorVar(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         konstanta
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                  ) [FactorVar]
+                ) [NoMulopTerm]
+              ) [PlusExpr]
+            ) [StatementPrintNoNum]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  16:23:38,027 - ===================================
+INFO  16:23:38,031 - ===================================
+INFO  16:23:38,035 - Parsiranje uspesno zavrseno!

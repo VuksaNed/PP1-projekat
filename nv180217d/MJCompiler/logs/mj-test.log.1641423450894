@@ -1,0 +1,85 @@
+INFO  23:56:54,943 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  23:56:54,973 - #2 program
+INFO  23:56:54,973 - #15 MJProgram
+INFO  23:56:54,973 - #24 const
+INFO  23:56:54,974 - #15 bool
+INFO  23:56:54,974 - #15 ja
+INFO  23:56:54,974 - #8 =
+INFO  23:56:54,974 - #16 'i'
+INFO  23:56:54,974 - #5 ;
+INFO  23:56:54,974 - #15 tip
+INFO  23:56:54,975 - #15 z
+INFO  23:56:54,975 - #25 [
+INFO  23:56:54,975 - #26 ]
+INFO  23:56:54,975 - #11 ,
+INFO  23:56:54,976 - #15 druga
+INFO  23:56:54,976 - #15 greska
+ERROR 23:56:54,976 - 
+Sintaksna greska na liniji 3
+INFO  23:56:54,976 - #11 ,
+INFO  23:56:54,976 - #15 treca
+INFO  23:56:54,976 - #25 [
+INFO  23:56:54,977 - #26 ]
+ERROR 23:56:54,977 - Greska kod kljucne definicije globalne promenljive izvrsen oporavak do , u liniji 3
+INFO  23:56:54,978 - #11 ,
+INFO  23:56:54,978 - #15 ceta
+INFO  23:56:54,978 - #5 ;
+INFO  23:56:54,978 - #3 {
+INFO  23:56:54,978 - #4 }
+INFO  23:56:54,979 - Program(
+ MJProgram
+  ProgramVarDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDeclaration(
+          ConstParam(
+           ja
+            CharConst(
+             'i'
+            ) [CharConst]
+          ) [ConstParam]
+        ) [ConstDeclaration]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    GlobVarDecl(
+      Type(
+       tip
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+         z
+          VarDeclBraces(
+          ) [VarDeclBraces]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclCommaError(
+          ) [GlobalVarDeclCommaError]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+             treca
+              VarDeclBraces(
+              ) [VarDeclBraces]
+            ) [GlobalVarDeclComma]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+               ceta
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobalDeclarations]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  NoMethodDeclList(
+  ) [NoMethodDeclList]
+) [Program]
+INFO  23:56:54,980 - ===================================
+INFO  23:56:54,981 -  Print count calls = 0
+INFO  23:56:54,981 -  Deklarisanih promenljivih ima = 0

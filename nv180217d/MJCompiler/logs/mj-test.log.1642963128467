@@ -1,0 +1,502 @@
+INFO  19:38:31,866 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:38:31,905 - #2 program
+INFO  19:38:31,905 - #15 test4
+INFO  19:38:31,906 - #15 int
+INFO  19:38:31,906 - #15 x
+INFO  19:38:31,906 - #11 ,
+INFO  19:38:31,907 - #15 y
+INFO  19:38:31,907 - #11 ,
+INFO  19:38:31,907 - #15 z
+INFO  19:38:31,907 - #5 ;
+INFO  19:38:31,907 - #29 record
+INFO  19:38:31,908 - #15 Record
+INFO  19:38:31,908 - #3 {
+INFO  19:38:31,908 - #15 int
+INFO  19:38:31,908 - #15 prvi
+INFO  19:38:31,909 - #5 ;
+INFO  19:38:31,909 - #4 }
+INFO  19:38:31,910 - #15 Record
+INFO  19:38:31,910 - #15 a
+INFO  19:38:31,910 - #5 ;
+INFO  19:38:31,910 - #3 {
+INFO  19:38:31,910 - #15 int
+INFO  19:38:31,911 - #15 funkcija
+INFO  19:38:31,911 - #6 (
+INFO  19:38:31,911 - #15 int
+INFO  19:38:31,911 - #15 prvi
+INFO  19:38:31,911 - #11 ,
+INFO  19:38:31,912 - #15 bool
+INFO  19:38:31,912 - #15 drugi
+INFO  19:38:31,912 - #7 )
+INFO  19:38:31,912 - #3 {
+INFO  19:38:31,912 - #9 return
+INFO  19:38:31,912 - #16 'a'
+INFO  19:38:31,913 - #5 ;
+INFO  19:38:31,913 - #4 }
+INFO  19:38:31,913 - #13 void
+INFO  19:38:31,913 - #15 main
+INFO  19:38:31,914 - #6 (
+INFO  19:38:31,914 - #7 )
+INFO  19:38:31,914 - #3 {
+INFO  19:38:31,914 - #15 y
+INFO  19:38:31,914 - #8 =
+INFO  19:38:31,915 - #15 x
+INFO  19:38:31,915 - #6 (
+INFO  19:38:31,915 - #7 )
+INFO  19:38:31,915 - #5 ;
+INFO  19:38:31,915 - #31 break
+INFO  19:38:31,916 - #5 ;
+INFO  19:38:31,916 - #32 continue
+INFO  19:38:31,916 - #5 ;
+INFO  19:38:31,916 - #18 if
+INFO  19:38:31,916 - #6 (
+INFO  19:38:31,917 - #14 1
+INFO  19:38:31,917 - #7 )
+INFO  19:38:31,918 - #12 print
+INFO  19:38:31,918 - #6 (
+INFO  19:38:31,918 - #15 a
+INFO  19:38:31,918 - #7 )
+INFO  19:38:31,918 - #5 ;
+INFO  19:38:31,918 - #33 do
+INFO  19:38:31,919 - #3 {
+INFO  19:38:31,919 - #4 }
+INFO  19:38:31,919 - #34 while
+INFO  19:38:31,920 - #6 (
+INFO  19:38:31,920 - #15 x
+INFO  19:38:31,920 - #7 )
+INFO  19:38:31,920 - #5 ;
+INFO  19:38:31,920 - #35 read
+INFO  19:38:31,920 - #6 (
+INFO  19:38:31,921 - #15 a
+INFO  19:38:31,921 - #7 )
+INFO  19:38:31,921 - #5 ;
+INFO  19:38:31,921 - #15 funkcija
+INFO  19:38:31,921 - #6 (
+INFO  19:38:31,921 - #15 x
+INFO  19:38:31,921 - #7 )
+INFO  19:38:31,922 - #5 ;
+INFO  19:38:31,922 - #15 funckija
+INFO  19:38:31,922 - #6 (
+INFO  19:38:31,922 - #14 1
+INFO  19:38:31,922 - #11 ,
+INFO  19:38:31,922 - #14 2
+INFO  19:38:31,922 - #7 )
+INFO  19:38:31,922 - #5 ;
+INFO  19:38:31,922 - #4 }
+INFO  19:38:31,922 - #4 }
+INFO  19:38:31,929 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramRecordDecl(
+      ProgramVarDecl(
+        NoProgPar(
+        ) [NoProgPar]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+              VarDeclGlobalName(
+               x
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclComma]
+            GlobalDeclarations(
+              GlobalVarDeclComma(
+                VarDeclGlobalName(
+                 y
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclComma]
+              GlobalDeclalartion(
+                GlobalVarDeclSemi(
+                  VarDeclGlobalName(
+                   z
+                    NoVarDeclBraces(
+                    ) [NoVarDeclBraces]
+                  ) [VarDeclGlobalName]
+                ) [GlobalVarDeclSemi]
+              ) [GlobalDeclalartion]
+            ) [GlobalDeclarations]
+          ) [GlobalDeclarations]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      RecordDecl(
+        RecordName(
+         Record
+        ) [RecordName]
+        VarDeclClassMor(
+          NoVarDeclClassMore(
+          ) [NoVarDeclClassMore]
+          VarDeclClass(
+            Type(
+             int
+            ) [Type]
+            VarDeclClassName(
+             prvi
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclClassName]
+            NoVarDecClasslList(
+            ) [NoVarDecClasslList]
+          ) [VarDeclClass]
+        ) [VarDeclClassMor]
+      ) [RecordDecl]
+    ) [ProgramRecordDecl]
+    GlobVarDecl(
+      Type(
+       Record
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           a
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeT(
+            Type(
+             int
+            ) [Type]
+          ) [TypeT]
+         funkcija
+        ) [MethodTypeName]
+        MethodDeclFormPar(
+          FormParams(
+            FormalParamListComma(
+              NoBraceFormParsSingle(
+                Type(
+                 int
+                ) [Type]
+               prvi
+              ) [NoBraceFormParsSingle]
+            ) [FormalParamListComma]
+            FormParam(
+              FormParsSinglPom(
+                NoBraceFormParsSingle(
+                  Type(
+                   bool
+                  ) [Type]
+                 drugi
+                ) [NoBraceFormParsSingle]
+              ) [FormParsSinglPom]
+            ) [FormParam]
+          ) [FormParams]
+        ) [MethodDeclFormPar]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        MoreStatements(
+          NoMoreStatement(
+          ) [NoMoreStatement]
+          StatementSingle(
+            MatchedStmt(
+              StatementReturnExpr(
+                PlusExpr(
+                  NoMulopTerm(
+                    FactorConst(
+                      CharConst(
+                       'a'
+                      ) [CharConst]
+                    ) [FactorConst]
+                  ) [NoMulopTerm]
+                ) [PlusExpr]
+              ) [StatementReturnExpr]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            MoreStatements(
+              MoreStatements(
+                MoreStatements(
+                  MoreStatements(
+                    MoreStatements(
+                      NoMoreStatement(
+                      ) [NoMoreStatement]
+                      StatementSingle(
+                        MatchedStmt(
+                          StatementDesignator(
+                            DesignatorStatement(
+                              Designator(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   y
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                              ) [Designator]
+                              DesignatorAdditionAE(
+                                Assignop(
+                                ) [Assignop]
+                                DesignatorAdditionExprSem(
+                                  PlusExpr(
+                                    NoMulopTerm(
+                                      FactorVarFunNoAct(
+                                        Designator(
+                                          DesignatorMoreSingle(
+                                            DesignatorName(
+                                             x
+                                            ) [DesignatorName]
+                                          ) [DesignatorMoreSingle]
+                                        ) [Designator]
+                                      ) [FactorVarFunNoAct]
+                                    ) [NoMulopTerm]
+                                  ) [PlusExpr]
+                                ) [DesignatorAdditionExprSem]
+                              ) [DesignatorAdditionAE]
+                            ) [DesignatorStatement]
+                          ) [StatementDesignator]
+                        ) [MatchedStmt]
+                      ) [StatementSingle]
+                    ) [MoreStatements]
+                    StatementSingle(
+                      MatchedStmt(
+                        StatementBreak(
+                        ) [StatementBreak]
+                      ) [MatchedStmt]
+                    ) [StatementSingle]
+                  ) [MoreStatements]
+                  StatementSingle(
+                    MatchedStmt(
+                      StatementContinue(
+                      ) [StatementContinue]
+                    ) [MatchedStmt]
+                  ) [StatementSingle]
+                ) [MoreStatements]
+                StatementSingle(
+                  UnmatchedStmt(
+                    UnmatchedIf(
+                      ConditionIfNoError(
+                        Condition(
+                          NoConditionMore(
+                            CoundTerm(
+                              NoCoundTermMore(
+                                CoundFactExprOne(
+                                  PlusExpr(
+                                    NoMulopTerm(
+                                      FactorConst(
+                                        NumConst(
+                                         1
+                                        ) [NumConst]
+                                      ) [FactorConst]
+                                    ) [NoMulopTerm]
+                                  ) [PlusExpr]
+                                ) [CoundFactExprOne]
+                              ) [NoCoundTermMore]
+                            ) [CoundTerm]
+                          ) [NoConditionMore]
+                        ) [Condition]
+                      ) [ConditionIfNoError]
+                      MatchedStmt(
+                        StatementPrintNoNum(
+                          PlusExpr(
+                            NoMulopTerm(
+                              FactorVar(
+                                Designator(
+                                  DesignatorMoreSingle(
+                                    DesignatorName(
+                                     a
+                                    ) [DesignatorName]
+                                  ) [DesignatorMoreSingle]
+                                ) [Designator]
+                              ) [FactorVar]
+                            ) [NoMulopTerm]
+                          ) [PlusExpr]
+                        ) [StatementPrintNoNum]
+                      ) [MatchedStmt]
+                    ) [UnmatchedIf]
+                  ) [UnmatchedStmt]
+                ) [StatementSingle]
+              ) [MoreStatements]
+              StatementSingle(
+                MatchedStmt(
+                  StatementDoWhile(
+                    Do(
+                    ) [Do]
+                    StatementSingle(
+                      MatchedStmt(
+                        StatementStatements(
+                          Statements(
+                            NoStatementList(
+                            ) [NoStatementList]
+                          ) [Statements]
+                        ) [StatementStatements]
+                      ) [MatchedStmt]
+                    ) [StatementSingle]
+                    While(
+                    ) [While]
+                    Condition(
+                      NoConditionMore(
+                        CoundTerm(
+                          NoCoundTermMore(
+                            CoundFactExprOne(
+                              PlusExpr(
+                                NoMulopTerm(
+                                  FactorVar(
+                                    Designator(
+                                      DesignatorMoreSingle(
+                                        DesignatorName(
+                                         x
+                                        ) [DesignatorName]
+                                      ) [DesignatorMoreSingle]
+                                    ) [Designator]
+                                  ) [FactorVar]
+                                ) [NoMulopTerm]
+                              ) [PlusExpr]
+                            ) [CoundFactExprOne]
+                          ) [NoCoundTermMore]
+                        ) [CoundTerm]
+                      ) [NoConditionMore]
+                    ) [Condition]
+                  ) [StatementDoWhile]
+                ) [MatchedStmt]
+              ) [StatementSingle]
+            ) [MoreStatements]
+            StatementSingle(
+              MatchedStmt(
+                StatementRead(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                ) [StatementRead]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       funkcija
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionActPars(
+                    ActPars(
+                      NoActParsExpr(
+                        PlusExpr(
+                          NoMulopTerm(
+                            FactorVar(
+                              Designator(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   x
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                              ) [Designator]
+                            ) [FactorVar]
+                          ) [NoMulopTerm]
+                        ) [PlusExpr]
+                      ) [NoActParsExpr]
+                    ) [ActPars]
+                  ) [DesignatorAdditionActPars]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     funckija
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionActPars(
+                  ActPars(
+                    ActParsExprMore(
+                      NoActParsExpr(
+                        PlusExpr(
+                          NoMulopTerm(
+                            FactorConst(
+                              NumConst(
+                               1
+                              ) [NumConst]
+                            ) [FactorConst]
+                          ) [NoMulopTerm]
+                        ) [PlusExpr]
+                      ) [NoActParsExpr]
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorConst(
+                            NumConst(
+                             2
+                            ) [NumConst]
+                          ) [FactorConst]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [ActParsExprMore]
+                  ) [ActPars]
+                ) [DesignatorAdditionActPars]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:38:31,929 - ===================================
+ERROR 19:38:31,932 - GRESKA: Tip metode i povratni tip moraju biti isti na liniji 15
+INFO  19:38:31,932 - Pristupa se globalnoj promenljivi y na liniji 20
+INFO  19:38:31,932 - Pristupa se globalnoj promenljivi x na liniji 20
+ERROR 19:38:31,932 - GRESKA: Pozvana funkcija nije metoda ili funkcija na liniji 20
+ERROR 19:38:31,932 - GRESKA: Break naredba se moze koristiti samo unutar do while petlje na liniji 22
+ERROR 19:38:31,932 - GRESKA: Continue naredba se moze koristiti samo unutar do while petlje na liniji 23
+ERROR 19:38:31,932 - GRESKA: Expr mora biti bool na liniji 25
+ERROR 19:38:31,932 - GRESKA: Tip uslovnog izraza mora biti bool na liniji 25
+INFO  19:38:31,932 - Koristi se promenljiva tipa record ili klase a na liniji 26
+INFO  19:38:31,932 - Pristupa se globalnoj promenljivi a na liniji 26
+ERROR 19:38:31,932 - GRESKA: Expr mora biti tipa bool, char ili int na liniji 26
+INFO  19:38:31,932 - Pristupa se globalnoj promenljivi x na liniji 30
+ERROR 19:38:31,933 - GRESKA: Expr mora biti bool na liniji 30
+ERROR 19:38:31,933 - GRESKA: Tip uslovnog izraza mora biti bool na liniji 30
+INFO  19:38:31,933 - Koristi se promenljiva tipa record ili klase a na liniji 32
+INFO  19:38:31,933 - Pristupa se globalnoj promenljivi a na liniji 32
+ERROR 19:38:31,933 - GRESKA: Designator mora biti tipa bool, char ili int na liniji 32
+INFO  19:38:31,933 - Poziva se globalna funkcija funkcija na liniji 34
+INFO  19:38:31,933 - Pristupa se globalnoj promenljivi x na liniji 34
+ERROR 19:38:31,933 - GRESKA: Unet pogresna broj parametara na liniji 34
+INFO  19:38:31,933 - Pristupa se globalnoj promenljivi funckija na liniji 35
+ERROR 19:38:31,933 - GRESKA: Ime nije deklarisano funckija na liniji 35
+ERROR 19:38:31,933 - GRESKA: Unet pogresna broj parametara na liniji 35
+ERROR 19:38:31,933 - GRESKA: Designator mora oznacavati nestaticku metodu unutrasnje klase ili globalnu funkciju glavnog programa na liniji 35
+INFO  19:38:31,933 - ===================================
+ERROR 19:38:31,933 - Parsiranje NIJE uspesno zavrseno!

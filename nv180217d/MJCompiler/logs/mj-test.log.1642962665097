@@ -1,0 +1,124 @@
+INFO  19:30:32,813 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:30:32,846 - #2 program
+INFO  19:30:32,846 - #15 test4
+INFO  19:30:32,846 - #15 int
+INFO  19:30:32,847 - #15 x
+INFO  19:30:32,847 - #11 ,
+INFO  19:30:32,848 - #15 y
+INFO  19:30:32,848 - #11 ,
+INFO  19:30:32,848 - #15 z
+INFO  19:30:32,848 - #5 ;
+INFO  19:30:32,848 - #3 {
+INFO  19:30:32,848 - #13 void
+INFO  19:30:32,849 - #15 main
+INFO  19:30:32,849 - #6 (
+INFO  19:30:32,849 - #7 )
+INFO  19:30:32,849 - #3 {
+INFO  19:30:32,850 - #15 y
+INFO  19:30:32,850 - #8 =
+INFO  19:30:32,851 - #15 x
+INFO  19:30:32,851 - #6 (
+INFO  19:30:32,851 - #7 )
+INFO  19:30:32,851 - #5 ;
+INFO  19:30:32,851 - #4 }
+INFO  19:30:32,852 - #4 }
+INFO  19:30:32,859 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               z
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     y
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    PlusExpr(
+                      NoMulopTerm(
+                        FactorVarFunNoAct(
+                          Designator(
+                            DesignatorMoreSingle(
+                              DesignatorName(
+                               x
+                              ) [DesignatorName]
+                            ) [DesignatorMoreSingle]
+                          ) [Designator]
+                        ) [FactorVarFunNoAct]
+                      ) [NoMulopTerm]
+                    ) [PlusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:30:32,859 - ===================================
+INFO  19:30:32,861 - Pristupa se globalnoj promenljivi y na liniji 11
+INFO  19:30:32,861 - Pristupa se globalnoj promenljivi x na liniji 11
+ERROR 19:30:32,861 - GRESKA: Pozvana funkcija nije metoda ili funkcija na liniji 11
+INFO  19:30:32,862 - ===================================
+ERROR 19:30:32,862 - Parsiranje NIJE uspesno zavrseno!

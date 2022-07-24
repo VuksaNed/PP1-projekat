@@ -1,0 +1,25 @@
+program testfaktorijel
+
+int x;
+
+{
+	
+	int faktorijel(int a){
+		if (a == 1)
+			return 1;
+		else
+			return a * faktorijel(a-1);
+	}
+	
+	
+	void main(){
+	
+	read(x);
+	
+	x = faktorijel(x);
+	
+	print(x);
+	
+	}
+
+}

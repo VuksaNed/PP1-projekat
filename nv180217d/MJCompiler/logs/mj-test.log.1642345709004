@@ -1,0 +1,101 @@
+INFO  16:07:58,044 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:07:58,091 - #2 program
+INFO  16:07:58,091 - #15 MJProgram
+INFO  16:07:58,091 - #15 int
+INFO  16:07:58,092 - #15 x
+INFO  16:07:58,092 - #25 [
+INFO  16:07:58,092 - #26 ]
+INFO  16:07:58,092 - #5 ;
+INFO  16:07:58,093 - #15 int
+INFO  16:07:58,094 - #15 y
+INFO  16:07:58,094 - #5 ;
+INFO  16:07:58,094 - #24 const
+INFO  16:07:58,094 - #15 int
+INFO  16:07:58,094 - #15 konstanta
+INFO  16:07:58,094 - #8 =
+INFO  16:07:58,095 - #14 5
+INFO  16:07:58,095 - #5 ;
+INFO  16:07:58,095 - #3 {
+INFO  16:07:58,096 - #13 void
+INFO  16:07:58,096 - #15 main
+INFO  16:07:58,097 - #6 (
+INFO  16:07:58,097 - #7 )
+INFO  16:07:58,098 - #3 {
+INFO  16:07:58,099 - #4 }
+INFO  16:07:58,099 - #4 }
+INFO  16:07:58,107 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    ProgramVarDecl(
+      ProgramVarDecl(
+        NoProgPar(
+        ) [NoProgPar]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               x
+                VarDeclBraces(
+                ) [VarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           konstanta
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  16:07:58,108 - ===================================
+INFO  16:07:58,111 - ===================================
+INFO  16:07:58,115 - Parsiranje uspesno zavrseno!

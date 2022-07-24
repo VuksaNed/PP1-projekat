@@ -1,0 +1,87 @@
+INFO  11:35:01,540 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  11:35:01,573 - #2 program
+INFO  11:35:01,573 - #15 MJProgram
+INFO  11:35:01,573 - #24 const
+INFO  11:35:01,574 - #15 int
+INFO  11:35:01,574 - #15 x
+INFO  11:35:01,574 - #8 =
+INFO  11:35:01,574 - #14 5
+INFO  11:35:01,574 - #5 ;
+INFO  11:35:01,575 - #3 {
+INFO  11:35:01,575 - #13 void
+INFO  11:35:01,576 - #15 k
+INFO  11:35:01,576 - #6 (
+INFO  11:35:01,576 - #7 )
+INFO  11:35:01,576 - #3 {
+INFO  11:35:01,577 - #4 }
+INFO  11:35:01,577 - #13 void
+INFO  11:35:01,578 - #15 main
+INFO  11:35:01,578 - #6 (
+INFO  11:35:01,578 - #7 )
+INFO  11:35:01,578 - #3 {
+INFO  11:35:01,578 - #4 }
+INFO  11:35:01,578 - #4 }
+INFO  11:35:01,584 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           x
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  11:35:01,584 - ===================================
+ERROR 11:35:01,586 - Konstanta x ima nekompatiblini tip i vrednost rs.etf.pp1.symboltable.concepts.Struct@6e2c634b na liniji 2
+INFO  11:35:01,586 - Obradjuje se funkcija k na liniji 4
+INFO  11:35:01,586 - Obradjuje se funkcija main na liniji 8
+INFO  11:35:01,586 -  Print count calls = 0
+INFO  11:35:01,586 -  Deklarisanih promenljivih ima = 0
+INFO  11:35:01,586 - ===================================
+ERROR 11:35:01,587 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,87 @@
+INFO  19:01:52,218 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:01:52,249 - #2 program
+INFO  19:01:52,249 - #15 test3
+INFO  19:01:52,249 - #24 const
+INFO  19:01:52,250 - #15 int
+INFO  19:01:52,250 - #15 pi
+INFO  19:01:52,250 - #8 =
+INFO  19:01:52,250 - #17 true
+INFO  19:01:52,250 - #5 ;
+INFO  19:01:52,251 - #27 class
+INFO  19:01:52,251 - #15 Klasa
+INFO  19:01:52,251 - #28 extends
+INFO  19:01:52,251 - #15 int
+INFO  19:01:52,251 - #3 {
+INFO  19:01:52,251 - #4 }
+INFO  19:01:52,252 - #3 {
+INFO  19:01:52,252 - #13 void
+INFO  19:01:52,253 - #15 main
+INFO  19:01:52,253 - #6 (
+INFO  19:01:52,253 - #7 )
+INFO  19:01:52,253 - #3 {
+INFO  19:01:52,254 - #4 }
+INFO  19:01:52,254 - #4 }
+INFO  19:01:52,260 - Program(
+  ProgName(
+   test3
+  ) [ProgName]
+  ProgramClassDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclaration(
+          ConstParam(
+            ConstAsign(
+             pi
+              BoolConst(
+               true
+              ) [BoolConst]
+            ) [ConstAsign]
+          ) [ConstParam]
+        ) [ConstDeclaration]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    ClassDecl(
+      ClassName(
+       Klasa
+      ) [ClassName]
+      ClassExtends(
+        ClassExtendCheckNoError(
+          Type(
+           int
+          ) [Type]
+        ) [ClassExtendCheckNoError]
+      ) [ClassExtends]
+      NoClassDeclVarDeclMore(
+      ) [NoClassDeclVarDeclMore]
+      NoClassDeclBody(
+      ) [NoClassDeclBody]
+    ) [ClassDecl]
+  ) [ProgramClassDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:01:52,260 - ===================================
+ERROR 19:01:52,262 - GRESKA: Konstanta pi ima nekompatiblini tip i vrednost na liniji 3
+ERROR 19:01:52,262 - GRESKA: Klasa se ne moze naslediti iz int na liniji 5
+INFO  19:01:52,262 - ===================================
+ERROR 19:01:52,263 - Parsiranje NIJE uspesno zavrseno!

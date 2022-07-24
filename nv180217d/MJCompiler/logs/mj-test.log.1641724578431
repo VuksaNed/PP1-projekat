@@ -1,0 +1,87 @@
+INFO  11:35:21,859 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  11:35:21,891 - #2 program
+INFO  11:35:21,892 - #15 MJProgram
+INFO  11:35:21,892 - #24 const
+INFO  11:35:21,892 - #15 int
+INFO  11:35:21,892 - #15 x
+INFO  11:35:21,893 - #8 =
+INFO  11:35:21,893 - #14 5
+INFO  11:35:21,893 - #5 ;
+INFO  11:35:21,893 - #3 {
+INFO  11:35:21,894 - #13 void
+INFO  11:35:21,894 - #15 k
+INFO  11:35:21,894 - #6 (
+INFO  11:35:21,895 - #7 )
+INFO  11:35:21,895 - #3 {
+INFO  11:35:21,895 - #4 }
+INFO  11:35:21,896 - #13 void
+INFO  11:35:21,896 - #15 main
+INFO  11:35:21,896 - #6 (
+INFO  11:35:21,896 - #7 )
+INFO  11:35:21,896 - #3 {
+INFO  11:35:21,896 - #4 }
+INFO  11:35:21,896 - #4 }
+INFO  11:35:21,902 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           x
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  11:35:21,902 - ===================================
+ERROR 11:35:21,904 - Konstanta x ima nekompatiblini tip i vrednost 1 na liniji 2
+INFO  11:35:21,904 - Obradjuje se funkcija k na liniji 4
+INFO  11:35:21,904 - Obradjuje se funkcija main na liniji 8
+INFO  11:35:21,904 -  Print count calls = 0
+INFO  11:35:21,904 -  Deklarisanih promenljivih ima = 0
+INFO  11:35:21,904 - ===================================
+ERROR 11:35:21,905 - Parsiranje NIJE uspesno zavrseno!

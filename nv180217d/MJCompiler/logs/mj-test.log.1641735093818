@@ -1,0 +1,203 @@
+INFO  14:26:42,647 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  14:26:42,677 - #2 program
+INFO  14:26:42,677 - #15 MJProgram
+INFO  14:26:42,677 - #24 const
+INFO  14:26:42,678 - #15 int
+INFO  14:26:42,678 - #15 cx
+INFO  14:26:42,678 - #8 =
+INFO  14:26:42,678 - #14 5
+INFO  14:26:42,678 - #5 ;
+INFO  14:26:42,679 - #24 const
+INFO  14:26:42,679 - #15 char
+INFO  14:26:42,679 - #15 cc
+INFO  14:26:42,679 - #8 =
+INFO  14:26:42,679 - #16 'a'
+INFO  14:26:42,679 - #5 ;
+INFO  14:26:42,680 - #15 int
+INFO  14:26:42,680 - #15 x
+INFO  14:26:42,680 - #11 ,
+INFO  14:26:42,680 - #15 xx
+INFO  14:26:42,680 - #25 [
+INFO  14:26:42,681 - #26 ]
+INFO  14:26:42,681 - #5 ;
+INFO  14:26:42,682 - #15 int
+INFO  14:26:42,682 - #15 y
+INFO  14:26:42,682 - #5 ;
+INFO  14:26:42,682 - #29 record
+INFO  14:26:42,682 - #15 skup
+INFO  14:26:42,682 - #3 {
+INFO  14:26:42,683 - #15 int
+INFO  14:26:42,683 - #15 prvo
+INFO  14:26:42,683 - #5 ;
+INFO  14:26:42,683 - #15 int
+INFO  14:26:42,683 - #15 drugo
+INFO  14:26:42,684 - #5 ;
+INFO  14:26:42,684 - #4 }
+INFO  14:26:42,684 - #3 {
+INFO  14:26:42,684 - #13 void
+INFO  14:26:42,684 - #15 k
+INFO  14:26:42,685 - #6 (
+INFO  14:26:42,685 - #7 )
+INFO  14:26:42,685 - #3 {
+INFO  14:26:42,685 - #4 }
+INFO  14:26:42,686 - #13 void
+INFO  14:26:42,686 - #15 main
+INFO  14:26:42,686 - #6 (
+INFO  14:26:42,686 - #7 )
+INFO  14:26:42,686 - #3 {
+INFO  14:26:42,686 - #4 }
+INFO  14:26:42,686 - #4 }
+INFO  14:26:42,691 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramRecordDecl(
+    ProgramVarDecl(
+      ProgramVarDecl(
+        ProgramConstDecl(
+          ProgramConstDecl(
+            NoProgPar(
+            ) [NoProgPar]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              ConstDeclaration(
+                ConstParam(
+                  ConstAsign(
+                   cx
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [ConstAsign]
+                ) [ConstParam]
+              ) [ConstDeclaration]
+            ) [ConstDeclList]
+          ) [ProgramConstDecl]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDeclaration(
+              ConstParam(
+                ConstAsign(
+                 cc
+                  CharConst(
+                   'a'
+                  ) [CharConst]
+                ) [ConstAsign]
+              ) [ConstParam]
+            ) [ConstDeclaration]
+          ) [ConstDeclList]
+        ) [ProgramConstDecl]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+              VarDeclGlobalName(
+               x
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclComma]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+                VarDeclGlobalName(
+                 xx
+                  VarDeclBraces(
+                  ) [VarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobalDeclarations]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    RecordDecl(
+      RecordName(
+       skup
+      ) [RecordName]
+      VarDeclMor(
+        VarDeclMor(
+          NoVarDeclMore(
+          ) [NoVarDeclMore]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+           prvo
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDecl]
+        ) [VarDeclMor]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         drugo
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+        ) [VarDecl]
+      ) [VarDeclMor]
+    ) [RecordDecl]
+  ) [ProgramRecordDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  14:26:42,691 - ===================================
+INFO  14:26:42,693 - Obradjuje se funkcija k na liniji 11
+INFO  14:26:42,693 - Obradjuje se funkcija main na liniji 15
+INFO  14:26:42,693 -  Print count calls = 0
+INFO  14:26:42,693 -  Deklarisanih promenljivih ima = 0
+INFO  14:26:42,693 - ===================================
+INFO  14:26:42,694 - Parsiranje uspesno zavrseno!

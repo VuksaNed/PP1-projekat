@@ -1,0 +1,206 @@
+INFO  13:25:15,496 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  13:25:15,544 - #2 program
+INFO  13:25:15,544 - #15 MJProgram
+INFO  13:25:15,544 - #15 int
+INFO  13:25:15,545 - #15 x
+INFO  13:25:15,545 - #5 ;
+INFO  13:25:15,547 - #15 int
+INFO  13:25:15,548 - #15 y
+INFO  13:25:15,548 - #25 [
+INFO  13:25:15,548 - #26 ]
+INFO  13:25:15,548 - #5 ;
+INFO  13:25:15,549 - #24 const
+INFO  13:25:15,549 - #15 int
+INFO  13:25:15,549 - #15 konstanta
+INFO  13:25:15,550 - #8 =
+INFO  13:25:15,550 - #14 97
+INFO  13:25:15,550 - #5 ;
+INFO  13:25:15,551 - #29 record
+INFO  13:25:15,552 - #15 Rekord
+INFO  13:25:15,552 - #3 {
+INFO  13:25:15,553 - #15 int
+INFO  13:25:15,554 - #15 ra
+INFO  13:25:15,555 - #5 ;
+INFO  13:25:15,556 - #15 int
+INFO  13:25:15,556 - #15 rb
+INFO  13:25:15,556 - #5 ;
+INFO  13:25:15,556 - #4 }
+INFO  13:25:15,556 - #15 Rekord
+INFO  13:25:15,557 - #15 a
+INFO  13:25:15,557 - #5 ;
+INFO  13:25:15,557 - #3 {
+INFO  13:25:15,557 - #13 void
+INFO  13:25:15,558 - #15 main
+INFO  13:25:15,558 - #6 (
+INFO  13:25:15,558 - #7 )
+INFO  13:25:15,558 - #3 {
+INFO  13:25:15,559 - #15 a
+INFO  13:25:15,560 - #8 =
+INFO  13:25:15,561 - #50 new
+INFO  13:25:15,562 - #15 Rekord
+INFO  13:25:15,562 - #5 ;
+INFO  13:25:15,562 - #4 }
+INFO  13:25:15,564 - #4 }
+INFO  13:25:15,573 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramRecordDecl(
+      ProgramConstDecl(
+        ProgramVarDecl(
+          ProgramVarDecl(
+            NoProgPar(
+            ) [NoProgPar]
+            GlobVarDecl(
+              Type(
+               int
+              ) [Type]
+              GlobalDeclalartion(
+                GlobalVarDeclSemi(
+                  VarDeclGlobalName(
+                   x
+                    NoVarDeclBraces(
+                    ) [NoVarDeclBraces]
+                  ) [VarDeclGlobalName]
+                ) [GlobalVarDeclSemi]
+              ) [GlobalDeclalartion]
+            ) [GlobVarDecl]
+          ) [ProgramVarDecl]
+          GlobVarDecl(
+            Type(
+             int
+            ) [Type]
+            GlobalDeclalartion(
+              GlobalVarDeclSemi(
+                VarDeclGlobalName(
+                 y
+                  VarDeclBraces(
+                  ) [VarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclSemi]
+            ) [GlobalDeclalartion]
+          ) [GlobVarDecl]
+        ) [ProgramVarDecl]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDeclaration(
+            ConstParam(
+              ConstAsign(
+               konstanta
+                NumConst(
+                 97
+                ) [NumConst]
+              ) [ConstAsign]
+            ) [ConstParam]
+          ) [ConstDeclaration]
+        ) [ConstDeclList]
+      ) [ProgramConstDecl]
+      RecordDecl(
+        RecordName(
+         Rekord
+        ) [RecordName]
+        VarDeclClassMor(
+          VarDeclClassMor(
+            NoVarDeclClassMore(
+            ) [NoVarDeclClassMore]
+            VarDeclClass(
+              Type(
+               int
+              ) [Type]
+              VarDeclClassName(
+               ra
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclClassName]
+              NoVarDecClasslList(
+              ) [NoVarDecClasslList]
+            ) [VarDeclClass]
+          ) [VarDeclClassMor]
+          VarDeclClass(
+            Type(
+             int
+            ) [Type]
+            VarDeclClassName(
+             rb
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclClassName]
+            NoVarDecClasslList(
+            ) [NoVarDecClasslList]
+          ) [VarDeclClass]
+        ) [VarDeclClassMor]
+      ) [RecordDecl]
+    ) [ProgramRecordDecl]
+    GlobVarDecl(
+      Type(
+       Rekord
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           a
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionAE(
+                  Assignop(
+                  ) [Assignop]
+                  DesignatorAdditionExprSem(
+                    PlusExpr(
+                      NoMulopTerm(
+                        FactorNewNoArray(
+                          Type(
+                           Rekord
+                          ) [Type]
+                        ) [FactorNewNoArray]
+                      ) [NoMulopTerm]
+                    ) [PlusExpr]
+                  ) [DesignatorAdditionExprSem]
+                ) [DesignatorAdditionAE]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  13:25:15,574 - ===================================
+INFO  13:25:15,578 - Koristi se promenljiva tipa record ili klase a na liniji 16
+INFO  13:25:15,578 - Pristupa se globalnoj promenljivi a na liniji 16
+INFO  13:25:15,579 - ===================================
+INFO  13:25:15,584 - Parsiranje uspesno zavrseno!

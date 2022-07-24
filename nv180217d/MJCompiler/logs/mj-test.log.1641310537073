@@ -1,0 +1,95 @@
+INFO  16:30:56,703 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:30:56,729 - #2 program
+INFO  16:30:56,729 - #15 MJProgram
+INFO  16:30:56,729 - #20 const
+INFO  16:30:56,730 - #15 bool
+INFO  16:30:56,730 - #15 ja
+INFO  16:30:56,731 - #8 =
+INFO  16:30:56,731 - #17 true
+INFO  16:30:56,731 - #5 ;
+INFO  16:30:56,732 - #15 tip
+INFO  16:30:56,733 - #15 z
+INFO  16:30:56,733 - #5 ;
+INFO  16:30:56,733 - #20 const
+INFO  16:30:56,734 - #15 int
+INFO  16:30:56,734 - #15 x
+INFO  16:30:56,734 - #8 =
+INFO  16:30:56,734 - #14 30
+INFO  16:30:56,734 - #11 ,
+INFO  16:30:56,734 - #15 y
+INFO  16:30:56,734 - #8 =
+INFO  16:30:56,735 - #14 20
+INFO  16:30:56,735 - #5 ;
+INFO  16:30:56,735 - #15 bool
+INFO  16:30:56,735 - #15 zz
+INFO  16:30:56,735 - #5 ;
+INFO  16:30:56,735 - #3 {
+INFO  16:30:56,735 - #4 }
+INFO  16:30:56,736 - Program(
+ MJProgram
+  ProgramVarDecl(
+    ProgramConstDecl(
+      ProgramVarDecl(
+        ProgramConstDecl(
+          NoProgPar(
+          ) [NoProgPar]
+          ConstDeclList(
+            Type(
+             bool
+            ) [Type]
+            ConstPar(
+             ja
+              BoolConst(
+               true
+              ) [BoolConst]
+            ) [ConstPar]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclList]
+        ) [ProgramConstDecl]
+        VarDecl(
+          Type(
+           tip
+          ) [Type]
+         z
+          NoVarDeclBraces(
+          ) [NoVarDeclBraces]
+        ) [VarDecl]
+      ) [ProgramVarDecl]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstPar(
+         x
+          NumConst(
+           30
+          ) [NumConst]
+        ) [ConstPar]
+        ConstDeclarations(
+          ConstPar(
+           y
+            NumConst(
+             20
+            ) [NumConst]
+          ) [ConstPar]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    VarDecl(
+      Type(
+       bool
+      ) [Type]
+     zz
+      NoVarDeclBraces(
+      ) [NoVarDeclBraces]
+    ) [VarDecl]
+  ) [ProgramVarDecl]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  16:30:56,737 - ===================================
+INFO  16:30:56,738 -  Print count calls = 0
+INFO  16:30:56,738 -  Deklarisanih promenljivih ima = 2

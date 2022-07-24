@@ -1,0 +1,185 @@
+INFO  13:51:05,731 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  13:51:05,775 - #2 program
+INFO  13:51:05,775 - #15 test302
+INFO  13:51:05,775 - #15 int
+INFO  13:51:05,776 - #15 a
+INFO  13:51:05,776 - #5 ;
+INFO  13:51:05,777 - #3 {
+INFO  13:51:05,777 - #13 void
+INFO  13:51:05,777 - #15 main
+INFO  13:51:05,778 - #6 (
+INFO  13:51:05,778 - #7 )
+INFO  13:51:05,778 - #3 {
+INFO  13:51:05,779 - #12 print
+INFO  13:51:05,780 - #6 (
+INFO  13:51:05,780 - #15 ord
+INFO  13:51:05,780 - #6 (
+INFO  13:51:05,781 - #16 'a'
+INFO  13:51:05,781 - #7 )
+INFO  13:51:05,782 - #7 )
+INFO  13:51:05,782 - #5 ;
+INFO  13:51:05,782 - #15 a
+INFO  13:51:05,782 - #8 =
+INFO  13:51:05,782 - #15 ord
+INFO  13:51:05,783 - #6 (
+INFO  13:51:05,783 - #16 'b'
+INFO  13:51:05,783 - #7 )
+INFO  13:51:05,783 - #5 ;
+INFO  13:51:05,783 - #12 print
+INFO  13:51:05,784 - #6 (
+INFO  13:51:05,784 - #15 a
+INFO  13:51:05,784 - #7 )
+INFO  13:51:05,784 - #5 ;
+INFO  13:51:05,784 - #4 }
+INFO  13:51:05,784 - #4 }
+INFO  13:51:05,794 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           a
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            NoMoreStatement(
+            ) [NoMoreStatement]
+            StatementSingle(
+              MatchedStmt(
+                StatementPrintNoNum(
+                  PlusExpr(
+                    NoMulopTerm(
+                      FactorVarFunAct(
+                        Designator(
+                          DesignatorMoreSingle(
+                            DesignatorName(
+                             ord
+                            ) [DesignatorName]
+                          ) [DesignatorMoreSingle]
+                        ) [Designator]
+                        ActPars(
+                          NoActParsExpr(
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorConst(
+                                  CharConst(
+                                   'a'
+                                  ) [CharConst]
+                                ) [FactorConst]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [NoActParsExpr]
+                        ) [ActPars]
+                      ) [FactorVarFunAct]
+                    ) [NoMulopTerm]
+                  ) [PlusExpr]
+                ) [StatementPrintNoNum]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorVarFunAct(
+                            Designator(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 ord
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                            ) [Designator]
+                            ActPars(
+                              NoActParsExpr(
+                                PlusExpr(
+                                  NoMulopTerm(
+                                    FactorConst(
+                                      CharConst(
+                                       'b'
+                                      ) [CharConst]
+                                    ) [FactorConst]
+                                  ) [NoMulopTerm]
+                                ) [PlusExpr]
+                              ) [NoActParsExpr]
+                            ) [ActPars]
+                          ) [FactorVarFunAct]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementPrintNoNum(
+              PlusExpr(
+                NoMulopTerm(
+                  FactorVar(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                  ) [FactorVar]
+                ) [NoMulopTerm]
+              ) [PlusExpr]
+            ) [StatementPrintNoNum]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  13:51:05,794 - ===================================
+INFO  13:51:05,797 - Poziva se globalna funkcija ord na liniji 9
+INFO  13:51:05,797 - Pristupa se globalnoj promenljivi a na liniji 10
+INFO  13:51:05,798 - Poziva se globalna funkcija ord na liniji 10
+INFO  13:51:05,798 - Pristupa se globalnoj promenljivi a na liniji 11
+INFO  13:51:05,798 - ===================================
+INFO  13:51:05,803 - Parsiranje uspesno zavrseno!

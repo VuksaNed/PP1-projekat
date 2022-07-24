@@ -1,0 +1,158 @@
+INFO  12:05:40,261 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  12:05:40,283 - #2 program
+INFO  12:05:40,283 - #15 MJProgram
+INFO  12:05:40,283 - #20 const
+INFO  12:05:40,284 - #15 bool
+INFO  12:05:40,284 - #15 ja
+INFO  12:05:40,284 - #8 =
+INFO  12:05:40,284 - #17 true
+INFO  12:05:40,284 - #5 ;
+INFO  12:05:40,285 - #20 const
+INFO  12:05:40,286 - #15 int
+INFO  12:05:40,286 - #15 x
+INFO  12:05:40,286 - #8 =
+INFO  12:05:40,286 - #14 30
+INFO  12:05:40,286 - #11 ,
+INFO  12:05:40,286 - #15 y
+INFO  12:05:40,286 - #8 =
+INFO  12:05:40,287 - #14 20
+INFO  12:05:40,287 - #5 ;
+INFO  12:05:40,287 - #3 {
+INFO  12:05:40,287 - #15 int
+INFO  12:05:40,288 - #15 main
+INFO  12:05:40,288 - #6 (
+INFO  12:05:40,288 - #7 )
+INFO  12:05:40,289 - #3 {
+INFO  12:05:40,290 - #12 print
+INFO  12:05:40,290 - #6 (
+INFO  12:05:40,290 - #14 1
+INFO  12:05:40,291 - #7 )
+INFO  12:05:40,291 - #5 ;
+INFO  12:05:40,291 - #15 x
+INFO  12:05:40,292 - #8 =
+INFO  12:05:40,292 - #15 y
+INFO  12:05:40,292 - #10 +
+INFO  12:05:40,292 - #14 5
+INFO  12:05:40,293 - #5 ;
+INFO  12:05:40,293 - #12 print
+INFO  12:05:40,293 - #6 (
+INFO  12:05:40,293 - #14 2
+INFO  12:05:40,293 - #7 )
+INFO  12:05:40,293 - #5 ;
+INFO  12:05:40,293 - #4 }
+INFO  12:05:40,293 - #4 }
+INFO  12:05:40,295 - Program(
+ MJProgram
+  ProgramConstDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        ConstPar(
+         ja
+          BoolConst(
+           true
+          ) [BoolConst]
+        ) [ConstPar]
+        NoConstDeclExt(
+        ) [NoConstDeclExt]
+      ) [ConstDecl]
+    ) [ProgramConstDecl]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      ConstPar(
+       x
+        NumConst(
+         30
+        ) [NumConst]
+      ) [ConstPar]
+      ConstDeclExte(
+        ConstPar(
+         y
+          NumConst(
+           20
+          ) [NumConst]
+        ) [ConstPar]
+        NoConstDeclExt(
+        ) [NoConstDeclExt]
+      ) [ConstDeclExte]
+    ) [ConstDecl]
+  ) [ProgramConstDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              PrintStmt(
+                TermExpr(
+                  Term(
+                    Conste(
+                     1
+                    ) [Conste]
+                  ) [Term]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            Assignment(
+              Designator(
+               x
+              ) [Designator]
+              AddExpr(
+                TermExpr(
+                  Term(
+                    Var(
+                      Designator(
+                       y
+                      ) [Designator]
+                    ) [Var]
+                  ) [Term]
+                ) [TermExpr]
+                Addop(
+                ) [Addop]
+                Term(
+                  Conste(
+                   5
+                  ) [Conste]
+                ) [Term]
+              ) [AddExpr]
+            ) [Assignment]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            TermExpr(
+              Term(
+                Conste(
+                 2
+                ) [Conste]
+              ) [Term]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:05:40,295 - ===================================
+INFO  12:05:40,296 -  Print count calls = 2
+INFO  12:05:40,297 -  Deklarisanih promenljivih ima = 0

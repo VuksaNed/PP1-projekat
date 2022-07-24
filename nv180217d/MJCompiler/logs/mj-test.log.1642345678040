@@ -1,0 +1,127 @@
+INFO  16:07:02,102 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  16:07:02,149 - #2 program
+INFO  16:07:02,149 - #15 MJProgram
+INFO  16:07:02,149 - #15 int
+INFO  16:07:02,150 - #15 x
+INFO  16:07:02,150 - #25 [
+INFO  16:07:02,150 - #26 ]
+INFO  16:07:02,150 - #5 ;
+INFO  16:07:02,151 - #15 int
+INFO  16:07:02,152 - #15 y
+INFO  16:07:02,152 - #5 ;
+INFO  16:07:02,152 - #24 const
+INFO  16:07:02,152 - #15 int
+INFO  16:07:02,152 - #15 konstanta
+INFO  16:07:02,152 - #8 =
+INFO  16:07:02,153 - #14 5
+INFO  16:07:02,153 - #5 ;
+INFO  16:07:02,153 - #3 {
+INFO  16:07:02,154 - #13 void
+INFO  16:07:02,154 - #15 main
+INFO  16:07:02,155 - #6 (
+INFO  16:07:02,155 - #7 )
+INFO  16:07:02,156 - #3 {
+INFO  16:07:02,156 - #12 print
+INFO  16:07:02,157 - #6 (
+INFO  16:07:02,157 - #15 konstanta
+INFO  16:07:02,157 - #7 )
+INFO  16:07:02,158 - #5 ;
+INFO  16:07:02,158 - #4 }
+INFO  16:07:02,158 - #4 }
+INFO  16:07:02,168 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    ProgramVarDecl(
+      ProgramVarDecl(
+        NoProgPar(
+        ) [NoProgPar]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               x
+                VarDeclBraces(
+                ) [VarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      GlobVarDecl(
+        Type(
+         int
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           konstanta
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        NoMoreStatement(
+        ) [NoMoreStatement]
+        StatementSingle(
+          MatchedStmt(
+            StatementPrintNoNum(
+              PlusExpr(
+                NoMulopTerm(
+                  FactorVar(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         konstanta
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                  ) [FactorVar]
+                ) [NoMulopTerm]
+              ) [PlusExpr]
+            ) [StatementPrintNoNum]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  16:07:02,168 - ===================================
+INFO  16:07:02,172 - ===================================
+INFO  16:07:02,176 - Parsiranje uspesno zavrseno!

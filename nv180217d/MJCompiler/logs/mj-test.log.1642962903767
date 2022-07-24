@@ -1,0 +1,323 @@
+INFO  19:34:09,631 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:34:09,663 - #2 program
+INFO  19:34:09,663 - #15 test4
+INFO  19:34:09,663 - #15 int
+INFO  19:34:09,663 - #15 x
+INFO  19:34:09,664 - #11 ,
+INFO  19:34:09,664 - #15 y
+INFO  19:34:09,664 - #11 ,
+INFO  19:34:09,664 - #15 z
+INFO  19:34:09,664 - #5 ;
+INFO  19:34:09,665 - #29 record
+INFO  19:34:09,665 - #15 Record
+INFO  19:34:09,665 - #3 {
+INFO  19:34:09,665 - #15 int
+INFO  19:34:09,665 - #15 prvi
+INFO  19:34:09,666 - #5 ;
+INFO  19:34:09,666 - #4 }
+INFO  19:34:09,666 - #15 Record
+INFO  19:34:09,667 - #15 a
+INFO  19:34:09,667 - #5 ;
+INFO  19:34:09,667 - #3 {
+INFO  19:34:09,667 - #15 int
+INFO  19:34:09,668 - #15 funkcija
+INFO  19:34:09,668 - #6 (
+INFO  19:34:09,668 - #7 )
+INFO  19:34:09,668 - #3 {
+INFO  19:34:09,669 - #9 return
+INFO  19:34:09,669 - #16 'a'
+INFO  19:34:09,669 - #5 ;
+INFO  19:34:09,669 - #4 }
+INFO  19:34:09,669 - #13 void
+INFO  19:34:09,670 - #15 main
+INFO  19:34:09,670 - #6 (
+INFO  19:34:09,670 - #7 )
+INFO  19:34:09,670 - #3 {
+INFO  19:34:09,670 - #15 y
+INFO  19:34:09,670 - #8 =
+INFO  19:34:09,671 - #15 x
+INFO  19:34:09,671 - #6 (
+INFO  19:34:09,671 - #7 )
+INFO  19:34:09,671 - #5 ;
+INFO  19:34:09,671 - #31 break
+INFO  19:34:09,672 - #5 ;
+INFO  19:34:09,672 - #32 continue
+INFO  19:34:09,672 - #5 ;
+INFO  19:34:09,673 - #18 if
+INFO  19:34:09,673 - #6 (
+INFO  19:34:09,673 - #14 1
+INFO  19:34:09,673 - #7 )
+INFO  19:34:09,674 - #12 print
+INFO  19:34:09,674 - #6 (
+INFO  19:34:09,674 - #15 a
+INFO  19:34:09,674 - #7 )
+INFO  19:34:09,675 - #5 ;
+INFO  19:34:09,675 - #35 read
+INFO  19:34:09,675 - #6 (
+INFO  19:34:09,675 - #15 a
+INFO  19:34:09,675 - #7 )
+INFO  19:34:09,675 - #5 ;
+INFO  19:34:09,675 - #4 }
+INFO  19:34:09,675 - #4 }
+INFO  19:34:09,681 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  ProgramVarDecl(
+    ProgramRecordDecl(
+      ProgramVarDecl(
+        NoProgPar(
+        ) [NoProgPar]
+        GlobVarDecl(
+          Type(
+           int
+          ) [Type]
+          GlobalDeclarations(
+            GlobalVarDeclComma(
+              VarDeclGlobalName(
+               x
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclComma]
+            GlobalDeclarations(
+              GlobalVarDeclComma(
+                VarDeclGlobalName(
+                 y
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+              ) [GlobalVarDeclComma]
+              GlobalDeclalartion(
+                GlobalVarDeclSemi(
+                  VarDeclGlobalName(
+                   z
+                    NoVarDeclBraces(
+                    ) [NoVarDeclBraces]
+                  ) [VarDeclGlobalName]
+                ) [GlobalVarDeclSemi]
+              ) [GlobalDeclalartion]
+            ) [GlobalDeclarations]
+          ) [GlobalDeclarations]
+        ) [GlobVarDecl]
+      ) [ProgramVarDecl]
+      RecordDecl(
+        RecordName(
+         Record
+        ) [RecordName]
+        VarDeclClassMor(
+          NoVarDeclClassMore(
+          ) [NoVarDeclClassMore]
+          VarDeclClass(
+            Type(
+             int
+            ) [Type]
+            VarDeclClassName(
+             prvi
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclClassName]
+            NoVarDecClasslList(
+            ) [NoVarDecClasslList]
+          ) [VarDeclClass]
+        ) [VarDeclClassMor]
+      ) [RecordDecl]
+    ) [ProgramRecordDecl]
+    GlobVarDecl(
+      Type(
+       Record
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           a
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeT(
+            Type(
+             int
+            ) [Type]
+          ) [TypeT]
+         funkcija
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        MoreStatements(
+          NoMoreStatement(
+          ) [NoMoreStatement]
+          StatementSingle(
+            MatchedStmt(
+              StatementReturnExpr(
+                PlusExpr(
+                  NoMulopTerm(
+                    FactorConst(
+                      CharConst(
+                       'a'
+                      ) [CharConst]
+                    ) [FactorConst]
+                  ) [NoMulopTerm]
+                ) [PlusExpr]
+              ) [StatementReturnExpr]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            MoreStatements(
+              MoreStatements(
+                NoMoreStatement(
+                ) [NoMoreStatement]
+                StatementSingle(
+                  MatchedStmt(
+                    StatementDesignator(
+                      DesignatorStatement(
+                        Designator(
+                          DesignatorMoreSingle(
+                            DesignatorName(
+                             y
+                            ) [DesignatorName]
+                          ) [DesignatorMoreSingle]
+                        ) [Designator]
+                        DesignatorAdditionAE(
+                          Assignop(
+                          ) [Assignop]
+                          DesignatorAdditionExprSem(
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorVarFunNoAct(
+                                  Designator(
+                                    DesignatorMoreSingle(
+                                      DesignatorName(
+                                       x
+                                      ) [DesignatorName]
+                                    ) [DesignatorMoreSingle]
+                                  ) [Designator]
+                                ) [FactorVarFunNoAct]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [DesignatorAdditionExprSem]
+                        ) [DesignatorAdditionAE]
+                      ) [DesignatorStatement]
+                    ) [StatementDesignator]
+                  ) [MatchedStmt]
+                ) [StatementSingle]
+              ) [MoreStatements]
+              StatementSingle(
+                MatchedStmt(
+                  StatementBreak(
+                  ) [StatementBreak]
+                ) [MatchedStmt]
+              ) [StatementSingle]
+            ) [MoreStatements]
+            StatementSingle(
+              MatchedStmt(
+                StatementContinue(
+                ) [StatementContinue]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            UnmatchedStmt(
+              UnmatchedIf(
+                ConditionIfNoError(
+                  Condition(
+                    NoConditionMore(
+                      CoundTerm(
+                        NoCoundTermMore(
+                          CoundFactExprOne(
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorConst(
+                                  NumConst(
+                                   1
+                                  ) [NumConst]
+                                ) [FactorConst]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [CoundFactExprOne]
+                        ) [NoCoundTermMore]
+                      ) [CoundTerm]
+                    ) [NoConditionMore]
+                  ) [Condition]
+                ) [ConditionIfNoError]
+                MatchedStmt(
+                  StatementPrintNoNum(
+                    PlusExpr(
+                      NoMulopTerm(
+                        FactorVar(
+                          Designator(
+                            DesignatorMoreSingle(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [DesignatorMoreSingle]
+                          ) [Designator]
+                        ) [FactorVar]
+                      ) [NoMulopTerm]
+                    ) [PlusExpr]
+                  ) [StatementPrintNoNum]
+                ) [MatchedStmt]
+              ) [UnmatchedIf]
+            ) [UnmatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementRead(
+              Designator(
+                DesignatorMoreSingle(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [DesignatorMoreSingle]
+              ) [Designator]
+            ) [StatementRead]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:34:09,682 - ===================================
+ERROR 19:34:09,684 - GRESKA: Tip metode i povratni tip moraju biti isti na liniji 15
+INFO  19:34:09,685 - Pristupa se globalnoj promenljivi y na liniji 20
+INFO  19:34:09,685 - Pristupa se globalnoj promenljivi x na liniji 20
+ERROR 19:34:09,685 - GRESKA: Pozvana funkcija nije metoda ili funkcija na liniji 20
+ERROR 19:34:09,685 - GRESKA: Break naredba se moze koristiti samo unutar do while petlje na liniji 22
+ERROR 19:34:09,686 - GRESKA: Continue naredba se moze koristiti samo unutar do while petlje na liniji 23
+ERROR 19:34:09,686 - GRESKA: Expr mora biti bool na liniji 25
+ERROR 19:34:09,686 - GRESKA: Tip uslovnog iraza mora biti bool na liniji 25
+INFO  19:34:09,686 - Koristi se promenljiva tipa record ili klase a na liniji 26
+INFO  19:34:09,686 - Pristupa se globalnoj promenljivi a na liniji 26
+ERROR 19:34:09,686 - GRESKA: Expr mora biti tipa bool, char ili int na liniji 26
+INFO  19:34:09,686 - Koristi se promenljiva tipa record ili klase a na liniji 28
+INFO  19:34:09,686 - Pristupa se globalnoj promenljivi a na liniji 28
+ERROR 19:34:09,686 - GRESKA: Designator mora biti tipa bool, char ili int na liniji 28
+INFO  19:34:09,686 - ===================================
+ERROR 19:34:09,686 - Parsiranje NIJE uspesno zavrseno!

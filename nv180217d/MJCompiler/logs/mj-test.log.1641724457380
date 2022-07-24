@@ -1,0 +1,65 @@
+INFO  11:32:50,059 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  11:32:50,092 - #2 program
+INFO  11:32:50,092 - #15 MJProgram
+INFO  11:32:50,092 - #24 const
+INFO  11:32:50,092 - #15 int
+INFO  11:32:50,092 - #15 x
+INFO  11:32:50,093 - #8 =
+INFO  11:32:50,093 - #14 5
+INFO  11:32:50,093 - #5 ;
+INFO  11:32:50,093 - #3 {
+INFO  11:32:50,094 - #13 void
+INFO  11:32:50,095 - #15 k
+INFO  11:32:50,095 - #6 (
+INFO  11:32:50,096 - #7 )
+INFO  11:32:50,096 - #3 {
+INFO  11:32:50,096 - #4 }
+INFO  11:32:50,097 - #4 }
+INFO  11:32:50,103 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           x
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       k
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  11:32:50,103 - ===================================
+ERROR 11:32:50,105 - Konstanta x ima nekompatiblini tip i vrednost na liniji 2
+INFO  11:32:50,105 - Obradjuje se funkcija k na liniji 4
+INFO  11:32:50,105 -  Print count calls = 0
+INFO  11:32:50,105 -  Deklarisanih promenljivih ima = 0
+INFO  11:32:50,105 - ===================================
+ERROR 11:32:50,105 - Parsiranje NIJE uspesno zavrseno!

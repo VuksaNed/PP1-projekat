@@ -1,0 +1,110 @@
+INFO  12:02:27,832 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  12:02:27,868 - #2 program
+INFO  12:02:27,868 - #15 MJProgram
+INFO  12:02:27,868 - #24 const
+INFO  12:02:27,869 - #15 int
+INFO  12:02:27,869 - #15 x
+INFO  12:02:27,869 - #8 =
+INFO  12:02:27,869 - #14 5
+INFO  12:02:27,869 - #5 ;
+INFO  12:02:27,870 - #24 const
+INFO  12:02:27,870 - #15 char
+INFO  12:02:27,870 - #15 c
+INFO  12:02:27,870 - #8 =
+INFO  12:02:27,870 - #16 'a'
+INFO  12:02:27,870 - #5 ;
+INFO  12:02:27,870 - #3 {
+INFO  12:02:27,870 - #13 void
+INFO  12:02:27,871 - #15 k
+INFO  12:02:27,871 - #6 (
+INFO  12:02:27,871 - #7 )
+INFO  12:02:27,871 - #3 {
+INFO  12:02:27,872 - #4 }
+INFO  12:02:27,873 - #13 void
+INFO  12:02:27,873 - #15 main
+INFO  12:02:27,873 - #6 (
+INFO  12:02:27,873 - #7 )
+INFO  12:02:27,873 - #3 {
+INFO  12:02:27,873 - #4 }
+INFO  12:02:27,874 - #4 }
+INFO  12:02:27,879 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramConstDecl(
+    ProgramConstDecl(
+      NoProgPar(
+      ) [NoProgPar]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDeclaration(
+          ConstParam(
+            ConstAsign(
+             x
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstAsign]
+          ) [ConstParam]
+        ) [ConstDeclaration]
+      ) [ConstDeclList]
+    ) [ProgramConstDecl]
+    ConstDeclList(
+      Type(
+       char
+      ) [Type]
+      ConstDeclaration(
+        ConstParam(
+          ConstAsign(
+           c
+            CharConst(
+             'a'
+            ) [CharConst]
+          ) [ConstAsign]
+        ) [ConstParam]
+      ) [ConstDeclaration]
+    ) [ConstDeclList]
+  ) [ProgramConstDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        NoMethodDeclFormPars(
+        ) [NoMethodDeclFormPars]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  12:02:27,879 - ===================================
+INFO  12:02:27,881 - String *********** =  'a'
+INFO  12:02:27,881 - Obradjuje se funkcija k na liniji 5
+INFO  12:02:27,882 - Obradjuje se funkcija main na liniji 9
+INFO  12:02:27,882 -  Print count calls = 0
+INFO  12:02:27,882 -  Deklarisanih promenljivih ima = 0
+INFO  12:02:27,882 - ===================================
+INFO  12:02:27,882 - Parsiranje uspesno zavrseno!

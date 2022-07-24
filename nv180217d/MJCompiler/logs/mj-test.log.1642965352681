@@ -1,0 +1,198 @@
+INFO  20:15:35,120 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  20:15:35,152 - #2 program
+INFO  20:15:35,152 - #15 faktorijel
+INFO  20:15:35,152 - #15 int
+INFO  20:15:35,153 - #15 x
+INFO  20:15:35,153 - #5 ;
+INFO  20:15:35,154 - #3 {
+INFO  20:15:35,154 - #15 int
+INFO  20:15:35,154 - #15 faktorijel
+INFO  20:15:35,154 - #6 (
+INFO  20:15:35,155 - #15 int
+INFO  20:15:35,155 - #15 a
+INFO  20:15:35,155 - #7 )
+INFO  20:15:35,155 - #3 {
+INFO  20:15:35,155 - #4 }
+INFO  20:15:35,156 - #13 void
+INFO  20:15:35,156 - #15 main
+INFO  20:15:35,156 - #6 (
+INFO  20:15:35,156 - #7 )
+INFO  20:15:35,156 - #3 {
+INFO  20:15:35,157 - #35 read
+INFO  20:15:35,157 - #6 (
+INFO  20:15:35,158 - #15 x
+INFO  20:15:35,158 - #7 )
+INFO  20:15:35,159 - #5 ;
+INFO  20:15:35,159 - #15 x
+INFO  20:15:35,159 - #8 =
+INFO  20:15:35,159 - #15 faktorijel
+INFO  20:15:35,159 - #6 (
+INFO  20:15:35,159 - #15 x
+INFO  20:15:35,159 - #7 )
+INFO  20:15:35,160 - #5 ;
+INFO  20:15:35,160 - #12 print
+INFO  20:15:35,160 - #6 (
+INFO  20:15:35,160 - #15 x
+INFO  20:15:35,161 - #7 )
+INFO  20:15:35,161 - #5 ;
+INFO  20:15:35,161 - #4 }
+INFO  20:15:35,161 - #4 }
+INFO  20:15:35,168 - Program(
+  ProgName(
+   faktorijel
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclalartion(
+        GlobalVarDeclSemi(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclSemi]
+      ) [GlobalDeclalartion]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeT(
+            Type(
+             int
+            ) [Type]
+          ) [TypeT]
+         faktorijel
+        ) [MethodTypeName]
+        MethodDeclFormPar(
+          FormParam(
+            FormParsSinglPom(
+              NoBraceFormParsSingle(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [NoBraceFormParsSingle]
+            ) [FormParsSinglPom]
+          ) [FormParam]
+        ) [MethodDeclFormPar]
+        NoVarDeclMore(
+        ) [NoVarDeclMore]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            NoMoreStatement(
+            ) [NoMoreStatement]
+            StatementSingle(
+              MatchedStmt(
+                StatementRead(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                ) [StatementRead]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorVarFunAct(
+                            Designator(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 faktorijel
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                            ) [Designator]
+                            ActPars(
+                              NoActParsExpr(
+                                PlusExpr(
+                                  NoMulopTerm(
+                                    FactorVar(
+                                      Designator(
+                                        DesignatorMoreSingle(
+                                          DesignatorName(
+                                           x
+                                          ) [DesignatorName]
+                                        ) [DesignatorMoreSingle]
+                                      ) [Designator]
+                                    ) [FactorVar]
+                                  ) [NoMulopTerm]
+                                ) [PlusExpr]
+                              ) [NoActParsExpr]
+                            ) [ActPars]
+                          ) [FactorVarFunAct]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementPrintNoNum(
+              PlusExpr(
+                NoMulopTerm(
+                  FactorVar(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         x
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                  ) [FactorVar]
+                ) [NoMulopTerm]
+              ) [PlusExpr]
+            ) [StatementPrintNoNum]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  20:15:35,168 - ===================================
+ERROR 20:15:35,171 - GRESKA: Vec je deklarisan metoda sa ovim nazivom faktorijel na liniji 7

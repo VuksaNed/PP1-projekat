@@ -1,0 +1,146 @@
+INFO  19:31:14,737 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:31:14,771 - #2 program
+INFO  19:31:14,771 - #15 test4
+INFO  19:31:14,771 - #15 int
+INFO  19:31:14,772 - #15 x
+INFO  19:31:14,772 - #11 ,
+INFO  19:31:14,773 - #15 y
+INFO  19:31:14,773 - #11 ,
+INFO  19:31:14,773 - #15 z
+INFO  19:31:14,773 - #5 ;
+INFO  19:31:14,773 - #3 {
+INFO  19:31:14,773 - #13 void
+INFO  19:31:14,773 - #15 main
+INFO  19:31:14,774 - #6 (
+INFO  19:31:14,774 - #7 )
+INFO  19:31:14,774 - #3 {
+INFO  19:31:14,775 - #15 y
+INFO  19:31:14,775 - #8 =
+INFO  19:31:14,775 - #15 x
+INFO  19:31:14,776 - #6 (
+INFO  19:31:14,776 - #7 )
+INFO  19:31:14,776 - #5 ;
+INFO  19:31:14,776 - #31 break
+INFO  19:31:14,777 - #5 ;
+INFO  19:31:14,777 - #32 continue
+INFO  19:31:14,778 - #5 ;
+INFO  19:31:14,778 - #4 }
+INFO  19:31:14,778 - #4 }
+INFO  19:31:14,784 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  ProgramVarDecl(
+    NoProgPar(
+    ) [NoProgPar]
+    GlobVarDecl(
+      Type(
+       int
+      ) [Type]
+      GlobalDeclarations(
+        GlobalVarDeclComma(
+          VarDeclGlobalName(
+           x
+            NoVarDeclBraces(
+            ) [NoVarDeclBraces]
+          ) [VarDeclGlobalName]
+        ) [GlobalVarDeclComma]
+        GlobalDeclarations(
+          GlobalVarDeclComma(
+            VarDeclGlobalName(
+             y
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclComma]
+          GlobalDeclalartion(
+            GlobalVarDeclSemi(
+              VarDeclGlobalName(
+               z
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+            ) [GlobalVarDeclSemi]
+          ) [GlobalDeclalartion]
+        ) [GlobalDeclarations]
+      ) [GlobalDeclarations]
+    ) [GlobVarDecl]
+  ) [ProgramVarDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            NoMoreStatement(
+            ) [NoMoreStatement]
+            StatementSingle(
+              MatchedStmt(
+                StatementDesignator(
+                  DesignatorStatement(
+                    Designator(
+                      DesignatorMoreSingle(
+                        DesignatorName(
+                         y
+                        ) [DesignatorName]
+                      ) [DesignatorMoreSingle]
+                    ) [Designator]
+                    DesignatorAdditionAE(
+                      Assignop(
+                      ) [Assignop]
+                      DesignatorAdditionExprSem(
+                        PlusExpr(
+                          NoMulopTerm(
+                            FactorVarFunNoAct(
+                              Designator(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   x
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                              ) [Designator]
+                            ) [FactorVarFunNoAct]
+                          ) [NoMulopTerm]
+                        ) [PlusExpr]
+                      ) [DesignatorAdditionExprSem]
+                    ) [DesignatorAdditionAE]
+                  ) [DesignatorStatement]
+                ) [StatementDesignator]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+          StatementSingle(
+            MatchedStmt(
+              StatementBreak(
+              ) [StatementBreak]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementContinue(
+            ) [StatementContinue]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:31:14,785 - ===================================
+INFO  19:31:14,787 - Pristupa se globalnoj promenljivi y na liniji 11
+INFO  19:31:14,787 - Pristupa se globalnoj promenljivi x na liniji 11
+ERROR 19:31:14,787 - GRESKA: Pozvana funkcija nije metoda ili funkcija na liniji 11
+ERROR 19:31:14,787 - GRESKA: Break naredba se moze koristiti samo unutar do while petlje
+ERROR 19:31:14,787 - GRESKA: Break naredba se moze koristiti samo unutar do while petlje
+INFO  19:31:14,787 - ===================================
+ERROR 19:31:14,788 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,30 @@
+program test33
+
+int x,y,z;
+
+int niz[];
+
+record Record{
+int prvo;
+}
+
+Record a1;
+
+{
+
+	
+	void main(){
+	
+	x = -'a';
+	x = x + true;
+	x = x * true;
+	
+	niz = new int [false];
+	
+	a1 = new bool;
+	x.prvo = 5;
+	x[8] = 7;
+	niz['z'] = 7;
+	
+	}
+}

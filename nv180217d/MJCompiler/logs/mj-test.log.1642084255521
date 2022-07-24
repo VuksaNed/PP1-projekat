@@ -1,0 +1,837 @@
+INFO  15:17:50,938 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  15:17:50,969 - #2 program
+INFO  15:17:50,969 - #15 MJProgram
+INFO  15:17:50,969 - #15 int
+INFO  15:17:50,970 - #15 x
+INFO  15:17:50,970 - #25 [
+INFO  15:17:50,970 - #26 ]
+INFO  15:17:50,970 - #5 ;
+INFO  15:17:50,971 - #15 int
+INFO  15:17:50,971 - #15 y
+INFO  15:17:50,971 - #5 ;
+INFO  15:17:50,971 - #15 int
+INFO  15:17:50,972 - #15 druginiz
+INFO  15:17:50,972 - #25 [
+INFO  15:17:50,972 - #26 ]
+INFO  15:17:50,972 - #5 ;
+INFO  15:17:50,972 - #29 record
+INFO  15:17:50,972 - #15 Skupdrugi
+INFO  15:17:50,972 - #3 {
+INFO  15:17:50,972 - #15 bool
+INFO  15:17:50,972 - #15 polje
+INFO  15:17:50,973 - #5 ;
+INFO  15:17:50,973 - #4 }
+INFO  15:17:50,973 - #29 record
+INFO  15:17:50,974 - #15 Skup
+INFO  15:17:50,974 - #3 {
+INFO  15:17:50,974 - #15 int
+INFO  15:17:50,974 - #15 sa
+INFO  15:17:50,974 - #5 ;
+INFO  15:17:50,974 - #15 int
+INFO  15:17:50,974 - #15 sb
+INFO  15:17:50,974 - #5 ;
+INFO  15:17:50,974 - #15 Skupdrugi
+INFO  15:17:50,974 - #15 sc
+INFO  15:17:50,974 - #5 ;
+INFO  15:17:50,974 - #4 }
+INFO  15:17:50,975 - #15 Skup
+INFO  15:17:50,975 - #15 promeljivaskup
+INFO  15:17:50,975 - #25 [
+INFO  15:17:50,975 - #26 ]
+INFO  15:17:50,975 - #5 ;
+INFO  15:17:50,975 - #27 class
+INFO  15:17:50,975 - #15 Klasa
+INFO  15:17:50,975 - #3 {
+INFO  15:17:50,975 - #15 int
+INFO  15:17:50,976 - #15 prvo
+INFO  15:17:50,976 - #5 ;
+INFO  15:17:50,976 - #15 int
+INFO  15:17:50,976 - #15 drugo
+INFO  15:17:50,976 - #5 ;
+INFO  15:17:50,976 - #15 char
+INFO  15:17:50,976 - #15 trece
+INFO  15:17:50,976 - #5 ;
+INFO  15:17:50,976 - #3 {
+INFO  15:17:50,976 - #15 Skup
+INFO  15:17:50,976 - #15 metodaret
+INFO  15:17:50,976 - #6 (
+INFO  15:17:50,977 - #15 int
+INFO  15:17:50,977 - #15 a
+INFO  15:17:50,977 - #7 )
+INFO  15:17:50,977 - #3 {
+INFO  15:17:50,977 - #9 return
+INFO  15:17:50,977 - #15 promeljivaskup
+INFO  15:17:50,977 - #25 [
+INFO  15:17:50,978 - #14 0
+INFO  15:17:50,978 - #26 ]
+INFO  15:17:50,978 - #5 ;
+INFO  15:17:50,978 - #4 }
+INFO  15:17:50,979 - #13 void
+INFO  15:17:50,979 - #15 metoda
+INFO  15:17:50,980 - #6 (
+INFO  15:17:50,980 - #15 int
+INFO  15:17:50,980 - #15 a
+INFO  15:17:50,980 - #25 [
+INFO  15:17:50,980 - #26 ]
+INFO  15:17:50,980 - #11 ,
+INFO  15:17:50,980 - #15 int
+INFO  15:17:50,981 - #15 b
+INFO  15:17:50,981 - #7 )
+INFO  15:17:50,981 - #3 {
+INFO  15:17:50,981 - #18 if
+INFO  15:17:50,981 - #6 (
+INFO  15:17:50,981 - #14 8
+INFO  15:17:50,981 - #7 )
+INFO  15:17:50,982 - #9 return
+INFO  15:17:50,982 - #5 ;
+INFO  15:17:50,982 - #15 metodaret
+INFO  15:17:50,983 - #6 (
+INFO  15:17:50,983 - #14 5
+INFO  15:17:50,983 - #7 )
+INFO  15:17:50,983 - #5 ;
+INFO  15:17:50,983 - #35 read
+INFO  15:17:50,984 - #6 (
+INFO  15:17:50,984 - #15 promeljivaskup
+INFO  15:17:50,984 - #25 [
+INFO  15:17:50,984 - #14 8
+INFO  15:17:50,984 - #26 ]
+INFO  15:17:50,984 - #51 .
+INFO  15:17:50,984 - #15 sa
+INFO  15:17:50,984 - #7 )
+INFO  15:17:50,984 - #5 ;
+INFO  15:17:50,984 - #12 print
+INFO  15:17:50,984 - #6 (
+INFO  15:17:50,984 - #15 promeljivaskup
+INFO  15:17:50,984 - #25 [
+INFO  15:17:50,984 - #14 8
+INFO  15:17:50,984 - #26 ]
+INFO  15:17:50,984 - #51 .
+INFO  15:17:50,984 - #15 sa
+INFO  15:17:50,984 - #7 )
+INFO  15:17:50,984 - #5 ;
+INFO  15:17:50,984 - #33 do
+INFO  15:17:50,984 - #3 {
+INFO  15:17:50,985 - #31 break
+INFO  15:17:50,985 - #5 ;
+INFO  15:17:50,985 - #32 continue
+INFO  15:17:50,985 - #5 ;
+INFO  15:17:50,985 - #4 }
+INFO  15:17:50,986 - #34 while
+INFO  15:17:50,986 - #6 (
+INFO  15:17:50,986 - #17 true
+INFO  15:17:50,986 - #7 )
+INFO  15:17:50,986 - #5 ;
+INFO  15:17:50,986 - #4 }
+INFO  15:17:50,986 - #13 void
+INFO  15:17:50,986 - #15 metodadruga
+INFO  15:17:50,986 - #6 (
+INFO  15:17:50,987 - #15 int
+INFO  15:17:50,987 - #15 a
+INFO  15:17:50,987 - #11 ,
+INFO  15:17:50,987 - #15 int
+INFO  15:17:50,987 - #15 b
+INFO  15:17:50,987 - #11 ,
+INFO  15:17:50,987 - #15 char
+INFO  15:17:50,987 - #15 c
+INFO  15:17:50,987 - #7 )
+INFO  15:17:50,987 - #15 bool
+INFO  15:17:50,987 - #15 x
+INFO  15:17:50,987 - #5 ;
+INFO  15:17:50,987 - #3 {
+INFO  15:17:50,987 - #4 }
+INFO  15:17:50,987 - #4 }
+INFO  15:17:50,987 - #4 }
+INFO  15:17:50,987 - #3 {
+INFO  15:17:50,988 - #13 void
+INFO  15:17:50,988 - #15 k
+INFO  15:17:50,988 - #6 (
+INFO  15:17:50,988 - #15 int
+INFO  15:17:50,988 - #15 fa
+INFO  15:17:50,988 - #11 ,
+INFO  15:17:50,988 - #15 int
+INFO  15:17:50,988 - #15 fb
+INFO  15:17:50,988 - #25 [
+INFO  15:17:50,988 - #26 ]
+INFO  15:17:50,988 - #11 ,
+INFO  15:17:50,988 - #15 int
+INFO  15:17:50,988 - #15 fc
+INFO  15:17:50,988 - #7 )
+INFO  15:17:50,988 - #15 int
+INFO  15:17:50,988 - #15 ka
+INFO  15:17:50,988 - #5 ;
+INFO  15:17:50,988 - #15 int
+INFO  15:17:50,988 - #15 kpp
+INFO  15:17:50,988 - #25 [
+INFO  15:17:50,988 - #26 ]
+INFO  15:17:50,988 - #5 ;
+INFO  15:17:50,988 - #3 {
+INFO  15:17:50,988 - #4 }
+INFO  15:17:50,988 - #13 void
+INFO  15:17:50,989 - #15 main
+INFO  15:17:50,989 - #6 (
+INFO  15:17:50,989 - #7 )
+INFO  15:17:50,989 - #3 {
+INFO  15:17:50,989 - #4 }
+INFO  15:17:50,989 - #4 }
+INFO  15:17:50,996 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgramClassDecl(
+    ProgramVarDecl(
+      ProgramRecordDecl(
+        ProgramRecordDecl(
+          ProgramVarDecl(
+            ProgramVarDecl(
+              ProgramVarDecl(
+                NoProgPar(
+                ) [NoProgPar]
+                GlobVarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  GlobalDeclalartion(
+                    GlobalVarDeclSemi(
+                      VarDeclGlobalName(
+                       x
+                        VarDeclBraces(
+                        ) [VarDeclBraces]
+                      ) [VarDeclGlobalName]
+                    ) [GlobalVarDeclSemi]
+                  ) [GlobalDeclalartion]
+                ) [GlobVarDecl]
+              ) [ProgramVarDecl]
+              GlobVarDecl(
+                Type(
+                 int
+                ) [Type]
+                GlobalDeclalartion(
+                  GlobalVarDeclSemi(
+                    VarDeclGlobalName(
+                     y
+                      NoVarDeclBraces(
+                      ) [NoVarDeclBraces]
+                    ) [VarDeclGlobalName]
+                  ) [GlobalVarDeclSemi]
+                ) [GlobalDeclalartion]
+              ) [GlobVarDecl]
+            ) [ProgramVarDecl]
+            GlobVarDecl(
+              Type(
+               int
+              ) [Type]
+              GlobalDeclalartion(
+                GlobalVarDeclSemi(
+                  VarDeclGlobalName(
+                   druginiz
+                    VarDeclBraces(
+                    ) [VarDeclBraces]
+                  ) [VarDeclGlobalName]
+                ) [GlobalVarDeclSemi]
+              ) [GlobalDeclalartion]
+            ) [GlobVarDecl]
+          ) [ProgramVarDecl]
+          RecordDecl(
+            RecordName(
+             Skupdrugi
+            ) [RecordName]
+            VarDeclMor(
+              NoVarDeclMore(
+              ) [NoVarDeclMore]
+              VarDecl(
+                Type(
+                 bool
+                ) [Type]
+                VarDeclGlobalName(
+                 polje
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [VarDecl]
+            ) [VarDeclMor]
+          ) [RecordDecl]
+        ) [ProgramRecordDecl]
+        RecordDecl(
+          RecordName(
+           Skup
+          ) [RecordName]
+          VarDeclMor(
+            VarDeclMor(
+              VarDeclMor(
+                NoVarDeclMore(
+                ) [NoVarDeclMore]
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclGlobalName(
+                   sa
+                    NoVarDeclBraces(
+                    ) [NoVarDeclBraces]
+                  ) [VarDeclGlobalName]
+                  NoVarDeclLists(
+                  ) [NoVarDeclLists]
+                ) [VarDecl]
+              ) [VarDeclMor]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclGlobalName(
+                 sb
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [VarDecl]
+            ) [VarDeclMor]
+            VarDecl(
+              Type(
+               Skupdrugi
+              ) [Type]
+              VarDeclGlobalName(
+               sc
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+            ) [VarDecl]
+          ) [VarDeclMor]
+        ) [RecordDecl]
+      ) [ProgramRecordDecl]
+      GlobVarDecl(
+        Type(
+         Skup
+        ) [Type]
+        GlobalDeclalartion(
+          GlobalVarDeclSemi(
+            VarDeclGlobalName(
+             promeljivaskup
+              VarDeclBraces(
+              ) [VarDeclBraces]
+            ) [VarDeclGlobalName]
+          ) [GlobalVarDeclSemi]
+        ) [GlobalDeclalartion]
+      ) [GlobVarDecl]
+    ) [ProgramVarDecl]
+    ClassDecl(
+      ClassName(
+       Klasa
+      ) [ClassName]
+      NoClassExtends(
+      ) [NoClassExtends]
+      ClassDeclVarDecla(
+        ClassDeclVarDecla(
+          ClassDeclVarDecla(
+            NoClassDeclVarDeclMore(
+            ) [NoClassDeclVarDeclMore]
+            ClassDeclVarDeclMor(
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+              ClassVarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclGlobalName(
+                 prvo
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [ClassVarDecl]
+            ) [ClassDeclVarDeclMor]
+          ) [ClassDeclVarDecla]
+          ClassDeclVarDeclMor(
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+            ClassVarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclGlobalName(
+               drugo
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+            ) [ClassVarDecl]
+          ) [ClassDeclVarDeclMor]
+        ) [ClassDeclVarDecla]
+        ClassDeclVarDeclMor(
+          NoVarDeclLists(
+          ) [NoVarDeclLists]
+          ClassVarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclGlobalName(
+             trece
+              NoVarDeclBraces(
+              ) [NoVarDeclBraces]
+            ) [VarDeclGlobalName]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [ClassVarDecl]
+        ) [ClassDeclVarDeclMor]
+      ) [ClassDeclVarDecla]
+      ClassDeclBodNoConMeth(
+        MethodDecl(
+          MethodTypeName(
+            TypeT(
+              Type(
+               Skup
+              ) [Type]
+            ) [TypeT]
+           metodaret
+          ) [MethodTypeName]
+          MethodDeclFormPar(
+            FormParam(
+              FormParsSinglPom(
+                NoBraceFormParsSingle(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [NoBraceFormParsSingle]
+              ) [FormParsSinglPom]
+            ) [FormParam]
+          ) [MethodDeclFormPar]
+          NoVarDeclMore(
+          ) [NoVarDeclMore]
+          MoreStatements(
+            NoMoreStatement(
+            ) [NoMoreStatement]
+            StatementSingle(
+              MatchedStmt(
+                StatementReturnExpr(
+                  PlusExpr(
+                    NoMulopTerm(
+                      FactorVar(
+                        Designator(
+                          DesignatorMoreExpr(
+                            DesignatorMoreSingle(
+                              DesignatorName(
+                               promeljivaskup
+                              ) [DesignatorName]
+                            ) [DesignatorMoreSingle]
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorConst(
+                                  NumConst(
+                                   0
+                                  ) [NumConst]
+                                ) [FactorConst]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [DesignatorMoreExpr]
+                        ) [Designator]
+                      ) [FactorVar]
+                    ) [NoMulopTerm]
+                  ) [PlusExpr]
+                ) [StatementReturnExpr]
+              ) [MatchedStmt]
+            ) [StatementSingle]
+          ) [MoreStatements]
+        ) [MethodDecl]
+        ClassMethodDecla(
+          ClassMethodDecla(
+            NoClassMethodDecl(
+            ) [NoClassMethodDecl]
+            MethodDecl(
+              MethodTypeName(
+                TypeV(
+                ) [TypeV]
+               metoda
+              ) [MethodTypeName]
+              MethodDeclFormPar(
+                FormParams(
+                  FormalParamListComma(
+                    FormParsSingl(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                    ) [FormParsSingl]
+                  ) [FormalParamListComma]
+                  FormParam(
+                    FormParsSinglPom(
+                      NoBraceFormParsSingle(
+                        Type(
+                         int
+                        ) [Type]
+                       b
+                      ) [NoBraceFormParsSingle]
+                    ) [FormParsSinglPom]
+                  ) [FormParam]
+                ) [FormParams]
+              ) [MethodDeclFormPar]
+              NoVarDeclMore(
+              ) [NoVarDeclMore]
+              MoreStatements(
+                MoreStatements(
+                  MoreStatements(
+                    MoreStatements(
+                      MoreStatements(
+                        NoMoreStatement(
+                        ) [NoMoreStatement]
+                        StatementSingle(
+                          UnmatchedStmt(
+                            UnmatchedIf(
+                              ConditionIfNoError(
+                                Condition(
+                                  CoundTerm(
+                                    CoundFactExprOne(
+                                      PlusExpr(
+                                        NoMulopTerm(
+                                          FactorConst(
+                                            NumConst(
+                                             8
+                                            ) [NumConst]
+                                          ) [FactorConst]
+                                        ) [NoMulopTerm]
+                                      ) [PlusExpr]
+                                    ) [CoundFactExprOne]
+                                    NoCoundTermMore(
+                                    ) [NoCoundTermMore]
+                                  ) [CoundTerm]
+                                  NoConditionMore(
+                                  ) [NoConditionMore]
+                                ) [Condition]
+                              ) [ConditionIfNoError]
+                              MatchedStmt(
+                                StatementReturnNoExpr(
+                                ) [StatementReturnNoExpr]
+                              ) [MatchedStmt]
+                            ) [UnmatchedIf]
+                          ) [UnmatchedStmt]
+                        ) [StatementSingle]
+                      ) [MoreStatements]
+                      StatementSingle(
+                        MatchedStmt(
+                          StatementDesignator(
+                            DesignatorStatement(
+                              Designator(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   metodaret
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                              ) [Designator]
+                              DesignatorAdditionActPars(
+                                ActPars(
+                                  PlusExpr(
+                                    NoMulopTerm(
+                                      FactorConst(
+                                        NumConst(
+                                         5
+                                        ) [NumConst]
+                                      ) [FactorConst]
+                                    ) [NoMulopTerm]
+                                  ) [PlusExpr]
+                                  NoActParsExpr(
+                                  ) [NoActParsExpr]
+                                ) [ActPars]
+                              ) [DesignatorAdditionActPars]
+                            ) [DesignatorStatement]
+                          ) [StatementDesignator]
+                        ) [MatchedStmt]
+                      ) [StatementSingle]
+                    ) [MoreStatements]
+                    StatementSingle(
+                      MatchedStmt(
+                        StatementRead(
+                          Designator(
+                            DesignatorMoreIdent(
+                              DesignatorMoreExpr(
+                                DesignatorMoreSingle(
+                                  DesignatorName(
+                                   promeljivaskup
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreSingle]
+                                PlusExpr(
+                                  NoMulopTerm(
+                                    FactorConst(
+                                      NumConst(
+                                       8
+                                      ) [NumConst]
+                                    ) [FactorConst]
+                                  ) [NoMulopTerm]
+                                ) [PlusExpr]
+                              ) [DesignatorMoreExpr]
+                              DesignatorName(
+                               sa
+                              ) [DesignatorName]
+                            ) [DesignatorMoreIdent]
+                          ) [Designator]
+                        ) [StatementRead]
+                      ) [MatchedStmt]
+                    ) [StatementSingle]
+                  ) [MoreStatements]
+                  StatementSingle(
+                    MatchedStmt(
+                      StatementPrintNoNum(
+                        PlusExpr(
+                          NoMulopTerm(
+                            FactorVar(
+                              Designator(
+                                DesignatorMoreIdent(
+                                  DesignatorMoreExpr(
+                                    DesignatorMoreSingle(
+                                      DesignatorName(
+                                       promeljivaskup
+                                      ) [DesignatorName]
+                                    ) [DesignatorMoreSingle]
+                                    PlusExpr(
+                                      NoMulopTerm(
+                                        FactorConst(
+                                          NumConst(
+                                           8
+                                          ) [NumConst]
+                                        ) [FactorConst]
+                                      ) [NoMulopTerm]
+                                    ) [PlusExpr]
+                                  ) [DesignatorMoreExpr]
+                                  DesignatorName(
+                                   sa
+                                  ) [DesignatorName]
+                                ) [DesignatorMoreIdent]
+                              ) [Designator]
+                            ) [FactorVar]
+                          ) [NoMulopTerm]
+                        ) [PlusExpr]
+                      ) [StatementPrintNoNum]
+                    ) [MatchedStmt]
+                  ) [StatementSingle]
+                ) [MoreStatements]
+                StatementSingle(
+                  MatchedStmt(
+                    StatementDoWhile(
+                      Do(
+                      ) [Do]
+                      StatementSingle(
+                        MatchedStmt(
+                          StatementStatements(
+                            Statements(
+                              StatementLists(
+                                StatementLists(
+                                  NoStatementList(
+                                  ) [NoStatementList]
+                                  StatementSingle(
+                                    MatchedStmt(
+                                      StatementBreak(
+                                      ) [StatementBreak]
+                                    ) [MatchedStmt]
+                                  ) [StatementSingle]
+                                ) [StatementLists]
+                                StatementSingle(
+                                  MatchedStmt(
+                                    StatementContinue(
+                                    ) [StatementContinue]
+                                  ) [MatchedStmt]
+                                ) [StatementSingle]
+                              ) [StatementLists]
+                            ) [Statements]
+                          ) [StatementStatements]
+                        ) [MatchedStmt]
+                      ) [StatementSingle]
+                      While(
+                      ) [While]
+                      Condition(
+                        CoundTerm(
+                          CoundFactExprOne(
+                            PlusExpr(
+                              NoMulopTerm(
+                                FactorConst(
+                                  BoolConst(
+                                   true
+                                  ) [BoolConst]
+                                ) [FactorConst]
+                              ) [NoMulopTerm]
+                            ) [PlusExpr]
+                          ) [CoundFactExprOne]
+                          NoCoundTermMore(
+                          ) [NoCoundTermMore]
+                        ) [CoundTerm]
+                        NoConditionMore(
+                        ) [NoConditionMore]
+                      ) [Condition]
+                    ) [StatementDoWhile]
+                  ) [MatchedStmt]
+                ) [StatementSingle]
+              ) [MoreStatements]
+            ) [MethodDecl]
+          ) [ClassMethodDecla]
+          MethodDecl(
+            MethodTypeName(
+              TypeV(
+              ) [TypeV]
+             metodadruga
+            ) [MethodTypeName]
+            MethodDeclFormPar(
+              FormParams(
+                FormalParamListComma(
+                  NoBraceFormParsSingle(
+                    Type(
+                     int
+                    ) [Type]
+                   a
+                  ) [NoBraceFormParsSingle]
+                ) [FormalParamListComma]
+                FormParams(
+                  FormalParamListComma(
+                    NoBraceFormParsSingle(
+                      Type(
+                       int
+                      ) [Type]
+                     b
+                    ) [NoBraceFormParsSingle]
+                  ) [FormalParamListComma]
+                  FormParam(
+                    FormParsSinglPom(
+                      NoBraceFormParsSingle(
+                        Type(
+                         char
+                        ) [Type]
+                       c
+                      ) [NoBraceFormParsSingle]
+                    ) [FormParsSinglPom]
+                  ) [FormParam]
+                ) [FormParams]
+              ) [FormParams]
+            ) [MethodDeclFormPar]
+            VarDeclMor(
+              NoVarDeclMore(
+              ) [NoVarDeclMore]
+              VarDecl(
+                Type(
+                 bool
+                ) [Type]
+                VarDeclGlobalName(
+                 x
+                  NoVarDeclBraces(
+                  ) [NoVarDeclBraces]
+                ) [VarDeclGlobalName]
+                NoVarDeclLists(
+                ) [NoVarDeclLists]
+              ) [VarDecl]
+            ) [VarDeclMor]
+            NoMoreStatement(
+            ) [NoMoreStatement]
+          ) [MethodDecl]
+        ) [ClassMethodDecla]
+      ) [ClassDeclBodNoConMeth]
+    ) [ClassDecl]
+  ) [ProgramClassDecl]
+  MethodDeclLists(
+    MethodDeclLists(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDecl(
+        MethodTypeName(
+          TypeV(
+          ) [TypeV]
+         k
+        ) [MethodTypeName]
+        MethodDeclFormPar(
+          FormParams(
+            FormalParamListComma(
+              NoBraceFormParsSingle(
+                Type(
+                 int
+                ) [Type]
+               fa
+              ) [NoBraceFormParsSingle]
+            ) [FormalParamListComma]
+            FormParams(
+              FormalParamListComma(
+                FormParsSingl(
+                  Type(
+                   int
+                  ) [Type]
+                 fb
+                ) [FormParsSingl]
+              ) [FormalParamListComma]
+              FormParam(
+                FormParsSinglPom(
+                  NoBraceFormParsSingle(
+                    Type(
+                     int
+                    ) [Type]
+                   fc
+                  ) [NoBraceFormParsSingle]
+                ) [FormParsSinglPom]
+              ) [FormParam]
+            ) [FormParams]
+          ) [FormParams]
+        ) [MethodDeclFormPar]
+        VarDeclMor(
+          VarDeclMor(
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclGlobalName(
+               ka
+                NoVarDeclBraces(
+                ) [NoVarDeclBraces]
+              ) [VarDeclGlobalName]
+              NoVarDeclLists(
+              ) [NoVarDeclLists]
+            ) [VarDecl]
+          ) [VarDeclMor]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclGlobalName(
+             kpp
+              VarDeclBraces(
+              ) [VarDeclBraces]
+            ) [VarDeclGlobalName]
+            NoVarDeclLists(
+            ) [NoVarDeclLists]
+          ) [VarDecl]
+        ) [VarDeclMor]
+        NoMoreStatement(
+        ) [NoMoreStatement]
+      ) [MethodDecl]
+    ) [MethodDeclLists]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      NoMoreStatement(
+      ) [NoMoreStatement]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  15:17:50,996 - ===================================
+INFO  15:17:50,999 - Obradjuje se funkcija metodaret na liniji 24
+INFO  15:17:50,999 - Pristupa se nizu promeljivaskup
+INFO  15:17:50,999 - Obradjuje se funkcija metoda na liniji 30
+ERROR 15:17:50,999 - Expr mora biti bool na liniji 32
+ERROR 15:17:50,999 - Tip uslovnog iraza mora biti bool na liniji 32
+INFO  15:17:50,999 - Pristupa se nizu promeljivaskup
+INFO  15:17:50,999 - Pristupa se nizu promeljivaskup
+ERROR 15:17:50,999 - Tip uslovnog iraza mora biti bool na liniji 46
+INFO  15:17:50,999 - Obradjuje se funkcija metodadruga na liniji 50
+INFO  15:17:51,000 - Obradjuje se funkcija k na liniji 57
+INFO  15:17:51,000 - Obradjuje se funkcija main na liniji 61
+INFO  15:17:51,000 -  Print count calls = 1
+INFO  15:17:51,000 -  Deklarisanih promenljivih ima = 0
+INFO  15:17:51,000 - ===================================
+ERROR 15:17:51,000 - Parsiranje NIJE uspesno zavrseno!

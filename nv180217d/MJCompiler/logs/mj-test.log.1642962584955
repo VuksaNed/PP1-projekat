@@ -1,0 +1,366 @@
+INFO  19:17:44,075 - Compiling source file: C:\Users\vukas\Desktop\PP1\PP1 PROJEKAT\workspace\MJCompiler\test\program.mj
+INFO  19:17:44,111 - #2 program
+INFO  19:17:44,111 - #15 test3
+INFO  19:17:44,111 - #24 const
+INFO  19:17:44,111 - #15 int
+INFO  19:17:44,111 - #15 pi
+INFO  19:17:44,112 - #8 =
+INFO  19:17:44,112 - #17 true
+INFO  19:17:44,112 - #5 ;
+INFO  19:17:44,112 - #15 cont
+INFO  19:17:44,113 - #15 tip
+INFO  19:17:44,113 - #15 x
+ERROR 19:17:44,113 - 
+Sintaksna greska na liniji 4
+INFO  19:17:44,113 - #8 =
+INFO  19:17:44,113 - #14 8
+INFO  19:17:44,113 - #5 ;
+INFO  19:17:44,113 - #15 int
+INFO  19:17:44,114 - #15 a
+INFO  19:17:44,114 - #11 ,
+ERROR 19:17:44,114 - Greska kod kljucne definicije globalne promenljive izvrsen oporavak do ; u liniji 4
+INFO  19:17:44,116 - #15 b
+INFO  19:17:44,116 - #11 ,
+INFO  19:17:44,116 - #15 c
+INFO  19:17:44,116 - #5 ;
+INFO  19:17:44,116 - #15 char
+INFO  19:17:44,116 - #15 d
+INFO  19:17:44,116 - #5 ;
+INFO  19:17:44,116 - #29 record
+INFO  19:17:44,116 - #15 Rekord
+INFO  19:17:44,116 - #3 {
+INFO  19:17:44,117 - #15 int
+INFO  19:17:44,117 - #15 prvopolje
+INFO  19:17:44,117 - #5 ;
+INFO  19:17:44,118 - #15 bool
+INFO  19:17:44,118 - #15 drugopolje
+INFO  19:17:44,118 - #5 ;
+INFO  19:17:44,118 - #4 }
+INFO  19:17:44,118 - #27 class
+INFO  19:17:44,119 - #15 Klasa
+INFO  19:17:44,119 - #28 extends
+INFO  19:17:44,119 - #15 int
+INFO  19:17:44,119 - #3 {
+INFO  19:17:44,119 - #4 }
+INFO  19:17:44,120 - #27 class
+INFO  19:17:44,120 - #15 Klasadruga
+INFO  19:17:44,120 - #28 extends
+INFO  19:17:44,120 - #15 Rekord
+INFO  19:17:44,120 - #3 {
+INFO  19:17:44,120 - #4 }
+INFO  19:17:44,120 - #27 class
+INFO  19:17:44,120 - #15 Osnovna
+INFO  19:17:44,121 - #3 {
+INFO  19:17:44,121 - #3 {
+INFO  19:17:44,121 - #15 konstruktor
+INFO  19:17:44,121 - #6 (
+INFO  19:17:44,121 - #7 )
+INFO  19:17:44,121 - #3 {
+INFO  19:17:44,122 - #4 }
+INFO  19:17:44,122 - #4 }
+INFO  19:17:44,122 - #4 }
+INFO  19:17:44,122 - #27 class
+INFO  19:17:44,122 - #15 Izvedena
+INFO  19:17:44,123 - #28 extends
+INFO  19:17:44,123 - #15 Osnovna
+INFO  19:17:44,123 - #3 {
+INFO  19:17:44,123 - #4 }
+INFO  19:17:44,123 - #3 {
+INFO  19:17:44,123 - #13 void
+INFO  19:17:44,123 - #15 main
+INFO  19:17:44,123 - #6 (
+INFO  19:17:44,124 - #7 )
+INFO  19:17:44,124 - #3 {
+INFO  19:17:44,124 - #15 a
+INFO  19:17:44,124 - #8 =
+INFO  19:17:44,125 - #15 Rekord
+INFO  19:17:44,125 - #5 ;
+INFO  19:17:44,125 - #15 d
+INFO  19:17:44,126 - #36 ++
+INFO  19:17:44,126 - #5 ;
+INFO  19:17:44,126 - #4 }
+INFO  19:17:44,126 - #4 }
+INFO  19:17:44,133 - Program(
+  ProgName(
+   test3
+  ) [ProgName]
+  ProgramClassDecl(
+    ProgramClassDecl(
+      ProgramClassDecl(
+        ProgramClassDecl(
+          ProgramRecordDecl(
+            ProgramVarDecl(
+              ProgramVarDecl(
+                ProgramVarDecl(
+                  ProgramConstDecl(
+                    NoProgPar(
+                    ) [NoProgPar]
+                    ConstDeclList(
+                      Type(
+                       int
+                      ) [Type]
+                      ConstDeclaration(
+                        ConstParam(
+                          ConstAsign(
+                           pi
+                            BoolConst(
+                             true
+                            ) [BoolConst]
+                          ) [ConstAsign]
+                        ) [ConstParam]
+                      ) [ConstDeclaration]
+                    ) [ConstDeclList]
+                  ) [ProgramConstDecl]
+                  GlobVarDecl(
+                    Type(
+                     cont
+                    ) [Type]
+                    GlobalDeclalartion(
+                      GlobalVarDeclSemiError(
+                      ) [GlobalVarDeclSemiError]
+                    ) [GlobalDeclalartion]
+                  ) [GlobVarDecl]
+                ) [ProgramVarDecl]
+                GlobVarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  GlobalDeclarations(
+                    GlobalVarDeclComma(
+                      VarDeclGlobalName(
+                       a
+                        NoVarDeclBraces(
+                        ) [NoVarDeclBraces]
+                      ) [VarDeclGlobalName]
+                    ) [GlobalVarDeclComma]
+                    GlobalDeclarations(
+                      GlobalVarDeclComma(
+                        VarDeclGlobalName(
+                         b
+                          NoVarDeclBraces(
+                          ) [NoVarDeclBraces]
+                        ) [VarDeclGlobalName]
+                      ) [GlobalVarDeclComma]
+                      GlobalDeclalartion(
+                        GlobalVarDeclSemi(
+                          VarDeclGlobalName(
+                           c
+                            NoVarDeclBraces(
+                            ) [NoVarDeclBraces]
+                          ) [VarDeclGlobalName]
+                        ) [GlobalVarDeclSemi]
+                      ) [GlobalDeclalartion]
+                    ) [GlobalDeclarations]
+                  ) [GlobalDeclarations]
+                ) [GlobVarDecl]
+              ) [ProgramVarDecl]
+              GlobVarDecl(
+                Type(
+                 char
+                ) [Type]
+                GlobalDeclalartion(
+                  GlobalVarDeclSemi(
+                    VarDeclGlobalName(
+                     d
+                      NoVarDeclBraces(
+                      ) [NoVarDeclBraces]
+                    ) [VarDeclGlobalName]
+                  ) [GlobalVarDeclSemi]
+                ) [GlobalDeclalartion]
+              ) [GlobVarDecl]
+            ) [ProgramVarDecl]
+            RecordDecl(
+              RecordName(
+               Rekord
+              ) [RecordName]
+              VarDeclClassMor(
+                VarDeclClassMor(
+                  NoVarDeclClassMore(
+                  ) [NoVarDeclClassMore]
+                  VarDeclClass(
+                    Type(
+                     int
+                    ) [Type]
+                    VarDeclClassName(
+                     prvopolje
+                      NoVarDeclBraces(
+                      ) [NoVarDeclBraces]
+                    ) [VarDeclClassName]
+                    NoVarDecClasslList(
+                    ) [NoVarDecClasslList]
+                  ) [VarDeclClass]
+                ) [VarDeclClassMor]
+                VarDeclClass(
+                  Type(
+                   bool
+                  ) [Type]
+                  VarDeclClassName(
+                   drugopolje
+                    NoVarDeclBraces(
+                    ) [NoVarDeclBraces]
+                  ) [VarDeclClassName]
+                  NoVarDecClasslList(
+                  ) [NoVarDecClasslList]
+                ) [VarDeclClass]
+              ) [VarDeclClassMor]
+            ) [RecordDecl]
+          ) [ProgramRecordDecl]
+          ClassDecl(
+            ClassName(
+             Klasa
+            ) [ClassName]
+            ClassExtends(
+              ClassExtendCheckNoError(
+                Type(
+                 int
+                ) [Type]
+              ) [ClassExtendCheckNoError]
+            ) [ClassExtends]
+            NoClassDeclVarDeclMore(
+            ) [NoClassDeclVarDeclMore]
+            NoClassDeclBody(
+            ) [NoClassDeclBody]
+          ) [ClassDecl]
+        ) [ProgramClassDecl]
+        ClassDecl(
+          ClassName(
+           Klasadruga
+          ) [ClassName]
+          ClassExtends(
+            ClassExtendCheckNoError(
+              Type(
+               Rekord
+              ) [Type]
+            ) [ClassExtendCheckNoError]
+          ) [ClassExtends]
+          NoClassDeclVarDeclMore(
+          ) [NoClassDeclVarDeclMore]
+          NoClassDeclBody(
+          ) [NoClassDeclBody]
+        ) [ClassDecl]
+      ) [ProgramClassDecl]
+      ClassDecl(
+        ClassName(
+         Osnovna
+        ) [ClassName]
+        NoClassExtends(
+        ) [NoClassExtends]
+        NoClassDeclVarDeclMore(
+        ) [NoClassDeclVarDeclMore]
+        ClassDeclCon(
+          ConstructorDecl(
+            ConstructorName(
+             konstruktor
+            ) [ConstructorName]
+            NoVarDeclMore(
+            ) [NoVarDeclMore]
+            NoMoreStatement(
+            ) [NoMoreStatement]
+          ) [ConstructorDecl]
+        ) [ClassDeclCon]
+      ) [ClassDecl]
+    ) [ProgramClassDecl]
+    ClassDecl(
+      ClassName(
+       Izvedena
+      ) [ClassName]
+      ClassExtends(
+        ClassExtendCheckNoError(
+          Type(
+           Osnovna
+          ) [Type]
+        ) [ClassExtendCheckNoError]
+      ) [ClassExtends]
+      NoClassDeclVarDeclMore(
+      ) [NoClassDeclVarDeclMore]
+      NoClassDeclBody(
+      ) [NoClassDeclBody]
+    ) [ClassDecl]
+  ) [ProgramClassDecl]
+  MethodDeclLists(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDecl(
+      MethodTypeName(
+        TypeV(
+        ) [TypeV]
+       main
+      ) [MethodTypeName]
+      NoMethodDeclFormPars(
+      ) [NoMethodDeclFormPars]
+      NoVarDeclMore(
+      ) [NoVarDeclMore]
+      MoreStatements(
+        MoreStatements(
+          NoMoreStatement(
+          ) [NoMoreStatement]
+          StatementSingle(
+            MatchedStmt(
+              StatementDesignator(
+                DesignatorStatement(
+                  Designator(
+                    DesignatorMoreSingle(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                    ) [DesignatorMoreSingle]
+                  ) [Designator]
+                  DesignatorAdditionAE(
+                    Assignop(
+                    ) [Assignop]
+                    DesignatorAdditionExprSem(
+                      PlusExpr(
+                        NoMulopTerm(
+                          FactorVar(
+                            Designator(
+                              DesignatorMoreSingle(
+                                DesignatorName(
+                                 Rekord
+                                ) [DesignatorName]
+                              ) [DesignatorMoreSingle]
+                            ) [Designator]
+                          ) [FactorVar]
+                        ) [NoMulopTerm]
+                      ) [PlusExpr]
+                    ) [DesignatorAdditionExprSem]
+                  ) [DesignatorAdditionAE]
+                ) [DesignatorStatement]
+              ) [StatementDesignator]
+            ) [MatchedStmt]
+          ) [StatementSingle]
+        ) [MoreStatements]
+        StatementSingle(
+          MatchedStmt(
+            StatementDesignator(
+              DesignatorStatement(
+                Designator(
+                  DesignatorMoreSingle(
+                    DesignatorName(
+                     d
+                    ) [DesignatorName]
+                  ) [DesignatorMoreSingle]
+                ) [Designator]
+                DesignatorAdditionPlusPlus(
+                ) [DesignatorAdditionPlusPlus]
+              ) [DesignatorStatement]
+            ) [StatementDesignator]
+          ) [MatchedStmt]
+        ) [StatementSingle]
+      ) [MoreStatements]
+    ) [MethodDecl]
+  ) [MethodDeclLists]
+) [Program]
+INFO  19:17:44,134 - ===================================
+ERROR 19:17:44,137 - GRESKA: Konstanta pi ima nekompatiblini tip i vrednost na liniji 3
+ERROR 19:17:44,137 - GRESKA: Nije pronadjen tip cont u tabeli simbola na liniji 4
+ERROR 19:17:44,137 - GRESKA: Klasa se ne moze naslediti iz int na liniji 15
+ERROR 19:17:44,137 - GRESKA: Klasa se ne moze naslediti iz Rekord na liniji 18
+ERROR 19:17:44,137 - GRESKA: Klasa mora imati konstruktor sa istim imenom kao i klasa konstruktor na liniji 23
+INFO  19:17:44,137 - Pristupa se globalnoj promenljivi a na liniji 35
+INFO  19:17:44,137 - Koristi se promenljiva tipa record ili klase Rekord na liniji 35
+ERROR 19:17:44,137 - GRESKA: Ime ne predstavlja promenljivu, element niza ili polje klase Rekord na liniji 35
+ERROR 19:17:44,137 - GRESKA: Designator i expr nisu istog tipa na liniji 35
+INFO  19:17:44,137 - Pristupa se globalnoj promenljivi d na liniji 36
+ERROR 19:17:44,137 - GRESKA: Designator nije tipa int  na liniji 36
+INFO  19:17:44,137 - ===================================
+ERROR 19:17:44,137 - Parsiranje NIJE uspesno zavrseno!
